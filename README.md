@@ -1,0 +1,1 @@
+# plugins-woocommerce-stock-manager
