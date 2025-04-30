@@ -3,7 +3,7 @@
  * Stock Manager
  *
  * @package  woocommerce-stock-manager/public/
- * @version  3.0.0
+ * @version  3.0.1
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
@@ -293,13 +293,13 @@ class Stock_Manager {
 		if ( ( empty( $params ) ) || ( ! is_array( $params ) ) || ( empty( $params['wsm_filter'] ) ) || ( empty( $params['stock_status'] ) ) || ( 'true' !== $params['wsm_filter'] ) ) {
 			return $args;
 		}
-		// Remove stock_status value to avoid setting it in the meta query.
-		$request['stock_status'] = '';
-		// Handle different stock statuses.
 		$product_ids = array();
+		// Handle stock statuses.
 		switch ( $params['stock_status'] ) {
 			case 'outofstock':
-				$product_ids = $this->filter_out_of_stock_products();
+				// Remove stock_status value to avoid setting it in the meta query.
+				$request['stock_status'] = '';
+				$product_ids             = $this->filter_out_of_stock_products();
 				break;
 			default:
 				$product_ids = array();

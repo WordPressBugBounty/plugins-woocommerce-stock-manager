@@ -3,7 +3,7 @@
  * Main class for Stock Manager.
  *
  * @package  woocommerce-stock-manager/admin/
- * @version  3.2.0
+ * @version  3.3.0
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
@@ -135,7 +135,7 @@ class Stock_Manager_Admin {
 							)
 						),
 						function( $carry, $item ) {
-							$carry[ $item->term_id ] = $item->name;
+							$carry[ $item->term_id ] = html_entity_decode( $item->name );
 							return $carry;
 						},
 						array()
@@ -523,6 +523,9 @@ class Stock_Manager_Admin {
 	 * Function to handle admin notices.
 	 */
 	public static function add_admin_notices() {
+		if ( '1' === get_option( 'sa_wsm_dismiss_in_app_pricing_notice' ) ) {
+			return;
+		}
 		$current_user_display_name = self::get_current_user_display_name();
 		if ( ( empty( $_GET['page'] ) ) || ( ! in_array( sanitize_text_field( wp_unslash( $_GET['page'] ) ), array( 'stock-manager', 'stock-manager-import-export', 'stock-manager-log' ), true ) ) || ( empty( $current_user_display_name ) ) ) { // phpcs:ignore
 			return;
