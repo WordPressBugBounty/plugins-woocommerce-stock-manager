@@ -3,7 +3,7 @@
  * Class for in app pricing page.
  *
  * @package   woocommerce-stock-manager/admin/includes/
- * @version   1.0.0
+ * @version   1.2.0
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
@@ -35,7 +35,7 @@ class WSM_In_App_Pricing {
 	 * Initialize the class.
 	 */
 	private function __construct() {
-        if ( ( empty( $_GET['page'] ) ) || ( 'stock-manager-pricing' !== sanitize_text_field( wp_unslash( $_GET['page'] ) ) ) ) {// phpcs:ignore
+		if ( ( empty( $_GET['page'] ) ) || ( 'stock-manager-pricing' !== sanitize_text_field( wp_unslash( $_GET['page'] ) ) ) ) {// phpcs:ignore
 			return;
 		}
 		wp_enqueue_style( 'wsm-in-app-pricing-style', WSM_PLUGIN_URL . 'admin/assets/css/in-app-pricing.css', array(), WSM_PLUGIN_VERSION );
@@ -45,7 +45,8 @@ class WSM_In_App_Pricing {
 	/**
 	 * Display pricing page HTML.
 	 */
-	public function display_pricing_page() { ?>
+	public function display_pricing_page() {
+		?>
 		<div id="wsm_in_app_pricing">
 			<section class="mt-12 sm:mt-12 lg:mt-12">
 				<div class="mt-8 max-w-screen-xl px-4 mx-auto sm:px-6 lg:px-8">
@@ -91,6 +92,11 @@ class WSM_In_App_Pricing {
 										<td class="px-3 py-4 xl:px-6"><?php echo esc_html( _x( 'Supported Post Types', 'feature row', 'woocommerce-stock-manager' ) ); ?></td>
 										<td class="px-3 py-4 xl:px-6"><?php echo esc_html( _x( 'Products (Stock)', 'feature value', 'woocommerce-stock-manager' ) ); ?></td>
 										<td class="px-3 py-4 xl:px-6"><?php echo wp_kses_post( _x( 'Products (Stock), Orders, Coupons, Pages, Media, Users, SEO plugins, WooCommerce Subscriptions, Bookings, Memberships, Product Add-ons, Brands... <strong>all WordPress custom post types and their custom fields</strong>.', 'feature value', 'woocommerce-stock-manager' ) ); ?></td>
+									</tr>
+									<tr>
+										<td class="px-3 py-4 xl:px-6"><?php echo esc_html( _x( '10+ Supported Languages', 'feature row', 'woocommerce-stock-manager' ) ); ?></td>
+										<td class="px-3 py-4 xl:px-6">-</td>
+										<td class="px-3 py-4 xl:px-6"><?php echo wp_kses_post( _x( 'Chinese, Dutch, French, German, Italian, Japanese, Russian, Spanish…', 'feature value', 'woocommerce-stock-manager' ) ); ?></td>
 									</tr>
 									<tr>
 										<td class="px-3 py-4 xl:px-6"><?php echo esc_html( _x( 'Interface', 'feature row', 'woocommerce-stock-manager' ) ); ?></td>
@@ -209,6 +215,17 @@ class WSM_In_App_Pricing {
 									<tr>
 										<td class="px-3 py-4 xl:px-6">
 											<?php echo esc_html( _x( 'Saved Searches and Saved Bulk Edits', 'feature row', 'woocommerce-stock-manager' ) ); ?>
+										</td>
+										<td class="px-3 py-4 xl:px-6">—</td>
+										<td class="px-3 py-4 xl:px-6 text-green-500">
+											<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor" class="h-6 w-6 m-auto">
+												<path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"></path>
+											</svg>
+										</td>
+									</tr>
+									<tr>
+										<td class="px-3 py-4 xl:px-6">
+											<strong><?php echo esc_html( _x( 'AI-Powered Advanced Search for Products', 'feature row', 'woocommerce-stock-manager' ) ); ?></strong>
 										</td>
 										<td class="px-3 py-4 xl:px-6">—</td>
 										<td class="px-3 py-4 xl:px-6 text-green-500">
@@ -351,6 +368,39 @@ class WSM_In_App_Pricing {
 									</tr>
 									<tr>
 										<td class="px-3 py-4 xl:px-6">
+											<?php echo esc_html( _x( 'Auto-generate product SKUs', 'feature row', 'woocommerce-stock-manager' ) ); ?>
+										</td>
+										<td class="px-3 py-4 xl:px-6">—</td>
+										<td class="px-3 py-4 xl:px-6 text-green-500">
+											<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor" class="h-6 w-6 m-auto">
+												<path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"></path>
+											</svg>
+										</td>
+									</tr>
+									<tr>
+										<td class="px-3 py-4 xl:px-6">
+											<?php echo esc_html( _x( 'Manage Unattached Media', 'feature row', 'woocommerce-stock-manager' ) ); ?>
+										</td>
+										<td class="px-3 py-4 xl:px-6">—</td>
+										<td class="px-3 py-4 xl:px-6 text-green-500">
+											<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor" class="h-6 w-6 m-auto">
+												<path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"></path>
+											</svg>
+										</td>
+									</tr>
+									<tr>
+										<td class="px-3 py-4 xl:px-6">
+											<?php echo esc_html( _x( 'WPML compatibility', 'feature row', 'woocommerce-stock-manager' ) ); ?>
+										</td>
+										<td class="px-3 py-4 xl:px-6">—</td>
+										<td class="px-3 py-4 xl:px-6 text-green-500">
+											<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor" class="h-6 w-6 m-auto">
+												<path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"></path>
+											</svg>
+										</td>
+									</tr>
+									<tr>
+										<td class="px-3 py-4 xl:px-6">
 											<?php echo esc_html( _x( 'Support', 'feature row', 'woocommerce-stock-manager' ) ); ?>
 										</td>
 										<td class="px-3 py-4 xl:px-6">
@@ -381,34 +431,43 @@ class WSM_In_App_Pricing {
 					</p>
 				</div>
 				<div id="sm_price_column_container" class="pb-8 mt-8 sm:mt-8 sm:pb-8 lg:mt-8 lg:pb-8 lg:pt-2 px-40">
-					<div class="max-w-md mx-auto lg:max-w-5xl lg:grid lg:grid-cols-3 lg:gap-16">
+					<div class="max-w-md mx-auto lg:max-w-5xl lg:grid lg:grid-cols-4 lg:gap-5">
 						<?php
 						$plans = array(
 							array(
 								'label'      => _x( 'Popular', 'pricing badge', 'woocommerce-stock-manager' ),
-								'sites'      => _x( '1 site (1 year)', 'pricing plan 1', 'woocommerce-stock-manager' ),
+								'sites'      => _x( '1 site (Annual)', 'pricing plan 1', 'woocommerce-stock-manager' ),
 								'old_price'  => '$199',
-								'new_price'  => '$149',
-								'link'       => 'https://www.storeapps.org/?buy-now=18694&qty=1&coupon=sm-25off-wsm&page=722&with-cart=1&utm_source=wsm&utm_medium=in_app_pricing&utm_campaign=sm-upsell-from-wsm',
+								'new_price'  => ( ( defined( 'SA_WSM_OFFER_VISIBLE' ) && SA_WSM_OFFER_VISIBLE === true ) ) ? '$79' : '$149',
+								'link'       => 'https://www.storeapps.org/?buy-now=18694&qty=1&page=722&with-cart=1&utm_source=wsm&utm_medium=in_app_pricing&utm_campaign=sm-upsell-from-wsm' . ( ( ( ! defined( 'SA_WSM_OFFER_VISIBLE' ) || SA_WSM_OFFER_VISIBLE === false ) ) ? '&coupon=sm-25off-wsm' : '' ),
 								'bg_color'   => 'bg-gray-50',
 								'text_color' => 'text-indigo-600',
 							),
 							array(
 								'label'         => _x( 'Best Seller', 'pricing badge', 'woocommerce-stock-manager' ),
-								'sites'         => _x( '5 sites (1 year)', 'pricing plan 2', 'woocommerce-stock-manager' ),
+								'sites'         => _x( '5 sites (Annual)', 'pricing plan 2', 'woocommerce-stock-manager' ),
 								'old_price'     => '$249',
-								'new_price'     => '$187',
-								'link'          => 'https://www.storeapps.org/?buy-now=18693&qty=1&coupon=sm-25off-wsm&page=722&with-cart=1&utm_source=wsm&utm_medium=in_app_pricing&utm_campaign=sm-upsell-from-wsm',
+								'new_price'     => ( ( defined( 'SA_WSM_OFFER_VISIBLE' ) && SA_WSM_OFFER_VISIBLE === true ) ) ? '$99' : '$187',
+								'link'          => 'https://www.storeapps.org/?buy-now=18693&qty=1&page=722&with-cart=1&utm_source=wsm&utm_medium=in_app_pricing&utm_campaign=sm-upsell-from-wsm' . ( ( ( ! defined( 'SA_WSM_OFFER_VISIBLE' ) || SA_WSM_OFFER_VISIBLE === false ) ) ? '&coupon=sm-25off-wsm' : '' ),
 								'bg_color'      => 'bg-indigo-100',
 								'text_color'    => 'text-gray-50',
 								'text_bg_color' => 'bg-indigo-600',
 							),
 							array(
 								'label'      => _x( 'Trending', 'pricing badge', 'woocommerce-stock-manager' ),
-								'sites'      => _x( '1 site (3 years)', 'pricing plan 3', 'woocommerce-stock-manager' ),
+								'sites'      => _x( '1 site (Lifetime)', 'pricing plan 3', 'woocommerce-stock-manager' ),
+								'old_price'  => '$549',
+								'new_price'  => ( ( defined( 'SA_WSM_OFFER_VISIBLE' ) && SA_WSM_OFFER_VISIBLE === true ) ) ? '$274' : '$412',
+								'link'       => 'https://www.storeapps.org/?buy-now=86835&qty=1&page=722&with-cart=1&utm_source=wsm&utm_medium=in_app_pricing&utm_campaign=sm-upsell-from-wsm' . ( ( ( ! defined( 'SA_WSM_OFFER_VISIBLE' ) || SA_WSM_OFFER_VISIBLE === false ) ) ? '&coupon=sm-25off-l' : '' ),
+								'bg_color'   => 'bg-gray-50',
+								'text_color' => 'text-indigo-600',
+							),
+							array(
+								'label'      => _x( 'Trending', 'pricing badge', 'woocommerce-stock-manager' ),
+								'sites'      => _x( '5 sites (Lifetime)', 'pricing plan 3', 'woocommerce-stock-manager' ),
 								'old_price'  => '$599',
-								'new_price'  => '$249',
-								'link'       => 'https://www.storeapps.org/?buy-now=194042&qty=1&coupon=&page=722&with-cart=1&utm_source=wsm&utm_medium=in_app_pricing&utm_campaign=sm-upsell-from-wsm',
+								'new_price'  => ( ( defined( 'SA_WSM_OFFER_VISIBLE' ) && SA_WSM_OFFER_VISIBLE === true ) ) ? '$299' : '$449',
+								'link'       => 'https://www.storeapps.org/?buy-now=86836&qty=1&page=722&with-cart=1&utm_source=wsm&utm_medium=in_app_pricing&utm_campaign=sm-upsell-from-wsm' . ( ( ( ! defined( 'SA_WSM_OFFER_VISIBLE' ) || SA_WSM_OFFER_VISIBLE === false ) ) ? '&coupon=sm-25off-l' : '' ),
 								'bg_color'   => 'bg-gray-50',
 								'text_color' => 'text-indigo-600',
 							),
@@ -423,9 +482,11 @@ class WSM_In_App_Pricing {
 										</span>
 									</div>
 									<p class="mt-5 text-xl leading-7 text-gray-500"><?php echo esc_html( $plan['sites'] ); ?></p>
-									<div class="flex items-baseline mt-4 text-3xl text-gray-500 leading-none">
+									<div class="flex items-baseline mt-4 text-4xl text-gray-500 leading-none">
 										<s><?php echo esc_html( $plan['old_price'] ); ?></s>
-										<span class="px-3 flex items-baseline mt-2 text-4xl leading-none"><?php echo esc_html( $plan['new_price'] ); ?></span>
+									</div>
+									<div class="flex items-baseline mt-4 text-4xl leading-none">
+										<?php echo esc_html( $plan['new_price'] ); ?>
 									</div>
 									<div class="mt-6 rounded-md shadow">
 										<a href="<?php echo esc_url( $plan['link'] ); ?>"

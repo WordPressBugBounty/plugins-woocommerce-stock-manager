@@ -4,13 +4,13 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Author URI: https://www.storeapps.org/woocommerce-plugins/?utm_source=wprepo&utm_medium=web&utm_campaign=wsm_readme
 Plugin URI: https://www.storeapps.org/woocommerce-plugins/?utm_source=wprepo&utm_medium=web&utm_campaign=wsm_readme
 Tags: woocommerce stock management, woocommerce stock manager, woocommerce product stock manager, woocommerce stock management free, woocommerce inventory management
-Requires at least: 5.0.0
-Tested up to: 6.8
-Requires PHP: 5.6
-Stable tag: 3.4.0
+Requires at least: 5.0
+Tested up to: 6.9
+Requires PHP: 7.0
+Stable tag: 3.6.0
 License: GPLv2
 
-Best WooCommerce stock management plugin to manage and edit product stock and their variables from a single dashboard. Stock log, import/export, filters and more...
+WooCommerce stock management plugin to manage and edit product stock and their variables from a single dashboard. Stock log, import/export, filters!
 
 == Description ==
 
@@ -71,6 +71,7 @@ GDPR ready - plugin doesn't collect personal data.
 ###Bulk edit and manage custom fields
 
 >To bulk edit and  manage custom field(s) for any post type like WooCommerce products, orders, coupons, posts, users, subscriptions, bookings, memberships, etc., use our [Smart Manager for WooCommerce](https://wordpress.org/plugins/smart-manager-for-wp-e-commerce/) plugin.
+>You can also [sync stock log data](https://www.storeapps.org/docs/sm-how-to-sync-woocommerce-products-stock-log-from-stock-manager-for-woocommerce-to-smart-manager/?utm_source=wprepo&utm_medium=links&utm_campaign=stock_management_how_tos) from Stock Manager plugin into Smart Manager and bulk edit stock data.
 
 **Spread The Love**
 
@@ -142,6 +143,10 @@ Go to WordPress admin > Stock Manager and click on 'Screen Options' to show/hide
 
 Be sure, that you have active stock manager.
 
+= Where do I report security bugs found in this plugin? =
+
+Please report security bugs found in the source code of the Stock Manager for WooCommerce plugin through the [Patchstack Vulnerability Disclosure  Program](https://patchstack.com/database/vdp/9e5fb459-2727-420d-8cbd-15f36437c884). The Patchstack team will assist you with verification, CVE assignment, and notify the developers of this plugin.
+
 == Screenshots ==
 
 1. Edit stock product data
@@ -150,6 +155,17 @@ Be sure, that you have active stock manager.
 4. Product stock as on date
 
 == Changelog ==
+
+= 3.6.0 (07.01.2026) =
+* New: WordPress 6.9 compatible
+* New: WooCommerce 10.4.3 compatible
+* Fix: Strengthen security for Cross Site Request Forgery (CSRF) vulnerability [Thanks to Patchstack team]
+* Update: POT file
+
+= 3.5.0 (13.11.2025) =
+* New: WordPress 6.8.3 compatible
+* New: WooCommerce 10.3.5 compatible
+* Update: POT file
 
 = 3.4.0 (30.04.2025) =
 * Fix: Filter by 'In stock' not working after last update
@@ -337,6 +353,12 @@ Be sure, that you have active stock manager.
 For the changelog of earlier versions, please refer to the separate [changelog.txt](https://plugins.svn.wordpress.org/woocommerce-stock-manager/trunk/changelog.txt) file.
 
 == Upgrade Notice ==
+
+= 3.6.0 =
+WordPress 6.9 compatible, WooCommerce 10.4.3 compatible, Fixes related to Strengthen security for Cross Site Request Forgery (CSRF) vulnerability [Thanks to Patchstack team]. Recommended upgrade.
+
+= 3.5.0 =
+WordPress 6.8.3 compatible, WooCommerce 10.3.5 compatible. Recommended upgrade.
 
 = 3.4.0 =
 Fixes related to Filter by 'In stock' not working after last update, Product categories with special characters not displaying correctly in dashboard filters. Recommended upgrade.

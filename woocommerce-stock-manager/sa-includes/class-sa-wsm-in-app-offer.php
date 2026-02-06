@@ -5,7 +5,7 @@
  * @category    Class
  * @author      StoreApps
  * @package     StoreApps
- * @version     1.1.1
+ * @version     1.1.2
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
@@ -98,7 +98,6 @@ class SA_WSM_In_App_Offer {
 		add_action( 'admin_footer', array( $this, 'admin_styles_and_scripts' ) );
 		add_action( 'admin_notices', array( $this, 'in_app_offer' ) );
 		add_action( 'wp_ajax_' . $this->prefix . '_dismiss_action', array( $this, 'dismiss_action' ) );
-
 	}
 
 	/**
@@ -122,7 +121,6 @@ class SA_WSM_In_App_Offer {
 	 * @return boolean
 	 */
 	public function is_show() {
-
 		$timezone_format = _x( 'Y-m-d H:i:s', 'timezone date format', 'woocommerce-stock-manager' );
 		$current_date    = strtotime( date_i18n( $timezone_format, false, true ) );
 		$start           = strtotime( $this->start );
@@ -137,7 +135,6 @@ class SA_WSM_In_App_Offer {
 		}
 
 		return false;
-
 	}
 
 	/**
@@ -173,7 +170,6 @@ class SA_WSM_In_App_Offer {
 			<?php
 
 		}
-
 	}
 
 	/**
@@ -181,7 +177,7 @@ class SA_WSM_In_App_Offer {
 	 */
 	public function in_app_offer() {
 
-		if ( $this->is_show() ) {
+		if ( $this->is_show() && ( ! empty( $_GET['page'] ) ) && in_array( sanitize_text_field( wp_unslash( $_GET['page'] ) ), array( 'stock-manager-pricing', 'stock-manager-storeapps-plugins' ), true ) ) { // phpcs:ignore WordPress.Security.NonceVerification
 			?>
 			<div class="sa_offer_container"><?php $this->show_offer_content(); ?></div>
 			<?php
@@ -219,7 +215,7 @@ class SA_WSM_In_App_Offer {
 		<div class="sa_offer">
 			<div class="sa_offer_content">
 				<a href="https://www.storeapps.org/woocommerce-plugins/?utm_source=in_app&utm_medium=<?php echo esc_attr( $this->prefix ); ?>_banner&utm_campaign=<?php echo esc_attr( $this->campaign ); ?>" target="_blank">
-					<img src="<?php echo esc_url( plugins_url( 'sa-includes/images/bfcm-2024.jpg', $this->plugin_file ) ); ?>" />
+					<img src="<?php echo esc_url( plugins_url( 'sa-includes/images/bfcm-2025.png', $this->plugin_file ) ); ?>" />
 				</a>
 				<div class="sa_dismiss"> <!-- Do not change this class -->
 					<a href="javascript:void(0)" style="color: black; text-decoration: none;" title="<?php echo esc_attr__( 'Dismiss', 'woocommerce-stock-manager' ); ?>"><?php echo esc_html__( 'Hide this', 'woocommerce-stock-manager' ); ?></a>
@@ -244,7 +240,5 @@ class SA_WSM_In_App_Offer {
 		update_option( $this->option_name, 'no', 'no' );
 
 		wp_send_json( array( 'success' => 'yes' ) );
-
 	}
-
 }

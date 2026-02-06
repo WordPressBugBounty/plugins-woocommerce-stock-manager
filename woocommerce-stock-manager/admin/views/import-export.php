@@ -3,7 +3,7 @@
  * Import & Export product data
  *
  * @package   woocommerce-stock-manager/admin/views/
- * @version   3.1.0
+ * @version   3.1.1
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
@@ -181,7 +181,7 @@ function stock_auto_utf( $s ) {
 							if ( move_uploaded_file( $_FILES['uploadFile']['tmp_name'], $target_dir ) ) { // phpcs:ignore
 
 								/* translators: 1: Uploaded file name */
-								echo sprintf( esc_html__( 'The file %1$s has been uploaded', 'woocommerce-stock-manager' ), basename( $uploaded_file ) ); // phpcs:ignore
+								printf( esc_html__( 'The file %1$s has been uploaded', 'woocommerce-stock-manager' ), basename( $uploaded_file ) ); // phpcs:ignore
 
 								$row    = 1;
 								$handle = fopen( $target_dir, 'r' ); // phpcs:ignore
@@ -211,10 +211,10 @@ function stock_auto_utf( $s ) {
 												WSM_Save::save_one_item( $values, $product_id );
 
 												/* translators: 1: P tag opening 2: Updated Product ID 3. Closing p tag */
-												echo sprintf( esc_html__( '%1$s Product with ID %2$s was updated. %3$s', 'woocommerce-stock-manager' ), '<p>', wp_kses_post( $product_id ), '</p>' );
+												printf( esc_html__( '%1$s Product with ID %2$s was updated. %3$s', 'woocommerce-stock-manager' ), '<p>', wp_kses_post( $product_id ), '</p>' );
 											}
 										}
-										$row++;
+										++$row;
 
 									}
 									fclose( $handle ); // phpcs:ignore

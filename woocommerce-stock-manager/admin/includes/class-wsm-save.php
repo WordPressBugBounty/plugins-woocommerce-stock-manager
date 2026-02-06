@@ -3,7 +3,7 @@
  * Save class for data via import.
  *
  * @package   woocommerce-stock-manager/admin/includes/
- * @version   2.8.0
+ * @version   2.8.1
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
@@ -28,16 +28,14 @@ class WSM_Save {
 		if ( ! empty( $values ) ) {
 			self::save_data( $values, $product_id );
 		}
-
 	}
 
 	/**
 	 * Prepare data
 	 *
-	 * @param array  $data The column key to name map.
-	 * @param string $item ID.
+	 * @param array $data The column key to name map.
 	 */
-	public static function prepare_data( $data, $item ) {
+	public static function prepare_data( $data ) {
 
 		$values   = array();
 		$defaults = self::get_default();
@@ -52,7 +50,6 @@ class WSM_Save {
 		}
 
 		return $values;
-
 	}
 
 	/**
@@ -75,7 +72,6 @@ class WSM_Save {
 		);
 
 		return $values;
-
 	}
 
 	/**
@@ -129,17 +125,6 @@ class WSM_Save {
 				$_product->set_weight( $data['weight'] );
 			}
 
-			/* // @codingStandardsIgnoreLine
-				if( !empty( $data['regular_price'] ) ){
-					$price = sanitize_text_field($data['regular_price']);
-					if( !empty( $data['sales_price'] ) ){
-						$sale_price   = sanitize_text_field($data['sales_price']);
-						wsm_save_price( $product_id, $price, $sale_price );
-					}else{
-						wsm_save_price( $product_id, $price );
-					}
-				}
-			*/
 			if ( isset( $data['regular_price'] ) ) {
 				if ( ! empty( $data['regular_price'] ) ) {
 					$_product->set_price( $data['regular_price'] );
@@ -163,7 +148,5 @@ class WSM_Save {
 			wc_delete_product_transients( $product_id );
 
 		}
-
 	}
-
 }//end class

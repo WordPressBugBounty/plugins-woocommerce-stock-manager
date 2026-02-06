@@ -3,7 +3,7 @@
  * Stock Manager
  *
  * @package  woocommerce-stock-manager/public/
- * @version  3.0.1
+ * @version  3.1.0
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
@@ -30,6 +30,13 @@ class Stock_Manager {
 	protected static $instance = null;
 
 	/**
+	 * Instance of this SA_WSM_In_App_Offer class.
+	 *
+	 * @var      object
+	 */
+	public static $in_app_offer_instance = null;
+
+	/**
 	 * Initialize the plugin by setting activation, table, stock updates and loading public scripts and styles.
 	 */
 	private function __construct() {
@@ -48,6 +55,7 @@ class Stock_Manager {
 		add_action( 'before_woocommerce_init', array( $this, 'declare_hpos_compatibility' ) );
 		// to filter products based on stock status.
 		add_filter( 'woocommerce_rest_product_object_query', array( $this, 'modify_stock_status_filter' ), 99, 2 );
+		add_action( 'plugins_loaded', array( $this, 'wsm_may_be_show_sa_in_app_offer' ) );
 	}
 
 	/**
@@ -104,7 +112,6 @@ class Stock_Manager {
 		} else {
 			self::single_activate();
 		}
-
 	}
 
 	/**
@@ -139,7 +146,6 @@ class Stock_Manager {
 		} else {
 			self::single_deactivate();
 		}
-
 	}
 
 	/**
@@ -156,7 +162,6 @@ class Stock_Manager {
 		switch_to_blog( $blog_id );
 		self::single_activate();
 		restore_current_blog();
-
 	}
 
 	/**
@@ -184,21 +189,18 @@ class Stock_Manager {
 		);
 
 		return $result;
-
 	}
 
 	/**
 	 * Fired for each blog when the plugin is activated.
 	 */
 	private static function single_activate() {
-
 	}
 
 	/**
 	 * Fired for each blog when the plugin is deactivated.
 	 */
 	private static function single_deactivate() {
-
 	}
 
 	/**
@@ -240,7 +242,6 @@ class Stock_Manager {
             ) $collate;
         ";
 		dbDelta( $table );
-
 	}
 
 	/**
@@ -268,7 +269,6 @@ class Stock_Manager {
 				$data
 			)
 		);
-
 	}
 
 	/**
@@ -342,4 +342,37 @@ class Stock_Manager {
 		return ! empty( $combined_ids ) ? $combined_ids : array();
 	}
 
+	/**
+	 * Function to show SA in app offers in WSM if any.
+	 *
+	 * @return void
+	 */
+	public function wsm_may_be_show_sa_in_app_offer() {
+		if ( ! class_exists( 'SA_WSM_In_App_Offer' ) && file_exists( STOCKDIR . 'sa-includes/class-sa-wsm-in-app-offer.php' ) ) {
+			include_once STOCKDIR . 'sa-includes/class-sa-wsm-in-app-offer.php';
+			$is_wsm_admin                = is_wsm_admin_page();
+			$args                        = array(
+				'file'           => STOCKDIR . 'sa-includes/',
+				'prefix'         => 'wsm',              // prefix/slug of your plugin.
+				'option_name'    => 'sa_wsm_offer_bfcm_2025',
+				'campaign'       => 'sa_bfcm_2025',
+				'start'          => '2025-11-14 07:00:00',
+				'end'            => '2025-12-05 06:30:00',
+				'is_plugin_page' => $is_wsm_admin ? true : false,   // page where you want to show offer, do not send this if no plugin page is there and want to show offer on Products page.
+			);
+			self::$in_app_offer_instance = SA_WSM_In_App_Offer::get_instance( $args );
+			if ( ! defined( 'SA_WSM_OFFER_VISIBLE' ) ) {
+				$show            = false;
+				$timezone_format = _x( 'Y-m-d H:i:s', 'timezone date format' );
+				$current_date    = strtotime( date_i18n( $timezone_format ) );
+				$start           = strtotime( $args['start'] );
+				$end             = strtotime( $args['end'] );
+				if ( ( $current_date >= $start ) && ( $current_date <= $end ) ) {
+					$show = true;
+				}
+				define( 'SA_WSM_OFFER_VISIBLE', $show );
+			}
+		}
+	}
 }//end class
+Stock_Manager::get_instance();

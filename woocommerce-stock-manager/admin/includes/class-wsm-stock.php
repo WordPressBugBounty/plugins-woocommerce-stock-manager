@@ -38,7 +38,6 @@ class WSM_Stock {
 		if ( ! empty( $limit ) ) {
 			$this->limit = $limit;
 		}
-
 	}
 
 	/**
@@ -58,10 +57,8 @@ class WSM_Stock {
 
 	/**
 	 * Return products
-	 *
-	 * @param array $data The products data.
 	 */
-	public function get_products( $data = array() ) {
+	public function get_products() {
 
 		$get_sku = ( ! empty( $_GET['sku'] ) ) ? wc_clean( wp_unslash( $_GET['sku'] ) ) : ''; // phpcs:ignore
 		if ( ! empty( $get_sku ) ) {
@@ -203,18 +200,6 @@ class WSM_Stock {
 	}
 
 	/**
-	 * Save all meta data.
-	 *
-	 * @param array $data The column key to name map.
-	 */
-	public function save_all( $data ) {
-		$post = ( ! empty( $_POST ) ) ? wc_clean( wp_unslash( $_POST ) ) : array(); // phpcs:ignore
-		foreach ( $data['product_id'] as $item ) {
-			WSM_Save::save_one_item( $post, $item );
-		}
-	}
-
-	/**
 	 * Save all meta data
 	 *
 	 * @param array $data The column display data.
@@ -319,7 +304,5 @@ class WSM_Stock {
 		remove_filter( 'posts_search', 'wsm_search_by_title_only' );
 
 		return $the_query;
-
 	}
-
 }//end class

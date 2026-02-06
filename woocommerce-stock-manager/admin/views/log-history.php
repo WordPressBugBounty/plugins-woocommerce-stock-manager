@@ -32,12 +32,12 @@ if ( ! empty( $product_id ) ) {
 			<div class="box-body">
 				<?php
 				$data = $wpdb->get_results( // phpcs:ignore
-							$wpdb->prepare( // phpcs:ignore
-								"SELECT *
+					$wpdb->prepare( // phpcs:ignore
+						"SELECT *
 								FROM {$wpdb->prefix}stock_log
 								WHERE product_id = %d",
-								$product_id
-							)
+						$product_id
+					)
 				);
 
 				if ( ! empty( $data ) ) {

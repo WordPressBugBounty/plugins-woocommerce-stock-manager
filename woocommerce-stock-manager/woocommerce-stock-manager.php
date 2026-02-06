@@ -3,22 +3,22 @@
  * Plugin Name: Stock Manager for WooCommerce
  * Plugin URI: https://www.storeapps.org/woocommerce-plugins/
  * Description: Manage product's stock and price in your WooCommerce store. Export/Import inventory, track history, sort and more...
- * Version: 3.4.0
+ * Version: 3.6.0
  * Author: StoreApps
  * Author URI: https://www.storeapps.org/
  * Developer: StoreApps
  * Developer URI: https://www.storeapps.org/
- * Requires at least: 5.0.0
- * Tested up to: 6.8
- * Requires PHP: 5.6+
+ * Requires at least: 5.0
+ * Tested up to: 6.9
+ * Requires PHP: 7.0
  * WC requires at least: 3.5.0
- * WC tested up to: 9.8.2
+ * WC tested up to: 10.4.3
  * Requires Plugins: woocommerce
  * Text Domain: woocommerce-stock-manager
  * Domain Path: /languages/
  * License: GNU General Public License v2.0
  * License URI: http://www.gnu.org/licenses/gpl-2.0.html
- * Copyright (c) 2020-2025 StoreApps. All rights reserved.
+ * Copyright (c) 2020-2026 StoreApps. All rights reserved.
  *
  * @package woocommerce-stock-manager
  */
@@ -54,8 +54,6 @@ require_once plugin_dir_path( __FILE__ ) . 'public/class-stock-manager.php';
 register_activation_hook( __FILE__, array( 'Stock_Manager', 'activate' ) );
 register_deactivation_hook( __FILE__, array( 'Stock_Manager', 'deactivate' ) );
 
-add_action( 'plugins_loaded', array( 'Stock_Manager', 'get_instance' ) );
-
 if ( is_admin() && ( ! defined( 'DOING_AJAX' ) || ! DOING_AJAX ) ) {
 	require_once plugin_dir_path( __FILE__ ) . 'admin/class-stock-manager-admin.php';
 	add_action( 'plugins_loaded', array( 'Stock_Manager_Admin', 'get_instance' ) );
@@ -66,11 +64,8 @@ add_action( 'in_plugin_update_message-woocommerce-stock-manager/woocommerce-stoc
 /**
  * Function to check if minimum WP & WC is satisfied before updating the plugin
  * Shown on plugins page
- *
- * @param array  $plugin_data Details about current plugin version + new update with plugin assets.
- * @param object $r           Details about new plugin version with plugin assets.
  */
-function stockmanager_update_message_cb( $plugin_data, $r ) {
+function stockmanager_update_message_cb() {
 	if ( version_compare( WSM_PLUGIN_VERSION, '2.0.0', '<' ) ) {
 		?>
 		<div class="wc_plugin_upgrade_notice extensions_warning minor">
@@ -186,7 +181,7 @@ function wsm_get_products_or_export() {
 			$data[ $index ]['type']         = $product_type;
 			$data[ $index ]['parent_id']    = '';
 
-			$i++;
+			++$i;
 
 			if ( 'variable' === $product_type ) {
 				$args             = array(
@@ -214,12 +209,10 @@ function wsm_get_products_or_export() {
 						$tag = get_term_by( 'slug', $v, str_replace( 'attribute_', '', $k ) );
 						if ( false === $tag ) {
 							$product_name .= $v . ' ';
-						} else {
-							if ( is_array( $tag ) ) {
+						} elseif ( is_array( $tag ) ) {
 								$product_name .= $tag['name'] . ' ';
-							} else {
-								$product_name .= $tag->name . ' ';
-							}
+						} else {
+							$product_name .= $tag->name . ' ';
 						}
 					}
 
@@ -255,7 +248,7 @@ function wsm_get_products_or_export() {
 					$data[ $vindex ]['type']         = $product_type;
 					$data[ $vindex ]['parent_id']    = $item->ID;
 
-					$i++;
+					++$i;
 				}
 			}
 		}
@@ -275,7 +268,6 @@ function wsm_get_products_or_export() {
 		echo wp_json_encode( $response );
 		exit();
 	}
-
 }
 
 add_action( 'wp_ajax_wsm_get_csv_file', 'wsm_get_csv_file' );
@@ -309,7 +301,6 @@ function wsm_get_csv_file() {
 	echo wp_json_encode( $string );
 
 	exit();
-
 }
 
 add_action( 'wp_ajax_wsm_klawoo_subscribe', 'wsm_klawoo_subscribe' );
@@ -340,12 +331,10 @@ function wsm_klawoo_subscribe() {
 
 		if ( 'POST' === $method ) {
 			$options['body'] = $qs;
-		} else {
-			if ( strpos( $url, '?' ) !== false ) {
+		} elseif ( strpos( $url, '?' ) !== false ) {
 				$url .= '&' . $qs;
-			} else {
-				$url .= '?' . $qs;
-			}
+		} else {
+			$url .= '?' . $qs;
 		}
 
 		$response = wp_remote_request( $url, $options );
@@ -398,34 +387,9 @@ function get_woocommerce_stock_manager_plugin_version() {
  */
 function is_wsm_admin_page() {
 	$page = ( ! empty( $_GET['page'] ) ) ? wc_clean( wp_unslash( $_GET['page'] ) ) : ''; // phpcs:ignore
-	if ( 'stock-manager' === $page || 'stock-manager-import-export' === $page || 'stock-manager-log' === $page || 'stock-manager-storeapps-plugins' === $page ) {
+	if ( 'stock-manager' === $page || 'stock-manager-import-export' === $page || 'stock-manager-log' === $page || 'stock-manager-storeapps-plugins' === $page || 'stock-manager-pricing' === $page ) {
 		return true;
 	}
 	return false;
 }
 
-/**
- * Function to show SA in app offers in WSM if any.
- *
- * @since: 2.5.2.
- */
-function wsm_may_be_show_sa_in_app_offer() {
-
-	if ( ! class_exists( 'SA_WSM_In_App_Offer' ) && file_exists( STOCKDIR . 'sa-includes/class-sa-wsm-in-app-offer.php' ) ) {
-		include_once STOCKDIR . 'sa-includes/class-sa-wsm-in-app-offer.php';
-
-		$is_wsm_admin = is_wsm_admin_page();
-
-		$args     = array(
-			'file'           => STOCKDIR . 'sa-includes/',
-			'prefix'         => 'wsm',              // prefix/slug of your plugin.
-			'option_name'    => 'sa_wsm_offer_bfcm_2024',
-			'campaign'       => 'sa_bfcm_2024',
-			'start'          => '2024-11-26 07:00:00',
-			'end'            => '2024-12-06 06:30:00',
-			'is_plugin_page' => $is_wsm_admin ? true : false,   // page where you want to show offer, do not send this if no plugin page is there and want to show offer on Products page.
-		);
-		$sa_offer = SA_WSM_In_App_Offer::get_instance( $args );
-	}
-}
-add_action( 'plugins_loaded', 'wsm_may_be_show_sa_in_app_offer' );

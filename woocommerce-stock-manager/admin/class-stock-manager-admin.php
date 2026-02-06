@@ -3,7 +3,7 @@
  * Main class for Stock Manager.
  *
  * @package  woocommerce-stock-manager/admin/
- * @version  3.3.0
+ * @version  3.4.0
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
@@ -134,7 +134,7 @@ class Stock_Manager_Admin {
 								'hide_empty' => false,
 							)
 						),
-						function( $carry, $item ) {
+						function ( $carry, $item ) {
 							$carry[ $item->term_id ] = html_entity_decode( $item->name );
 							return $carry;
 						},
@@ -151,7 +151,7 @@ class Stock_Manager_Admin {
 									'hide_empty' => false,
 								)
 							),
-							function( $carry, $item ) {
+							function ( $carry, $item ) {
 								$carry[ $item->slug ] = $item->name;
 								return $carry;
 							},
@@ -280,7 +280,7 @@ class Stock_Manager_Admin {
 		// Show screen option for React App.
 		add_action(
 			'load-' . $hook,
-			function() {
+			function () {
 				add_filter(
 					'screen_options_show_screen',
 					function () {
@@ -462,7 +462,6 @@ class Stock_Manager_Admin {
 		}
 
 		return $wsm_rating_text;
-
 	}
 
 	/**
@@ -489,7 +488,6 @@ class Stock_Manager_Admin {
 		}
 
 		return $wsm_text;
-
 	}
 
 	/**
@@ -523,6 +521,15 @@ class Stock_Manager_Admin {
 	 * Function to handle admin notices.
 	 */
 	public static function add_admin_notices() {
+		if ( ( defined( 'SA_WSM_OFFER_VISIBLE' ) && SA_WSM_OFFER_VISIBLE === true ) && ( 'yes' === get_option( 'sa_wsm_offer_bfcm_2025', 'yes' ) ) ) {
+			$in_app_offer_instance = ( class_exists( 'Stock_Manager' ) ) ? Stock_Manager::$in_app_offer_instance : null;
+			if ( ! empty( $in_app_offer_instance ) && ( is_callable( array( $in_app_offer_instance, 'is_show' ) ) ) && ( ! empty( $in_app_offer_instance->is_show() ) ) && ( is_callable( array( $in_app_offer_instance, 'show_offer_content' ) ) ) ) {
+				?>
+				<div class="sa_offer_container"><?php $in_app_offer_instance->show_offer_content(); ?></div>
+				<?php
+				return;
+			}
+		}
 		if ( '1' === get_option( 'sa_wsm_dismiss_in_app_pricing_notice' ) ) {
 			return;
 		}

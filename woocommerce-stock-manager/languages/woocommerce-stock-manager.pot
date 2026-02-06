@@ -1,15 +1,15 @@
-# Copyright (C) 2025 StoreApps
+# Copyright (C) 2026 StoreApps
 # This file is distributed under the GNU General Public License v2.0.
 msgid ""
 msgstr ""
-"Project-Id-Version: Stock Manager for WooCommerce 3.4.0\n"
+"Project-Id-Version: Stock Manager for WooCommerce 3.6.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/woocommerce-stock-manager\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2025-04-30T07:14:14+00:00\n"
+"POT-Creation-Date: 2026-01-07T07:37:48+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.10.0\n"
 "X-Domain: woocommerce-stock-manager\n"
@@ -110,18 +110,18 @@ msgid "there"
 msgstr ""
 
 #. translators: %s: discount string.
-#: admin/class-stock-manager-admin.php:576
+#: admin/class-stock-manager-admin.php:585
 msgctxt "upgrade notice"
 msgid "Our best-seller Smart Manager Pro – up to <strong style=\"font-size:1.75rem;\">%s</strong>"
 msgstr ""
 
 #. translators: %s: pricing page link.
-#: admin/class-stock-manager-admin.php:587
+#: admin/class-stock-manager-admin.php:596
 msgctxt "upgrade notice"
 msgid "Get <strong>all Stock Manager features + Bulk Edit</strong> + more. %s."
 msgstr ""
 
-#: admin/class-stock-manager-admin.php:589
+#: admin/class-stock-manager-admin.php:598
 msgctxt "upgrade notice"
 msgid "Click here"
 msgstr ""
@@ -173,362 +173,393 @@ msgstr ""
 
 #: admin/includes/class-wsm-in-app-pricing.php:96
 msgctxt "feature row"
-msgid "Interface"
-msgstr ""
-
-#: admin/includes/class-wsm-in-app-pricing.php:97
-msgctxt "feature value"
-msgid "Table"
+msgid "10+ Supported Languages"
 msgstr ""
 
 #: admin/includes/class-wsm-in-app-pricing.php:98
 msgctxt "feature value"
-msgid "Excel-like spreadsheet"
+msgid "Chinese, Dutch, French, German, Italian, Japanese, Russian, Spanish…"
 msgstr ""
 
 #: admin/includes/class-wsm-in-app-pricing.php:101
 msgctxt "feature row"
-msgid "Import & Export Products"
+msgid "Interface"
 msgstr ""
 
 #: admin/includes/class-wsm-in-app-pricing.php:102
 msgctxt "feature value"
-msgid "Only stock specific columns"
+msgid "Table"
 msgstr ""
 
 #: admin/includes/class-wsm-in-app-pricing.php:103
 msgctxt "feature value"
-msgid "All product related columns - including custom fields"
+msgid "Excel-like spreadsheet"
+msgstr ""
+
+#: admin/includes/class-wsm-in-app-pricing.php:106
+msgctxt "feature row"
+msgid "Import & Export Products"
 msgstr ""
 
 #: admin/includes/class-wsm-in-app-pricing.php:107
+msgctxt "feature value"
+msgid "Only stock specific columns"
+msgstr ""
+
+#: admin/includes/class-wsm-in-app-pricing.php:108
+msgctxt "feature value"
+msgid "All product related columns - including custom fields"
+msgstr ""
+
+#: admin/includes/class-wsm-in-app-pricing.php:112
 msgctxt "feature row"
 msgid "Inline (Direct) Editing"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:122
+#: admin/includes/class-wsm-in-app-pricing.php:127
 msgctxt "feature row"
 msgid "Show/Hide Admin Columns"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:137
+#: admin/includes/class-wsm-in-app-pricing.php:142
 msgctxt "feature row"
 msgid "Product Stock Log (Product History)"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:152
+#: admin/includes/class-wsm-in-app-pricing.php:157
 msgctxt "feature row"
 msgid "Simple Search"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:167
+#: admin/includes/class-wsm-in-app-pricing.php:172
 msgctxt "feature row"
 msgid "Bulk Edit/Batch Update"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:178
+#: admin/includes/class-wsm-in-app-pricing.php:183
 msgctxt "feature row"
 msgid "Undo Inline and Bulk Edits"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:189
+#: admin/includes/class-wsm-in-app-pricing.php:194
 msgctxt "feature row"
 msgid "Schedule Bulk Edits"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:200
+#: admin/includes/class-wsm-in-app-pricing.php:205
 msgctxt "feature row"
 msgid "Advanced Search Filters"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:211
+#: admin/includes/class-wsm-in-app-pricing.php:216
 msgctxt "feature row"
 msgid "Saved Searches and Saved Bulk Edits"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:222
+#: admin/includes/class-wsm-in-app-pricing.php:227
+msgctxt "feature row"
+msgid "AI-Powered Advanced Search for Products"
+msgstr ""
+
+#: admin/includes/class-wsm-in-app-pricing.php:238
 msgctxt "feature row"
 msgid "Delete"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:222
-#: admin/includes/class-wsm-in-app-pricing.php:233
-#: admin/includes/class-wsm-in-app-pricing.php:255
+#: admin/includes/class-wsm-in-app-pricing.php:238
+#: admin/includes/class-wsm-in-app-pricing.php:249
+#: admin/includes/class-wsm-in-app-pricing.php:271
 msgctxt "feature row"
 msgid "Products, Orders, Coupons and Other Post Types"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:233
+#: admin/includes/class-wsm-in-app-pricing.php:249
 msgctxt "feature row"
 msgid "Export"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:244
+#: admin/includes/class-wsm-in-app-pricing.php:260
 msgctxt "feature row"
 msgid "Scheduled CSV Exports for WooCommerce Orders"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:255
+#: admin/includes/class-wsm-in-app-pricing.php:271
 msgctxt "feature row"
 msgid "Duplicate"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:266
+#: admin/includes/class-wsm-in-app-pricing.php:282
 msgctxt "feature row"
 msgid "Create Column Sets/Custom Views"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:277
+#: admin/includes/class-wsm-in-app-pricing.php:293
 msgctxt "feature row"
 msgid "Print PDF Invoices"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:288
+#: admin/includes/class-wsm-in-app-pricing.php:304
 msgctxt "feature row"
 msgid "Print Packing Slips for Orders In Bulk"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:299
+#: admin/includes/class-wsm-in-app-pricing.php:315
 msgctxt "feature row"
 msgid "Log for Any Post Type"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:310
+#: admin/includes/class-wsm-in-app-pricing.php:326
 msgctxt "feature row"
 msgid "User-Role/User-Based Dashboard Restrictions"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:321
+#: admin/includes/class-wsm-in-app-pricing.php:337
 msgctxt "feature row"
 msgid "View Customer Lifetime Value (LTV)"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:332
+#: admin/includes/class-wsm-in-app-pricing.php:348
 msgctxt "feature row"
 msgid "Manage Custom Taxonomies"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:343
+#: admin/includes/class-wsm-in-app-pricing.php:359
 msgctxt "feature row"
 msgid "Rename Admin Column Headers"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:354
+#: admin/includes/class-wsm-in-app-pricing.php:370
+msgctxt "feature row"
+msgid "Auto-generate product SKUs"
+msgstr ""
+
+#: admin/includes/class-wsm-in-app-pricing.php:381
+msgctxt "feature row"
+msgid "Manage Unattached Media"
+msgstr ""
+
+#: admin/includes/class-wsm-in-app-pricing.php:392
 msgctxt "feature row"
 msgid "Support"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:357
+#: admin/includes/class-wsm-in-app-pricing.php:395
 msgctxt "feature row"
 msgid "WordPress Forum"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:360
+#: admin/includes/class-wsm-in-app-pricing.php:398
 msgctxt "feature row"
 msgid "Email, Phone, Video Calls"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:374
+#: admin/includes/class-wsm-in-app-pricing.php:412
 msgctxt "pricing subheading"
 msgid "Limited Period Offer - Choose Your Plan"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:377
+#: admin/includes/class-wsm-in-app-pricing.php:415
 msgctxt "pricing heading"
 msgid "Get up to 60% off on Smart Manager Pro"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:380
+#: admin/includes/class-wsm-in-app-pricing.php:418
 msgctxt "pricing description"
 msgid "Stop opening each product to edit price, stock, category, order status, and other data. <strong>Switch to Smart Manager Pro and spend your time wisely.</strong> Say goodbye to frustration, stress, and calculation errors that keep piling up."
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:388
+#: admin/includes/class-wsm-in-app-pricing.php:426
 msgctxt "pricing badge"
 msgid "Popular"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:389
+#: admin/includes/class-wsm-in-app-pricing.php:427
 msgctxt "pricing plan 1"
-msgid "1 site (1 year)"
+msgid "1 site (Annual)"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:397
+#: admin/includes/class-wsm-in-app-pricing.php:435
 msgctxt "pricing badge"
 msgid "Best Seller"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:398
+#: admin/includes/class-wsm-in-app-pricing.php:436
 msgctxt "pricing plan 2"
-msgid "5 sites (1 year)"
+msgid "5 sites (Annual)"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:407
+#: admin/includes/class-wsm-in-app-pricing.php:445
+#: admin/includes/class-wsm-in-app-pricing.php:454
 msgctxt "pricing badge"
 msgid "Trending"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:408
+#: admin/includes/class-wsm-in-app-pricing.php:446
 msgctxt "pricing plan 3"
-msgid "1 site (3 years)"
+msgid "1 site (Lifetime)"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:433
+#: admin/includes/class-wsm-in-app-pricing.php:455
+msgctxt "pricing plan 3"
+msgid "5 sites (Lifetime)"
+msgstr ""
+
+#: admin/includes/class-wsm-in-app-pricing.php:482
 msgctxt "pricing button"
 msgid "Buy Now →"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:446
+#: admin/includes/class-wsm-in-app-pricing.php:495
 msgctxt "review headline"
 msgid "I would happily pay five times for this product!"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:449
+#: admin/includes/class-wsm-in-app-pricing.php:498
 msgctxt "image alt"
 msgid "Premium Top Rated WooCommerce Plugin"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:453
+#: admin/includes/class-wsm-in-app-pricing.php:502
 msgctxt "review content"
 msgid "What really sold me on Smart Manager Pro was Bulk Edit. My assistant does not have to do any complex math now (earlier, I always feared she would make mistakes)! With Smart Manager, she has more free time at hand, so I asked her to set up auto-responder emails. The response was phenomenal. Repeat sales were up by 19.5%."
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:458
+#: admin/includes/class-wsm-in-app-pricing.php:507
 msgctxt "review author alt"
 msgid "Jeff"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:460
+#: admin/includes/class-wsm-in-app-pricing.php:509
 msgctxt "review author name"
 msgid "Jeff Smith"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:470
+#: admin/includes/class-wsm-in-app-pricing.php:519
 msgctxt "cta subheading"
 msgid "Trusted by thousands for a better future"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:473
+#: admin/includes/class-wsm-in-app-pricing.php:522
 msgctxt "cta heading"
 msgid "Join 18000+ happy customers"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:477
+#: admin/includes/class-wsm-in-app-pricing.php:526
 msgctxt "cta message part 1"
 msgid "Save time in editing orders, coupons, blog posts, users, WordPress post types, WordPress taxonomies, and more."
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:478
+#: admin/includes/class-wsm-in-app-pricing.php:527
 msgctxt "cta message part 2"
 msgid "Experience a 10x productivity boost and massive time-savings with Smart Manager Pro!"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:481
+#: admin/includes/class-wsm-in-app-pricing.php:530
 msgctxt "cta message part 3 strong"
 msgid "Reclaim precious time"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:482
+#: admin/includes/class-wsm-in-app-pricing.php:531
 msgctxt "cta message part 3"
 msgid "to nurture your business and cherish moments with loved ones. If you're ready for a life with"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:483
+#: admin/includes/class-wsm-in-app-pricing.php:532
 msgctxt "cta message part 3 strong 2"
 msgid "more freedom and fulfillment"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:484
+#: admin/includes/class-wsm-in-app-pricing.php:533
 msgctxt "cta message part 4"
 msgid "Smart Manager is your solution."
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:486
+#: admin/includes/class-wsm-in-app-pricing.php:535
 msgctxt "cta button"
 msgid "Select a Plan Now →"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:493
+#: admin/includes/class-wsm-in-app-pricing.php:542
 msgctxt "confidence heading"
 msgid "Still hesitant? Buy with confidence – you’re in good hands"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:501
+#: admin/includes/class-wsm-in-app-pricing.php:550
 msgctxt "subheading reputation"
 msgid "You’re buying from the best!"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:505
+#: admin/includes/class-wsm-in-app-pricing.php:554
 msgctxt "reputation message"
 msgid "Rest assured that you will be well taken care of when you buy from StoreApps."
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:508
+#: admin/includes/class-wsm-in-app-pricing.php:557
 msgctxt "reputation bullet"
 msgid "Top selling plugins for marketing and store management"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:509
+#: admin/includes/class-wsm-in-app-pricing.php:558
 msgctxt "reputation bullet bold part"
 msgid "Official WooCommerce"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:509
+#: admin/includes/class-wsm-in-app-pricing.php:558
 msgctxt "reputation bullet"
 msgid "and GoDaddy partner"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:510
+#: admin/includes/class-wsm-in-app-pricing.php:559
 msgctxt "reputation bullet"
 msgid "Founded in 2011, one of the early Woo third-party developers"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:511
+#: admin/includes/class-wsm-in-app-pricing.php:560
 msgctxt "reputation bullet bold part"
 msgid "40k+ customers,"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:511
+#: admin/includes/class-wsm-in-app-pricing.php:560
 msgctxt "reputation bullet"
 msgid "300k+ users, millions of downloads"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:512
+#: admin/includes/class-wsm-in-app-pricing.php:561
 msgctxt "reputation bullet"
 msgid "Consistent 5-star review ratings"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:513
+#: admin/includes/class-wsm-in-app-pricing.php:562
 msgctxt "reputation bullet bold part"
 msgid "WordPress"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:513
+#: admin/includes/class-wsm-in-app-pricing.php:562
 msgctxt "reputation bullet bold part"
 msgid "community contributor"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:513
+#: admin/includes/class-wsm-in-app-pricing.php:562
 msgctxt "reputation bullet"
 msgid "sponsor, speaker."
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:517
+#: admin/includes/class-wsm-in-app-pricing.php:566
 msgctxt "image alt"
 msgid "Guaranteed Safe Checkout"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:525
+#: admin/includes/class-wsm-in-app-pricing.php:574
 msgctxt "support heading"
 msgid "Friendly support from top-quality developers"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:529
+#: admin/includes/class-wsm-in-app-pricing.php:578
 msgctxt "support description"
 msgid "Our plugins are easy to use. We also have ample documentation. But whenever you need further assistance, you will get support from the same people who develop these plugins! We make sure you succeed!"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:533
+#: admin/includes/class-wsm-in-app-pricing.php:582
 msgctxt "image alt"
 msgid "StoreApps team is on your side"
 msgstr ""
@@ -725,32 +756,32 @@ msgstr ""
 msgid "History"
 msgstr ""
 
-#: sa-includes/class-sa-wsm-in-app-offer.php:126
+#: sa-includes/class-sa-wsm-in-app-offer.php:125
 msgctxt "timezone date format"
 msgid "Y-m-d H:i:s"
 msgstr ""
 
-#: sa-includes/class-sa-wsm-in-app-offer.php:225
+#: sa-includes/class-sa-wsm-in-app-offer.php:224
 msgid "Dismiss"
 msgstr ""
 
-#: sa-includes/class-sa-wsm-in-app-offer.php:225
+#: sa-includes/class-sa-wsm-in-app-offer.php:224
 msgid "Hide this"
 msgstr ""
 
-#: woocommerce-stock-manager.php:77
+#: woocommerce-stock-manager.php:75
 msgid "Alert!"
 msgstr ""
 
-#: woocommerce-stock-manager.php:77
+#: woocommerce-stock-manager.php:75
 msgid "Stock Manager for WooCommerce needs following versions of WordPress and WooCommerce:"
 msgstr ""
 
-#: woocommerce-stock-manager.php:90
+#: woocommerce-stock-manager.php:88
 msgid "Please update WordPress and WooCommerce to the above versions before updating Stock Manager for WooCommerce."
 msgstr ""
 
-#: woocommerce-stock-manager.php:273
+#: woocommerce-stock-manager.php:271
 msgid "All done! Close."
 msgstr ""
 
