@@ -7,7 +7,7 @@ Tags: woocommerce stock management, woocommerce stock manager, woocommerce produ
 Requires at least: 5.0
 Tested up to: 6.9
 Requires PHP: 7.0
-Stable tag: 3.6.0
+Stable tag: 3.7.0
 License: GPLv2
 
 WooCommerce stock management plugin to manage and edit product stock and their variables from a single dashboard. Stock log, import/export, filters!
@@ -155,6 +155,12 @@ Please report security bugs found in the source code of the Stock Manager for Wo
 4. Product stock as on date
 
 == Changelog ==
+
+= 3.7.0 (23.02.2026) =
+* New: WordPress 6.9.1 compatible
+* New: WooCommerce 10.5.2 compatible
+* Fix: WooCommerce Product thumbnails not visible for some products in dashboard
+* Update: POT file
 
 = 3.6.0 (07.01.2026) =
 * New: WordPress 6.9 compatible
@@ -353,6 +359,9 @@ Please report security bugs found in the source code of the Stock Manager for Wo
 For the changelog of earlier versions, please refer to the separate [changelog.txt](https://plugins.svn.wordpress.org/woocommerce-stock-manager/trunk/changelog.txt) file.
 
 == Upgrade Notice ==
+
+= 3.7.0 =
+WordPress 6.9.1 compatible, WooCommerce 10.5.2 compatible, Fixes related to WooCommerce Product thumbnails not visible for some products in dashboard. Recommended upgrade.
 
 = 3.6.0 =
 WordPress 6.9 compatible, WooCommerce 10.4.3 compatible, Fixes related to Strengthen security for Cross Site Request Forgery (CSRF) vulnerability [Thanks to Patchstack team]. Recommended upgrade.

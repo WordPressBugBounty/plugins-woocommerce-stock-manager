@@ -52,7 +52,7 @@ class Stock_Manager {
 		add_action( 'woocommerce_variation_set_stock', array( $this, 'save_stock' ) );
 
 		// Action to declare WooCommerce HPOS compatibility.
-		add_action( 'before_woocommerce_init', array( $this, 'declare_hpos_compatibility' ) );
+		add_action( 'before_woocommerce_init', array( $this, 'declare_woocommerce_compatibility' ) );
 		// to filter products based on stock status.
 		add_filter( 'woocommerce_rest_product_object_query', array( $this, 'modify_stock_status_filter' ), 99, 2 );
 		add_action( 'plugins_loaded', array( $this, 'wsm_may_be_show_sa_in_app_offer' ) );
@@ -274,9 +274,10 @@ class Stock_Manager {
 	/**
 	 * Function to declare WooCommerce HPOS compatibility
 	 */
-	public function declare_hpos_compatibility() {
+	public function declare_woocommerce_compatibility() {
 		if ( class_exists( \Automattic\WooCommerce\Utilities\FeaturesUtil::class ) ) {
 			\Automattic\WooCommerce\Utilities\FeaturesUtil::declare_compatibility( 'custom_order_tables', 'woocommerce-stock-manager/woocommerce-stock-manager.php', true );
+			\Automattic\WooCommerce\Utilities\FeaturesUtil::declare_compatibility( 'product_instance_caching', 'woocommerce-stock-manager/woocommerce-stock-manager.php', true );
 		}
 	}
 		/**

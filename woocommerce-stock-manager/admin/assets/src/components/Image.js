@@ -32,11 +32,7 @@ const Image = (props) => {
 
   let imageDetails = image.media_details || {}
   let imageSizes = imageDetails.sizes || {}
-  let sizedImage = imageSizes[size] || ''
-
-  if (!sizedImage) {
-    sizedImage = imageSizes.thumbnail || '';
-  }
+  let sizedImage = imageSizes[size] || imageSizes.thumbnail || imageSizes.woocommerce_thumbnail || '';
 
   return (
     <img
