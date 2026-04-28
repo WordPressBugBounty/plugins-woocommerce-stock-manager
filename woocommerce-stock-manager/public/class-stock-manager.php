@@ -3,7 +3,7 @@
  * Stock Manager
  *
  * @package  woocommerce-stock-manager/public/
- * @version  3.1.0
+ * @version  3.2.0
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
@@ -214,8 +214,17 @@ class Stock_Manager {
 	 * Create table if not exists
 	 */
 	public function create_table() {
+		if ( ! is_admin() ) {
+			return;
+		}
 
 		global $wpdb;
+
+		$stock_log_table = $wpdb->prefix . 'stock_log';
+		$existing_table  = $wpdb->get_var( $wpdb->prepare( 'SHOW TABLES LIKE %s', $stock_log_table ) ); // phpcs:ignore WordPress.DB.DirectDatabaseQuery.DirectQuery, WordPress.DB.DirectDatabaseQuery.NoCaching
+		if ( ( ! empty( $existing_table ) ) && ( ! is_wp_error( $existing_table ) ) && ( $stock_log_table === $existing_table ) ) {
+			return;
+		}
 
 		$wpdb->hide_errors();
 
@@ -233,7 +242,7 @@ class Stock_Manager {
 		require_once ABSPATH . 'wp-admin/includes/upgrade.php';
 
 		$table = "
-            CREATE TABLE {$wpdb->prefix}stock_log (
+            CREATE TABLE IF NOT EXISTS {$stock_log_table} (
                 ID bigint(255) NOT NULL AUTO_INCREMENT,
                 date_created datetime NOT NULL,
                 product_id bigint(255) NOT NULL,
