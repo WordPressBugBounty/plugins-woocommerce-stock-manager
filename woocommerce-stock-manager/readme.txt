@@ -5,9 +5,9 @@ Author URI: https://www.storeapps.org/woocommerce-plugins/?utm_source=wprepo&utm
 Plugin URI: https://www.storeapps.org/woocommerce-plugins/?utm_source=wprepo&utm_medium=web&utm_campaign=wsm_readme
 Tags: woocommerce stock management, woocommerce stock manager, woocommerce product stock manager, woocommerce stock management free, woocommerce inventory management
 Requires at least: 5.0
-Tested up to: 6.9
+Tested up to: 7.0
 Requires PHP: 7.0
-Stable tag: 3.8.0
+Stable tag: 3.9.0
 License: GPLv2
 
 WooCommerce stock management plugin to manage and edit product stock and their variables from a single dashboard. Stock log, import/export, filters!
@@ -18,8 +18,8 @@ Stock Manager is a powerful WooCommerce stock management plugin that allows you 
 
 Edit and manage product stock status, quantity, prices, SKU, taxes. etc., apply quick filters and view stock history, import and export stock data to CSV.
 
-> Stock Manager for WooCommerce plugin is completely Free to use.
-> There's no paid or Pro version of this plugin.
+> **Get more for free!** Our Smart Manager Lite includes all the features of Stock Manager and goes beyond with spreadsheet-style management for products, orders, coupons, and blog posts from a single screen. Trusted by **15,000+ stores**, rated **5 stars by 230+ users**, and backed by **15 years** of WooCommerce expertise.
+> [See why users choose Smart Manager Lite](https://wordpress.org/plugins/smart-manager-for-wp-e-commerce/)
 
 ####WooCommerce stock management dashboard
 
@@ -155,6 +155,11 @@ Please report security bugs found in the source code of the Stock Manager for Wo
 4. Product stock as on date
 
 == Changelog ==
+
+= 3.9.0 (24.07.2026) =
+* New: WordPress 7.0.2 compatible
+* New: WooCommerce 10.9.4 compatible
+* Update: POT file
 
 = 3.8.0 (27.04.2026) =
 * New: WordPress 6.9.4 compatible
@@ -365,6 +370,9 @@ Please report security bugs found in the source code of the Stock Manager for Wo
 For the changelog of earlier versions, please refer to the separate [changelog.txt](https://plugins.svn.wordpress.org/woocommerce-stock-manager/trunk/changelog.txt) file.
 
 == Upgrade Notice ==
+
+= 3.9.0 =
+WordPress 7.0.2 compatible, WooCommerce 10.9.4 compatible. Recommended upgrade.
 
 = 3.8.0 =
 WordPress 6.9.4 compatible, WooCommerce 10.7.0 compatible, Fixes related to Performance issue caused by 'stock_log' table creation query running on every request via 'init' hook. Recommended upgrade.

@@ -2,14 +2,14 @@
 # This file is distributed under the GNU General Public License v2.0.
 msgid ""
 msgstr ""
-"Project-Id-Version: Stock Manager for WooCommerce 3.8.0\n"
+"Project-Id-Version: Stock Manager for WooCommerce 3.9.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/woocommerce-stock-manager\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-04-27T12:33:32+00:00\n"
+"POT-Creation-Date: 2026-07-24T06:46:40+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.10.0\n"
 "X-Domain: woocommerce-stock-manager\n"
@@ -34,537 +34,768 @@ msgstr ""
 msgid "https://www.storeapps.org/"
 msgstr ""
 
-#: admin/class-stock-manager-admin.php:146
+#: admin/class-stock-manager-admin.php:149
 msgid "No shipping class"
 msgstr ""
 
-#: admin/class-stock-manager-admin.php:163
+#: admin/class-stock-manager-admin.php:166
 msgid "Taxable"
 msgstr ""
 
-#: admin/class-stock-manager-admin.php:164
+#: admin/class-stock-manager-admin.php:167
 msgid "Shipping only"
 msgstr ""
 
-#: admin/class-stock-manager-admin.php:165
+#: admin/class-stock-manager-admin.php:168
 msgctxt "Tax status"
 msgid "None"
 msgstr ""
 
-#: admin/class-stock-manager-admin.php:168
+#: admin/class-stock-manager-admin.php:171
 msgid "No"
 msgstr ""
 
-#: admin/class-stock-manager-admin.php:169
+#: admin/class-stock-manager-admin.php:172
 msgid "Notify"
 msgstr ""
 
-#: admin/class-stock-manager-admin.php:170
+#: admin/class-stock-manager-admin.php:173
 msgid "Yes"
 msgstr ""
 
-#: admin/class-stock-manager-admin.php:201
-#: admin/class-stock-manager-admin.php:271
-#: admin/class-stock-manager-admin.php:272
+#: admin/class-stock-manager-admin.php:210
+#: admin/class-stock-manager-admin.php:280
+#: admin/class-stock-manager-admin.php:281
 msgid "Stock Manager"
 msgstr ""
 
-#: admin/class-stock-manager-admin.php:206
+#: admin/class-stock-manager-admin.php:215
 msgctxt "product meta box"
 msgid "Stock log"
 msgstr ""
 
-#: admin/class-stock-manager-admin.php:229
+#: admin/class-stock-manager-admin.php:238
 msgctxt "product list"
 msgid "Stock log"
 msgstr ""
 
-#: admin/class-stock-manager-admin.php:295
-#: admin/class-stock-manager-admin.php:296
+#: admin/class-stock-manager-admin.php:304
+#: admin/class-stock-manager-admin.php:305
 msgid "Import/Export"
 msgstr ""
 
-#: admin/class-stock-manager-admin.php:303
-#: admin/class-stock-manager-admin.php:304
+#: admin/class-stock-manager-admin.php:312
+#: admin/class-stock-manager-admin.php:313
 msgid "Stock log"
 msgstr ""
 
-#: admin/class-stock-manager-admin.php:311
-#: admin/class-stock-manager-admin.php:312
+#: admin/class-stock-manager-admin.php:320
+#: admin/class-stock-manager-admin.php:321
 msgid "<span class=\"wsm_pricing_icon\"> 🔥 </span> Go Pro"
 msgstr ""
 
-#: admin/class-stock-manager-admin.php:319
-#: admin/class-stock-manager-admin.php:320
+#: admin/class-stock-manager-admin.php:328
+#: admin/class-stock-manager-admin.php:329
 msgid "StoreApps Plugins"
 msgstr ""
 
+#: admin/class-stock-manager-admin.php:336
+#: admin/class-stock-manager-admin.php:337
+msgctxt "Stock Manager vs Smart Manager Lite page"
+msgid "Stock Manager vs Smart Manager Lite"
+msgstr ""
+
 #. translators: %1$s & %2$s: Opening & closing strong tag. %3$s: link to Stock Manager for WooCommerce on WordPress.org
-#: admin/class-stock-manager-admin.php:461
+#: admin/class-stock-manager-admin.php:478
 msgid "If you are liking %1$sStock Manager for WooCommerce%2$s, please rate us %3$s. A huge thanks from StoreApps in advance!"
 msgstr ""
 
-#: admin/class-stock-manager-admin.php:511
+#: admin/class-stock-manager-admin.php:528
 msgctxt "default display name"
 msgid "there"
 msgstr ""
 
-#. translators: %s: discount string.
-#: admin/class-stock-manager-admin.php:583
-msgctxt "upgrade notice"
-msgid "Our best-seller Smart Manager Pro – up to <strong style=\"font-size:1.75rem;\">%s</strong>"
+#: admin/class-stock-manager-admin.php:609
+msgctxt "comparison table header"
+msgid "🎉 Smart Manager Lite - Our Advanced Store Management Plugin (Free)"
 msgstr ""
 
-#. translators: %s: pricing page link.
-#: admin/class-stock-manager-admin.php:594
-msgctxt "upgrade notice"
-msgid "Get <strong>all Stock Manager features + Bulk Edit</strong> + more. %s."
+#: admin/class-stock-manager-admin.php:611
+msgctxt "comparison table header"
+msgid "Get a spreadsheet-style dashboard to effortlessly manage products, orders, coupons, and your entire store."
 msgstr ""
 
-#: admin/class-stock-manager-admin.php:596
-msgctxt "upgrade notice"
-msgid "Click here"
+#: admin/class-stock-manager-admin.php:616
+msgctxt "comparison table header"
+msgid "Compare Smart Manager vs Stock Manager"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:55
-msgctxt "Heading: upgrade notice"
-msgid "Stock Manager’s Future is Uncertain – Switch to Smart Manager Pro"
+#: admin/class-stock-manager-admin.php:648
+msgctxt "error message"
+msgid "You do not have sufficient permissions to access this page."
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:58
-msgctxt "Subheading: feature list"
-msgid "All Stock Manager features + Bulk Edits, Delete, Duplicate..."
+#: admin/includes/class-wsm-in-app-pricing.php:53
+msgctxt "discount banner"
+msgid "🎉 25% Off on Smart Manager Pro (Auto-applied at checkout)!"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:64
-msgctxt "Paragraph: upgrade explanation with strong tag"
-msgid "With growing demand for bulk editing and complete store management, we’re considering shutting down the Stock Manager plugin. <strong>Upgrade to Smart Manager Pro plugin</strong> now for all-in-one store control, boost productivity and save your time."
+#: admin/includes/class-wsm-in-app-pricing.php:60
+msgctxt "hero heading"
+msgid "Cut store management work from hours to minutes"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:84
-msgctxt "table header"
-msgid "FEATURES"
+#: admin/includes/class-wsm-in-app-pricing.php:63
+msgctxt "hero description"
+msgid "Save hours on store management with bulk editing, advanced search, automation, and powerful WooCommerce productivity tools."
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:85
-msgctxt "table header"
-msgid "STOCK MANAGER"
+#: admin/includes/class-wsm-in-app-pricing.php:70
+msgctxt "image alt"
+msgid "David Hunter ShotScope"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:86
-msgctxt "table header"
-msgid "SMART MANAGER PRO"
+#: admin/includes/class-wsm-in-app-pricing.php:74
+msgctxt "testimonial quote"
+msgid "\"With Smart Manager's Bulk Edit, Export, and Custom Views, we <strong>save more than 10 hours every month</strong> on stock and price updates alone. The time saved helps us focus on driving marketing campaigns throughout the golf season.\""
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:92
-msgctxt "feature row"
-msgid "Supported Post Types"
+#: admin/includes/class-wsm-in-app-pricing.php:81
+msgctxt "testimonial author"
+msgid "– David Hunter, CEO, Shot Scope"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:93
-msgctxt "feature value"
-msgid "Products (Stock)"
-msgstr ""
-
-#: admin/includes/class-wsm-in-app-pricing.php:94
-msgctxt "feature value"
-msgid "Products (Stock), Orders, Coupons, Pages, Media, Users, SEO plugins, WooCommerce Subscriptions, Bookings, Memberships, Product Add-ons, Brands... <strong>all WordPress custom post types and their custom fields</strong>."
-msgstr ""
-
-#: admin/includes/class-wsm-in-app-pricing.php:97
-msgctxt "feature row"
-msgid "10+ Supported Languages"
-msgstr ""
-
-#: admin/includes/class-wsm-in-app-pricing.php:99
-msgctxt "feature value"
-msgid "Chinese, Dutch, French, German, Italian, Japanese, Russian, Spanish…"
-msgstr ""
-
-#: admin/includes/class-wsm-in-app-pricing.php:102
-msgctxt "feature row"
-msgid "Interface"
-msgstr ""
-
-#: admin/includes/class-wsm-in-app-pricing.php:103
-msgctxt "feature value"
-msgid "Table"
-msgstr ""
-
-#: admin/includes/class-wsm-in-app-pricing.php:104
-msgctxt "feature value"
-msgid "Excel-like spreadsheet"
+#: admin/includes/class-wsm-in-app-pricing.php:98
+msgctxt "pricing tab"
+msgid "Annual"
 msgstr ""
 
 #: admin/includes/class-wsm-in-app-pricing.php:107
-msgctxt "feature row"
-msgid "Import & Export Products"
-msgstr ""
-
-#: admin/includes/class-wsm-in-app-pricing.php:108
-msgctxt "feature value"
-msgid "Only stock specific columns"
+msgctxt "pricing tab"
+msgid "Lifetime"
 msgstr ""
 
 #: admin/includes/class-wsm-in-app-pricing.php:109
-msgctxt "feature value"
-msgid "All product related columns - including custom fields"
+msgctxt "pricing tab badge"
+msgid "One-time"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:113
-msgctxt "feature row"
-msgid "Inline (Direct) Editing"
+#: admin/includes/class-wsm-in-app-pricing.php:119
+#: admin/includes/class-wsm-in-app-pricing.php:159
+msgctxt "pricing card"
+msgid "1 Site"
+msgstr ""
+
+#: admin/includes/class-wsm-in-app-pricing.php:121
+msgctxt "pricing"
+msgid "$199"
+msgstr ""
+
+#: admin/includes/class-wsm-in-app-pricing.php:123
+msgctxt "pricing"
+msgid "$79"
+msgstr ""
+
+#: admin/includes/class-wsm-in-app-pricing.php:123
+msgctxt "pricing"
+msgid "$149"
+msgstr ""
+
+#: admin/includes/class-wsm-in-app-pricing.php:126
+#: admin/includes/class-wsm-in-app-pricing.php:147
+msgctxt "pricing"
+msgid "Billed annually"
 msgstr ""
 
 #: admin/includes/class-wsm-in-app-pricing.php:128
-msgctxt "feature row"
-msgid "Show/Hide Admin Columns"
+#: admin/includes/class-wsm-in-app-pricing.php:149
+#: admin/includes/class-wsm-in-app-pricing.php:166
+#: admin/includes/class-wsm-in-app-pricing.php:180
+msgctxt "pricing cta"
+msgid "Buy Now →"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:143
-msgctxt "feature row"
-msgid "Product Stock Log (Product History)"
-msgstr ""
-
-#: admin/includes/class-wsm-in-app-pricing.php:158
-msgctxt "feature row"
-msgid "Simple Search"
-msgstr ""
-
-#: admin/includes/class-wsm-in-app-pricing.php:173
-msgctxt "feature row"
-msgid "Bulk Edit/Batch Update"
-msgstr ""
-
-#: admin/includes/class-wsm-in-app-pricing.php:184
-msgctxt "feature row"
-msgid "Undo Inline and Bulk Edits"
-msgstr ""
-
-#: admin/includes/class-wsm-in-app-pricing.php:195
-msgctxt "feature row"
-msgid "Schedule Bulk Edits"
-msgstr ""
-
-#: admin/includes/class-wsm-in-app-pricing.php:206
-msgctxt "feature row"
-msgid "Advanced Search Filters"
-msgstr ""
-
-#: admin/includes/class-wsm-in-app-pricing.php:217
-msgctxt "feature row"
-msgid "Saved Searches and Saved Bulk Edits"
-msgstr ""
-
-#: admin/includes/class-wsm-in-app-pricing.php:228
-msgctxt "feature row"
-msgid "AI-Powered Advanced Search for Products"
-msgstr ""
-
-#: admin/includes/class-wsm-in-app-pricing.php:239
-msgctxt "feature row"
-msgid "Delete"
-msgstr ""
-
-#: admin/includes/class-wsm-in-app-pricing.php:239
-#: admin/includes/class-wsm-in-app-pricing.php:250
-#: admin/includes/class-wsm-in-app-pricing.php:272
-msgctxt "feature row"
-msgid "Products, Orders, Coupons and Other Post Types"
-msgstr ""
-
-#: admin/includes/class-wsm-in-app-pricing.php:250
-msgctxt "feature row"
-msgid "Export"
-msgstr ""
-
-#: admin/includes/class-wsm-in-app-pricing.php:261
-msgctxt "feature row"
-msgid "Scheduled CSV Exports for WooCommerce Orders"
-msgstr ""
-
-#: admin/includes/class-wsm-in-app-pricing.php:272
-msgctxt "feature row"
-msgid "Duplicate"
-msgstr ""
-
-#: admin/includes/class-wsm-in-app-pricing.php:283
-msgctxt "feature row"
-msgid "Create Column Sets/Custom Views"
-msgstr ""
-
-#: admin/includes/class-wsm-in-app-pricing.php:294
-msgctxt "feature row"
-msgid "Print PDF Invoices"
-msgstr ""
-
-#: admin/includes/class-wsm-in-app-pricing.php:305
-msgctxt "feature row"
-msgid "Print Packing Slips for Orders In Bulk"
-msgstr ""
-
-#: admin/includes/class-wsm-in-app-pricing.php:316
-msgctxt "feature row"
-msgid "Log for Any Post Type"
-msgstr ""
-
-#: admin/includes/class-wsm-in-app-pricing.php:327
-msgctxt "feature row"
-msgid "User-Role/User-Based Dashboard Restrictions"
-msgstr ""
-
-#: admin/includes/class-wsm-in-app-pricing.php:338
-msgctxt "feature row"
-msgid "View Customer Lifetime Value (LTV)"
-msgstr ""
-
-#: admin/includes/class-wsm-in-app-pricing.php:349
-msgctxt "feature row"
-msgid "Manage Custom Taxonomies"
-msgstr ""
-
-#: admin/includes/class-wsm-in-app-pricing.php:360
-msgctxt "feature row"
-msgid "Rename Admin Column Headers"
-msgstr ""
-
-#: admin/includes/class-wsm-in-app-pricing.php:371
-msgctxt "feature row"
-msgid "Auto-generate product SKUs"
-msgstr ""
-
-#: admin/includes/class-wsm-in-app-pricing.php:382
-msgctxt "feature row"
-msgid "Manage Unattached Media"
-msgstr ""
-
-#: admin/includes/class-wsm-in-app-pricing.php:393
-msgctxt "feature row"
-msgid "WPML compatibility"
-msgstr ""
-
-#: admin/includes/class-wsm-in-app-pricing.php:404
-msgctxt "feature row"
-msgid "Support"
-msgstr ""
-
-#: admin/includes/class-wsm-in-app-pricing.php:407
-msgctxt "feature row"
-msgid "WordPress Forum"
-msgstr ""
-
-#: admin/includes/class-wsm-in-app-pricing.php:410
-msgctxt "feature row"
-msgid "Email, Phone, Video Calls"
-msgstr ""
-
-#: admin/includes/class-wsm-in-app-pricing.php:424
-msgctxt "pricing subheading"
-msgid "Limited Period Offer - Choose Your Plan"
-msgstr ""
-
-#: admin/includes/class-wsm-in-app-pricing.php:427
-msgctxt "pricing heading"
-msgid "Get up to 60% off on Smart Manager Pro"
-msgstr ""
-
-#: admin/includes/class-wsm-in-app-pricing.php:430
-msgctxt "pricing description"
-msgid "Stop opening each product to edit price, stock, category, order status, and other data. <strong>Switch to Smart Manager Pro and spend your time wisely.</strong> Say goodbye to frustration, stress, and calculation errors that keep piling up."
-msgstr ""
-
-#: admin/includes/class-wsm-in-app-pricing.php:438
-msgctxt "pricing badge"
-msgid "Popular"
-msgstr ""
-
-#: admin/includes/class-wsm-in-app-pricing.php:439
-msgctxt "pricing plan 1"
-msgid "1 site (Annual)"
-msgstr ""
-
-#: admin/includes/class-wsm-in-app-pricing.php:447
+#: admin/includes/class-wsm-in-app-pricing.php:136
 msgctxt "pricing badge"
 msgid "Best Seller"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:448
-msgctxt "pricing plan 2"
-msgid "5 sites (Annual)"
+#: admin/includes/class-wsm-in-app-pricing.php:140
+#: admin/includes/class-wsm-in-app-pricing.php:173
+msgctxt "pricing card"
+msgid "5 Sites"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:457
-#: admin/includes/class-wsm-in-app-pricing.php:466
-msgctxt "pricing badge"
-msgid "Trending"
+#: admin/includes/class-wsm-in-app-pricing.php:142
+msgctxt "pricing"
+msgid "$249"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:458
-msgctxt "pricing plan 3"
-msgid "1 site (Lifetime)"
+#: admin/includes/class-wsm-in-app-pricing.php:144
+msgctxt "pricing"
+msgid "$99"
+msgstr ""
+
+#: admin/includes/class-wsm-in-app-pricing.php:144
+msgctxt "pricing"
+msgid "$187"
+msgstr ""
+
+#: admin/includes/class-wsm-in-app-pricing.php:161
+msgctxt "pricing"
+msgid "$549"
+msgstr ""
+
+#: admin/includes/class-wsm-in-app-pricing.php:162
+msgctxt "pricing"
+msgid "$412"
+msgstr ""
+
+#: admin/includes/class-wsm-in-app-pricing.php:164
+#: admin/includes/class-wsm-in-app-pricing.php:178
+msgctxt "pricing"
+msgid "Pay once, use forever"
+msgstr ""
+
+#: admin/includes/class-wsm-in-app-pricing.php:175
+msgctxt "pricing"
+msgid "$599"
+msgstr ""
+
+#: admin/includes/class-wsm-in-app-pricing.php:176
+msgctxt "pricing"
+msgid "$449"
+msgstr ""
+
+#: admin/includes/class-wsm-in-app-pricing.php:219
+msgctxt "credibility booster"
+msgid "15,000+"
+msgstr ""
+
+#: admin/includes/class-wsm-in-app-pricing.php:220
+msgctxt "credibility booster"
+msgid "Active Stores"
+msgstr ""
+
+#: admin/includes/class-wsm-in-app-pricing.php:232
+msgctxt "credibility booster"
+msgid "4.4"
+msgstr ""
+
+#: admin/includes/class-wsm-in-app-pricing.php:233
+msgctxt "credibility booster"
+msgid "280+ Reviews"
+msgstr ""
+
+#: admin/includes/class-wsm-in-app-pricing.php:244
+msgctxt "credibility booster"
+msgid "15 Years"
+msgstr ""
+
+#: admin/includes/class-wsm-in-app-pricing.php:245
+msgctxt "credibility booster"
+msgid "In Business"
+msgstr ""
+
+#: admin/includes/class-wsm-in-app-pricing.php:255
+msgctxt "section subheading"
+msgid "Stock Manager’s Future is Uncertain – Switch to Smart Manager Pro"
+msgstr ""
+
+#: admin/includes/class-wsm-in-app-pricing.php:257
+msgctxt "Subheading: feature list"
+msgid "All Stock Manager features + Bulk Edits, Delete, Duplicate..."
+msgstr ""
+
+#: admin/includes/class-wsm-in-app-pricing.php:263
+msgctxt "Paragraph: upgrade explanation with strong tag"
+msgid "With growing demand for bulk editing and complete store management, we’re considering shutting down the Stock Manager plugin. <strong>Upgrade to Smart Manager Pro plugin</strong> now for all-in-one store control, boost productivity and save your time."
+msgstr ""
+
+#: admin/includes/class-wsm-in-app-pricing.php:278
+msgctxt "table header"
+msgid "FEATURES"
+msgstr ""
+
+#: admin/includes/class-wsm-in-app-pricing.php:279
+msgctxt "table header"
+msgid "STOCK MANAGER"
+msgstr ""
+
+#: admin/includes/class-wsm-in-app-pricing.php:280
+msgctxt "table header"
+msgid "SMART MANAGER PRO"
+msgstr ""
+
+#: admin/includes/class-wsm-in-app-pricing.php:285
+msgctxt "feature row"
+msgid "Supported Post Types"
+msgstr ""
+
+#: admin/includes/class-wsm-in-app-pricing.php:286
+msgctxt "feature value"
+msgid "Products (Stock)"
+msgstr ""
+
+#: admin/includes/class-wsm-in-app-pricing.php:287
+msgctxt "feature value"
+msgid "Products (Stock), Orders, Coupons, Pages, Media, Users, SEO plugins, WooCommerce Subscriptions, Bookings, Memberships, Product Add-ons, Brands... <strong>all WordPress custom post types and their custom fields</strong>."
+msgstr ""
+
+#: admin/includes/class-wsm-in-app-pricing.php:290
+msgctxt "feature row"
+msgid "10+ Supported Languages"
+msgstr ""
+
+#: admin/includes/class-wsm-in-app-pricing.php:292
+msgctxt "feature value"
+msgid "Chinese, Dutch, French, German, Italian, Japanese, Russian, Spanish…"
+msgstr ""
+
+#: admin/includes/class-wsm-in-app-pricing.php:295
+msgctxt "feature row"
+msgid "Interface"
+msgstr ""
+
+#: admin/includes/class-wsm-in-app-pricing.php:296
+msgctxt "feature value"
+msgid "Table"
+msgstr ""
+
+#: admin/includes/class-wsm-in-app-pricing.php:297
+msgctxt "feature value"
+msgid "Excel-like spreadsheet"
+msgstr ""
+
+#: admin/includes/class-wsm-in-app-pricing.php:300
+msgctxt "feature row"
+msgid "Import & Export Products"
+msgstr ""
+
+#: admin/includes/class-wsm-in-app-pricing.php:301
+msgctxt "feature value"
+msgid "Only stock specific columns"
+msgstr ""
+
+#: admin/includes/class-wsm-in-app-pricing.php:302
+msgctxt "feature value"
+msgid "All product related columns - including custom fields"
+msgstr ""
+
+#: admin/includes/class-wsm-in-app-pricing.php:305
+msgctxt "feature row"
+msgid "Inline (Direct) Editing"
+msgstr ""
+
+#: admin/includes/class-wsm-in-app-pricing.php:314
+msgctxt "feature row"
+msgid "Show/Hide Admin Columns"
+msgstr ""
+
+#: admin/includes/class-wsm-in-app-pricing.php:323
+msgctxt "feature row"
+msgid "Product Stock Log (Product History)"
+msgstr ""
+
+#: admin/includes/class-wsm-in-app-pricing.php:332
+msgctxt "feature row"
+msgid "Simple Search"
+msgstr ""
+
+#: admin/includes/class-wsm-in-app-pricing.php:341
+msgctxt "feature row"
+msgid "Bulk Edit/Batch Update"
+msgstr ""
+
+#: admin/includes/class-wsm-in-app-pricing.php:348
+msgctxt "feature row"
+msgid "Undo Inline and Bulk Edits"
+msgstr ""
+
+#: admin/includes/class-wsm-in-app-pricing.php:355
+msgctxt "feature row"
+msgid "Schedule Bulk Edits"
+msgstr ""
+
+#: admin/includes/class-wsm-in-app-pricing.php:362
+msgctxt "feature row"
+msgid "Advanced Search Filters"
+msgstr ""
+
+#: admin/includes/class-wsm-in-app-pricing.php:369
+msgctxt "feature row"
+msgid "Saved Searches and Saved Bulk Edits"
+msgstr ""
+
+#: admin/includes/class-wsm-in-app-pricing.php:376
+msgctxt "feature row"
+msgid "AI-Powered Advanced Search for Products"
+msgstr ""
+
+#: admin/includes/class-wsm-in-app-pricing.php:383
+msgctxt "feature row"
+msgid "Delete"
+msgstr ""
+
+#: admin/includes/class-wsm-in-app-pricing.php:383
+#: admin/includes/class-wsm-in-app-pricing.php:390
+#: admin/includes/class-wsm-in-app-pricing.php:404
+msgctxt "feature row"
+msgid "Products, Orders, Coupons and Other Post Types"
+msgstr ""
+
+#: admin/includes/class-wsm-in-app-pricing.php:390
+msgctxt "feature row"
+msgid "Export"
+msgstr ""
+
+#: admin/includes/class-wsm-in-app-pricing.php:397
+msgctxt "feature row"
+msgid "Scheduled CSV Exports for WooCommerce Orders"
+msgstr ""
+
+#: admin/includes/class-wsm-in-app-pricing.php:404
+msgctxt "feature row"
+msgid "Duplicate"
+msgstr ""
+
+#: admin/includes/class-wsm-in-app-pricing.php:411
+msgctxt "feature row"
+msgid "Create Column Sets/Custom Views"
+msgstr ""
+
+#: admin/includes/class-wsm-in-app-pricing.php:418
+msgctxt "feature row"
+msgid "Print PDF Invoices"
+msgstr ""
+
+#: admin/includes/class-wsm-in-app-pricing.php:425
+msgctxt "feature row"
+msgid "Print Packing Slips for Orders In Bulk"
+msgstr ""
+
+#: admin/includes/class-wsm-in-app-pricing.php:432
+msgctxt "feature row"
+msgid "Log for Any Post Type"
+msgstr ""
+
+#: admin/includes/class-wsm-in-app-pricing.php:439
+msgctxt "feature row"
+msgid "User-Role/User-Based Dashboard Restrictions"
+msgstr ""
+
+#: admin/includes/class-wsm-in-app-pricing.php:446
+msgctxt "feature row"
+msgid "View Customer Lifetime Value (LTV)"
+msgstr ""
+
+#: admin/includes/class-wsm-in-app-pricing.php:453
+msgctxt "feature row"
+msgid "Manage Custom Taxonomies"
+msgstr ""
+
+#: admin/includes/class-wsm-in-app-pricing.php:460
+msgctxt "feature row"
+msgid "Rename Admin Column Headers"
 msgstr ""
 
 #: admin/includes/class-wsm-in-app-pricing.php:467
-msgctxt "pricing plan 3"
-msgid "5 sites (Lifetime)"
+msgctxt "feature row"
+msgid "Auto-generate product SKUs"
+msgstr ""
+
+#: admin/includes/class-wsm-in-app-pricing.php:474
+msgctxt "feature row"
+msgid "Manage Unattached Media"
+msgstr ""
+
+#: admin/includes/class-wsm-in-app-pricing.php:481
+msgctxt "feature row"
+msgid "WPML compatibility"
+msgstr ""
+
+#: admin/includes/class-wsm-in-app-pricing.php:488
+msgctxt "feature row"
+msgid "Support"
+msgstr ""
+
+#: admin/includes/class-wsm-in-app-pricing.php:489
+msgctxt "feature row"
+msgid "WordPress Forum"
+msgstr ""
+
+#: admin/includes/class-wsm-in-app-pricing.php:490
+msgctxt "feature row"
+msgid "Email, Phone, Video Calls"
+msgstr ""
+
+#: admin/includes/class-wsm-in-app-pricing.php:493
+msgctxt "feature row"
+msgid "Pricing"
 msgstr ""
 
 #: admin/includes/class-wsm-in-app-pricing.php:494
-msgctxt "pricing button"
-msgid "Buy Now →"
+msgctxt "feature value"
+msgid "Free"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:507
-msgctxt "review headline"
-msgid "I would happily pay five times for this product!"
+#: admin/includes/class-wsm-in-app-pricing.php:496
+msgctxt "buy button"
+msgid "Buy Smart Manager Pro"
 msgstr ""
 
 #: admin/includes/class-wsm-in-app-pricing.php:510
-msgctxt "image alt"
-msgid "Premium Top Rated WooCommerce Plugin"
+msgctxt "testimonial title"
+msgid "\"Smart Manager is a life-saver!\""
 msgstr ""
 
+#: admin/includes/class-wsm-in-app-pricing.php:511
+msgctxt "testimonial content"
+msgid "The plugin has saved me HOURS (maybe even days) of work! It <strong>makes tedious tasks really simple and quick</strong>. The support team is fantastic too. Totally worth purchasing the premium version."
+msgstr ""
+
+#: admin/includes/class-wsm-in-app-pricing.php:513
 #: admin/includes/class-wsm-in-app-pricing.php:514
-msgctxt "review content"
-msgid "What really sold me on Smart Manager Pro was Bulk Edit. My assistant does not have to do any complex math now (earlier, I always feared she would make mistakes)! With Smart Manager, she has more free time at hand, so I asked her to set up auto-responder emails. The response was phenomenal. Repeat sales were up by 19.5%."
+msgctxt "testimonial author"
+msgid "The BBCream Girl"
+msgstr ""
+
+#: admin/includes/class-wsm-in-app-pricing.php:518
+msgctxt "testimonial title"
+msgid "\"Scaled 500+ products with bulk editing\""
 msgstr ""
 
 #: admin/includes/class-wsm-in-app-pricing.php:519
-msgctxt "review author alt"
-msgid "Jeff"
+msgctxt "testimonial content"
+msgid "Smart Manager plugin lets me add and update entire product lines in minutes. Managing such a rapidly expanding catalog would be impossible with the traditional WooCommerce product editor."
 msgstr ""
 
 #: admin/includes/class-wsm-in-app-pricing.php:521
-msgctxt "review author name"
-msgid "Jeff Smith"
+#: admin/includes/class-wsm-in-app-pricing.php:522
+msgctxt "testimonial author"
+msgid "Nicolai Grut"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:531
-msgctxt "cta subheading"
-msgid "Trusted by thousands for a better future"
+#: admin/includes/class-wsm-in-app-pricing.php:526
+msgctxt "testimonial title"
+msgid "\"20 or 30 times quicker store management\""
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:534
-msgctxt "cta heading"
-msgid "Join 18000+ happy customers"
+#: admin/includes/class-wsm-in-app-pricing.php:527
+msgctxt "testimonial content"
+msgid "I've got over 200 products and dreaded managing them one by one. Smart Manager Pro plugin lets me do this so much quicker, probably 20 or 30 times quicker. It is an absolutely invaluable tool."
+msgstr ""
+
+#: admin/includes/class-wsm-in-app-pricing.php:529
+#: admin/includes/class-wsm-in-app-pricing.php:530
+msgctxt "testimonial author"
+msgid "Brian Batcher"
 msgstr ""
 
 #: admin/includes/class-wsm-in-app-pricing.php:538
-msgctxt "cta message part 1"
-msgid "Save time in editing orders, coupons, blog posts, users, WordPress post types, WordPress taxonomies, and more."
+msgctxt "section subheading"
+msgid "Scale your output, not your hours"
 msgstr ""
 
 #: admin/includes/class-wsm-in-app-pricing.php:539
-msgctxt "cta message part 2"
-msgid "Experience a 10x productivity boost and massive time-savings with Smart Manager Pro!"
+msgctxt "section heading"
+msgid "Accomplish 60 hours of work in 6 minutes"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:542
-msgctxt "cta message part 3 strong"
-msgid "Reclaim precious time"
+#: admin/includes/class-wsm-in-app-pricing.php:540
+msgctxt "section description"
+msgid "Stop opening each product to edit price, stock, category, description, and other data. <strong>Switch to Smart Manager Pro and spend your time wisely.</strong> Say goodbye to frustration, stress, and calculation errors that keep piling up."
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:543
-msgctxt "cta message part 3"
-msgid "to nurture your business and cherish moments with loved ones. If you're ready for a life with"
+#: admin/includes/class-wsm-in-app-pricing.php:548
+msgctxt "table header"
+msgid "Mundane store tasks"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:544
-msgctxt "cta message part 3 strong 2"
-msgid "more freedom and fulfillment"
+#: admin/includes/class-wsm-in-app-pricing.php:549
+msgctxt "table header"
+msgid "Without using Smart Manager Pro"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:545
-msgctxt "cta message part 4"
-msgid "Smart Manager is your solution."
+#: admin/includes/class-wsm-in-app-pricing.php:550
+msgctxt "table header"
+msgid "Using Smart Manager Pro"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:547
-msgctxt "cta button"
-msgid "Select a Plan Now →"
+#: admin/includes/class-wsm-in-app-pricing.php:555
+msgctxt "task row"
+msgid "Add one new product or edit details"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:554
-msgctxt "confidence heading"
-msgid "Still hesitant? Buy with confidence – you’re in good hands"
+#: admin/includes/class-wsm-in-app-pricing.php:556
+#: admin/includes/class-wsm-in-app-pricing.php:566
+#: admin/includes/class-wsm-in-app-pricing.php:576
+msgctxt "time value"
+msgid "3 mins"
+msgstr ""
+
+#: admin/includes/class-wsm-in-app-pricing.php:557
+msgctxt "time value"
+msgid "30 seconds (Inline edit)"
+msgstr ""
+
+#: admin/includes/class-wsm-in-app-pricing.php:560
+msgctxt "task row"
+msgid "Open and edit 1000s of products one-by-one"
+msgstr ""
+
+#: admin/includes/class-wsm-in-app-pricing.php:561
+#: admin/includes/class-wsm-in-app-pricing.php:571
+msgctxt "time value"
+msgid "3 hours – 30 hours"
 msgstr ""
 
 #: admin/includes/class-wsm-in-app-pricing.php:562
-msgctxt "subheading reputation"
-msgid "You’re buying from the best!"
+msgctxt "time value"
+msgid "2 mins (Bulk edit)"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:566
+#: admin/includes/class-wsm-in-app-pricing.php:565
+msgctxt "task row"
+msgid "Search any record to make edits"
+msgstr ""
+
+#: admin/includes/class-wsm-in-app-pricing.php:567
+msgctxt "time value"
+msgid "1 min (Search & Edit)"
+msgstr ""
+
+#: admin/includes/class-wsm-in-app-pricing.php:570
+msgctxt "task row"
+msgid "Create 1000s of duplicates"
+msgstr ""
+
+#: admin/includes/class-wsm-in-app-pricing.php:572
+msgctxt "time value"
+msgid "2 mins (Duplicate)"
+msgstr ""
+
+#: admin/includes/class-wsm-in-app-pricing.php:575
+msgctxt "task row"
+msgid "Search and delete products"
+msgstr ""
+
+#: admin/includes/class-wsm-in-app-pricing.php:577
+msgctxt "time value"
+msgid "1 min (Search & Delete)"
+msgstr ""
+
+#: admin/includes/class-wsm-in-app-pricing.php:580
+msgctxt "summary row"
+msgid "Time spent"
+msgstr ""
+
+#: admin/includes/class-wsm-in-app-pricing.php:581
+msgctxt "time value"
+msgid "≈ 6 hours – 60 hours"
+msgstr ""
+
+#: admin/includes/class-wsm-in-app-pricing.php:582
+msgctxt "time value"
+msgid "≈ 6 minutes"
+msgstr ""
+
+#: admin/includes/class-wsm-in-app-pricing.php:590
+msgctxt "benefit text"
+msgid "Most tools support only one or a handful of post types. Smart Manager gives you <strong>total control</strong> over Products, Orders, Users, Subscriptions, and 100+ WordPress and WooCommerce post types from one place."
+msgstr ""
+
+#: admin/includes/class-wsm-in-app-pricing.php:591
+msgctxt "benefit text"
+msgid "Stop paying for a stack of disconnected plugins and the operational cost of switching between them. Invest in Smart Manager Pro that <strong>pays for itself in hours saved</strong>."
+msgstr ""
+
+#: admin/includes/class-wsm-in-app-pricing.php:593
+msgctxt "cta button"
+msgid "Upgrade to Smart Manager Pro"
+msgstr ""
+
+#: admin/includes/class-wsm-in-app-pricing.php:600
+msgctxt "confidence heading"
+msgid "Buy with confidence – you're in good hands"
+msgstr ""
+
+#: admin/includes/class-wsm-in-app-pricing.php:604
+msgctxt "subheading reputation"
+msgid "You're buying from the best!"
+msgstr ""
+
+#: admin/includes/class-wsm-in-app-pricing.php:606
 msgctxt "reputation message"
 msgid "Rest assured that you will be well taken care of when you buy from StoreApps."
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:569
+#: admin/includes/class-wsm-in-app-pricing.php:608
 msgctxt "reputation bullet"
 msgid "Top selling plugins for marketing and store management"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:570
+#: admin/includes/class-wsm-in-app-pricing.php:609
 msgctxt "reputation bullet bold part"
 msgid "Official WooCommerce"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:570
+#: admin/includes/class-wsm-in-app-pricing.php:609
 msgctxt "reputation bullet"
 msgid "and GoDaddy partner"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:571
+#: admin/includes/class-wsm-in-app-pricing.php:610
 msgctxt "reputation bullet"
-msgid "Founded in 2011, one of the early Woo third-party developers"
+msgid "Founded in 2011, one of the early Woo third party developers"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:572
+#: admin/includes/class-wsm-in-app-pricing.php:611
 msgctxt "reputation bullet bold part"
-msgid "40k+ customers,"
+msgid "45k+ paid stores,"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:572
+#: admin/includes/class-wsm-in-app-pricing.php:611
 msgctxt "reputation bullet"
 msgid "300k+ users, millions of downloads"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:573
+#: admin/includes/class-wsm-in-app-pricing.php:612
 msgctxt "reputation bullet"
-msgid "Consistent 5-star review ratings"
+msgid "Consistent 5 star review ratings"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:574
-msgctxt "reputation bullet bold part"
+#: admin/includes/class-wsm-in-app-pricing.php:613
+msgctxt "reputation bullet"
 msgid "WordPress"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:574
+#: admin/includes/class-wsm-in-app-pricing.php:613
 msgctxt "reputation bullet bold part"
 msgid "community contributor"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:574
+#: admin/includes/class-wsm-in-app-pricing.php:613
 msgctxt "reputation bullet"
 msgid "sponsor, speaker."
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:578
+#: admin/includes/class-wsm-in-app-pricing.php:615
 msgctxt "image alt"
 msgid "Guaranteed Safe Checkout"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:586
+#: admin/includes/class-wsm-in-app-pricing.php:619
 msgctxt "support heading"
-msgid "Friendly support from top-quality developers"
+msgid "Friendly support from top quality developers"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:590
+#: admin/includes/class-wsm-in-app-pricing.php:621
 msgctxt "support description"
 msgid "Our plugins are easy to use. We also have ample documentation. But whenever you need further assistance, you will get support from the same people who develop these plugins! We make sure you succeed!"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:594
+#: admin/includes/class-wsm-in-app-pricing.php:622
 msgctxt "image alt"
 msgid "StoreApps team is on your side"
 msgstr ""
@@ -759,6 +990,450 @@ msgstr ""
 #: admin/views/log.php:61
 #: admin/views/log.php:95
 msgid "History"
+msgstr ""
+
+#: admin/views/stock-manager-vs-smart-manager-lite.php:14
+msgctxt "stock manager comparison page title"
+msgid "Stock Manager vs Smart Manager Lite"
+msgstr ""
+
+#: admin/views/stock-manager-vs-smart-manager-lite.php:15
+msgctxt "close comparison page title"
+msgid "Close"
+msgstr ""
+
+#: admin/views/stock-manager-vs-smart-manager-lite.php:20
+msgctxt "stock manager comparison main heading"
+msgid "Why WooCommerce Stores Choose Smart Manager Lite"
+msgstr ""
+
+#: admin/views/stock-manager-vs-smart-manager-lite.php:21
+msgctxt "stock manager comparison subtitle"
+msgid "See how our Smart Manager Lite plugin goes beyond basic stock management and helps you manage your WooCommerce store more efficiently."
+msgstr ""
+
+#: admin/views/stock-manager-vs-smart-manager-lite.php:29
+msgctxt "comparison table header"
+msgid "Features"
+msgstr ""
+
+#: admin/views/stock-manager-vs-smart-manager-lite.php:30
+msgctxt "comparison table header"
+msgid "STOCK MANAGER (FREE)"
+msgstr ""
+
+#: admin/views/stock-manager-vs-smart-manager-lite.php:31
+msgctxt "comparison table header"
+msgid "SMART MANAGER LITE (FREE)"
+msgstr ""
+
+#: admin/views/stock-manager-vs-smart-manager-lite.php:38
+msgctxt "comparison table feature"
+msgid "Interface"
+msgstr ""
+
+#: admin/views/stock-manager-vs-smart-manager-lite.php:39
+msgctxt "comparison table feature value"
+msgid "Table"
+msgstr ""
+
+#: admin/views/stock-manager-vs-smart-manager-lite.php:40
+msgctxt "comparison table feature value"
+msgid "Excel-like spreadsheet"
+msgstr ""
+
+#: admin/views/stock-manager-vs-smart-manager-lite.php:44
+msgctxt "comparison table feature"
+msgid "Best suited for"
+msgstr ""
+
+#: admin/views/stock-manager-vs-smart-manager-lite.php:45
+msgctxt "comparison table feature value"
+msgid "Stock management"
+msgstr ""
+
+#: admin/views/stock-manager-vs-smart-manager-lite.php:46
+msgctxt "comparison table feature value"
+msgid "Store management"
+msgstr ""
+
+#: admin/views/stock-manager-vs-smart-manager-lite.php:50
+msgctxt "comparison table feature"
+msgid "5-star reviews"
+msgstr ""
+
+#: admin/views/stock-manager-vs-smart-manager-lite.php:55
+msgctxt "comparison table feature"
+msgid "Years in market"
+msgstr ""
+
+#: admin/views/stock-manager-vs-smart-manager-lite.php:61
+msgctxt "comparison table category header"
+msgid "Editable Post Types"
+msgstr ""
+
+#: admin/views/stock-manager-vs-smart-manager-lite.php:65
+msgctxt "comparison table feature"
+msgid "Products & Variations"
+msgstr ""
+
+#: admin/views/stock-manager-vs-smart-manager-lite.php:66
+#: admin/views/stock-manager-vs-smart-manager-lite.php:67
+#: admin/views/stock-manager-vs-smart-manager-lite.php:73
+#: admin/views/stock-manager-vs-smart-manager-lite.php:79
+#: admin/views/stock-manager-vs-smart-manager-lite.php:85
+#: admin/views/stock-manager-vs-smart-manager-lite.php:106
+#: admin/views/stock-manager-vs-smart-manager-lite.php:107
+#: admin/views/stock-manager-vs-smart-manager-lite.php:112
+#: admin/views/stock-manager-vs-smart-manager-lite.php:113
+#: admin/views/stock-manager-vs-smart-manager-lite.php:118
+#: admin/views/stock-manager-vs-smart-manager-lite.php:119
+#: admin/views/stock-manager-vs-smart-manager-lite.php:131
+#: admin/views/stock-manager-vs-smart-manager-lite.php:137
+#: admin/views/stock-manager-vs-smart-manager-lite.php:149
+#: admin/views/stock-manager-vs-smart-manager-lite.php:155
+#: admin/views/stock-manager-vs-smart-manager-lite.php:165
+#: admin/views/stock-manager-vs-smart-manager-lite.php:171
+#: admin/views/stock-manager-vs-smart-manager-lite.php:177
+#: admin/views/stock-manager-vs-smart-manager-lite.php:203
+#: admin/views/stock-manager-vs-smart-manager-lite.php:209
+msgctxt "comparison table feature value"
+msgid "Yes"
+msgstr ""
+
+#: admin/views/stock-manager-vs-smart-manager-lite.php:71
+msgctxt "comparison table feature"
+msgid "Orders"
+msgstr ""
+
+#: admin/views/stock-manager-vs-smart-manager-lite.php:77
+msgctxt "comparison table feature"
+msgid "Coupons"
+msgstr ""
+
+#: admin/views/stock-manager-vs-smart-manager-lite.php:83
+msgctxt "comparison table feature"
+msgid "WordPress Posts"
+msgstr ""
+
+#: admin/views/stock-manager-vs-smart-manager-lite.php:89
+msgctxt "comparison table category header"
+msgid "Product Edit & Management"
+msgstr ""
+
+#: admin/views/stock-manager-vs-smart-manager-lite.php:93
+msgctxt "comparison table feature"
+msgid "Import Products"
+msgstr ""
+
+#: admin/views/stock-manager-vs-smart-manager-lite.php:94
+msgctxt "comparison table feature value"
+msgid "Only stock-specific columns"
+msgstr ""
+
+#: admin/views/stock-manager-vs-smart-manager-lite.php:95
+msgctxt "comparison table feature value"
+msgid "All product columns, including custom fields"
+msgstr ""
+
+#: admin/views/stock-manager-vs-smart-manager-lite.php:99
+msgctxt "comparison table feature"
+msgid "Export Products"
+msgstr ""
+
+#: admin/views/stock-manager-vs-smart-manager-lite.php:100
+msgctxt "comparison table feature value"
+msgid "Stock-related data"
+msgstr ""
+
+#: admin/views/stock-manager-vs-smart-manager-lite.php:101
+msgctxt "comparison table feature value"
+msgid "Full product export or filtered export"
+msgstr ""
+
+#: admin/views/stock-manager-vs-smart-manager-lite.php:105
+msgctxt "comparison table feature"
+msgid "Inline (Direct) Editing"
+msgstr ""
+
+#: admin/views/stock-manager-vs-smart-manager-lite.php:111
+msgctxt "comparison table feature"
+msgid "Product Stock Log (Product History)"
+msgstr ""
+
+#: admin/views/stock-manager-vs-smart-manager-lite.php:117
+msgctxt "comparison table feature"
+msgid "Show / Hide Admin Columns"
+msgstr ""
+
+#: admin/views/stock-manager-vs-smart-manager-lite.php:123
+msgctxt "comparison table feature"
+msgid "Product Fields Supported"
+msgstr ""
+
+#: admin/views/stock-manager-vs-smart-manager-lite.php:124
+msgctxt "comparison table feature value"
+msgid "Basic"
+msgstr ""
+
+#: admin/views/stock-manager-vs-smart-manager-lite.php:129
+msgctxt "comparison table feature"
+msgid "Custom Product Fields"
+msgstr ""
+
+#: admin/views/stock-manager-vs-smart-manager-lite.php:135
+msgctxt "comparison table feature"
+msgid "Add New Products"
+msgstr ""
+
+#: admin/views/stock-manager-vs-smart-manager-lite.php:141
+msgctxt "comparison table feature"
+msgid "Delete Products"
+msgstr ""
+
+#: admin/views/stock-manager-vs-smart-manager-lite.php:143
+msgctxt "comparison table feature value"
+msgid "Yes (Move to Trash)"
+msgstr ""
+
+#: admin/views/stock-manager-vs-smart-manager-lite.php:147
+msgctxt "comparison table feature"
+msgid "Add Featured Images & Descriptions"
+msgstr ""
+
+#: admin/views/stock-manager-vs-smart-manager-lite.php:153
+msgctxt "comparison table feature"
+msgid "Edit Categories, Tags & Attributes"
+msgstr ""
+
+#: admin/views/stock-manager-vs-smart-manager-lite.php:159
+msgctxt "comparison table category header"
+msgid "Search & Filtering"
+msgstr ""
+
+#: admin/views/stock-manager-vs-smart-manager-lite.php:163
+msgctxt "comparison table feature"
+msgid "Simple Search"
+msgstr ""
+
+#: admin/views/stock-manager-vs-smart-manager-lite.php:164
+msgctxt "comparison table feature value"
+msgid "Yes (Pre-defined)"
+msgstr ""
+
+#: admin/views/stock-manager-vs-smart-manager-lite.php:169
+msgctxt "comparison table feature"
+msgid "Advanced Search (AND, <, >, =, <=, >=, contains...)"
+msgstr ""
+
+#: admin/views/stock-manager-vs-smart-manager-lite.php:175
+msgctxt "comparison table feature"
+msgid "Date & Attribute Filters"
+msgstr ""
+
+#: admin/views/stock-manager-vs-smart-manager-lite.php:181
+msgctxt "comparison table category header"
+msgid "Order, Coupon & Post Management"
+msgstr ""
+
+#: admin/views/stock-manager-vs-smart-manager-lite.php:185
+msgctxt "comparison table feature"
+msgid "Management Features"
+msgstr ""
+
+#: admin/views/stock-manager-vs-smart-manager-lite.php:187
+msgctxt "comparison table feature value"
+msgid "Inline Edit, Delete, Export & Advanced Search Filters"
+msgstr ""
+
+#: admin/views/stock-manager-vs-smart-manager-lite.php:191
+msgctxt "comparison table feature"
+msgid "Order Automation"
+msgstr ""
+
+#: admin/views/stock-manager-vs-smart-manager-lite.php:193
+msgctxt "comparison table feature value"
+msgid "Status emails & transactional order notes"
+msgstr ""
+
+#: admin/views/stock-manager-vs-smart-manager-lite.php:197
+msgctxt "comparison table category header"
+msgid "Compatibility & Support"
+msgstr ""
+
+#: admin/views/stock-manager-vs-smart-manager-lite.php:201
+msgctxt "comparison table feature"
+msgid "Sync Stock Log from Stock Manager"
+msgstr ""
+
+#: admin/views/stock-manager-vs-smart-manager-lite.php:207
+msgctxt "comparison table feature"
+msgid "WPML Compatibility"
+msgstr ""
+
+#: admin/views/stock-manager-vs-smart-manager-lite.php:213
+msgctxt "comparison table feature"
+msgid "Languages"
+msgstr ""
+
+#: admin/views/stock-manager-vs-smart-manager-lite.php:214
+msgctxt "comparison table feature value"
+msgid "English"
+msgstr ""
+
+#: admin/views/stock-manager-vs-smart-manager-lite.php:215
+msgctxt "comparison table feature value"
+msgid "Chinese, Dutch, French, German, Italian, Japanese, Russian, Spanish and more"
+msgstr ""
+
+#: admin/views/stock-manager-vs-smart-manager-lite.php:219
+msgctxt "comparison table feature"
+msgid "Help"
+msgstr ""
+
+#: admin/views/stock-manager-vs-smart-manager-lite.php:220
+msgctxt "comparison table feature value"
+msgid "WordPress Forum"
+msgstr ""
+
+#: admin/views/stock-manager-vs-smart-manager-lite.php:221
+msgctxt "comparison table feature value"
+msgid "Email, Phone, Video Calls, WordPress Forum & Socials"
+msgstr ""
+
+#: admin/views/stock-manager-vs-smart-manager-lite.php:230
+msgctxt "comparison table button"
+msgid "Back to Stock Manager"
+msgstr ""
+
+#: admin/views/stock-manager-vs-smart-manager-lite.php:236
+msgctxt "comparison table button"
+msgid "Download Smart Manager Lite"
+msgstr ""
+
+#: admin/views/stock-manager-vs-smart-manager-lite.php:249
+msgctxt "testimonial title"
+msgid "\"Does the job of 10 plugins\""
+msgstr ""
+
+#: admin/views/stock-manager-vs-smart-manager-lite.php:250
+msgctxt "testimonial quote"
+msgid "I've been using another alternative, but it makes the site slower and needs 10 different plugins to do what Smart Manager does with one plugin. It's fast, lightweight, and lets me manage products, orders, and coupons without slowing down my site."
+msgstr ""
+
+#: admin/views/stock-manager-vs-smart-manager-lite.php:251
+msgctxt "testimonial author name"
+msgid "Nuno Palha"
+msgstr ""
+
+#: admin/views/stock-manager-vs-smart-manager-lite.php:254
+msgctxt "testimonial title"
+msgid "\"Indispensable tool\""
+msgstr ""
+
+#: admin/views/stock-manager-vs-smart-manager-lite.php:255
+msgctxt "testimonial quote"
+msgid "Smart Manager exceeded my expectations. Whether I’m searching for specific products, categories, or attributes, the advanced search and filtering options make managing products faster, more accurate, and incredibly efficient."
+msgstr ""
+
+#: admin/views/stock-manager-vs-smart-manager-lite.php:256
+msgctxt "testimonial author name"
+msgid "Mio Creative"
+msgstr ""
+
+#: admin/views/stock-manager-vs-smart-manager-lite.php:259
+msgctxt "testimonial title"
+msgid "\"Smooth editing experience\""
+msgstr ""
+
+#: admin/views/stock-manager-vs-smart-manager-lite.php:260
+msgctxt "testimonial quote"
+msgid "Wow, I’ve been looking for something like this for a long time! The lite version is such an improvement to the product editing process. Instead of waiting for dozens of pages to load to update stock and pricing, it’s all right there on one page."
+msgstr ""
+
+#: admin/views/stock-manager-vs-smart-manager-lite.php:261
+msgctxt "testimonial author name"
+msgid "Eckstein"
+msgstr ""
+
+#: admin/views/stock-manager-vs-smart-manager-lite.php:266
+msgctxt "comparison callout text"
+msgid "Choose Stock Manager if you only need quick updates to basic product stock numbers and prices."
+msgstr ""
+
+#: admin/views/stock-manager-vs-smart-manager-lite.php:267
+msgctxt "comparison callout text"
+msgid "Download Smart Manager if you want to speed up daily operations by managing orders, coupons, posts, and products all in one super-fast, reliable dashboard."
+msgstr ""
+
+#: admin/views/stock-manager-vs-smart-manager-lite.php:268
+msgctxt "comparison callout button"
+msgid "Download Smart Manager Lite →"
+msgstr ""
+
+#: admin/views/stock-manager-vs-smart-manager-lite.php:272
+msgctxt "guarantee section heading"
+msgid "Buy with confidence – you're in good hands"
+msgstr ""
+
+#: admin/views/stock-manager-vs-smart-manager-lite.php:276
+msgctxt "guarantee title"
+msgid "You're buying from the best!"
+msgstr ""
+
+#: admin/views/stock-manager-vs-smart-manager-lite.php:278
+msgctxt "guarantee description"
+msgid "Rest assured that you will be well taken care of when you buy from StoreApps."
+msgstr ""
+
+#: admin/views/stock-manager-vs-smart-manager-lite.php:280
+msgctxt "guarantee bullet point"
+msgid "Top selling plugins for marketing and store management"
+msgstr ""
+
+#: admin/views/stock-manager-vs-smart-manager-lite.php:281
+msgctxt "guarantee bullet point"
+msgid "<strong>Official WooCommerce</strong> and GoDaddy partner"
+msgstr ""
+
+#: admin/views/stock-manager-vs-smart-manager-lite.php:282
+msgctxt "guarantee bullet point"
+msgid "Founded in 2011, one of the early Woo third party developers"
+msgstr ""
+
+#: admin/views/stock-manager-vs-smart-manager-lite.php:283
+msgctxt "guarantee bullet point"
+msgid "<strong>45k+ paid stores,</strong> 300k+ users, millions of downloads"
+msgstr ""
+
+#: admin/views/stock-manager-vs-smart-manager-lite.php:284
+msgctxt "guarantee bullet point"
+msgid "Consistent 5 star review ratings"
+msgstr ""
+
+#: admin/views/stock-manager-vs-smart-manager-lite.php:285
+msgctxt "guarantee bullet point"
+msgid "WordPress <strong>community contributor</strong>, sponsor, speaker."
+msgstr ""
+
+#: admin/views/stock-manager-vs-smart-manager-lite.php:287
+msgctxt "trust badge alt text"
+msgid "Guaranteed Safe Checkout"
+msgstr ""
+
+#: admin/views/stock-manager-vs-smart-manager-lite.php:291
+msgctxt "support section title"
+msgid "Friendly support from top quality developers"
+msgstr ""
+
+#: admin/views/stock-manager-vs-smart-manager-lite.php:293
+msgctxt "support section description"
+msgid "Our plugins are easy to use. We also have ample documentation. But whenever you need further assistance, you will get support from the same people who develop these plugins! We make sure you succeed!"
+msgstr ""
+
+#: admin/views/stock-manager-vs-smart-manager-lite.php:294
+msgctxt "support section image alt text"
+msgid "StoreApps team is on your side"
 msgstr ""
 
 #: sa-includes/class-sa-wsm-in-app-offer.php:124

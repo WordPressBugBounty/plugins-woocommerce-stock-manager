@@ -103,6 +103,9 @@ class Stock_Manager_Admin {
 				wp_enqueue_style( 'woocommerce-stock-manager-old-styles', plugins_url( 'assets/css/old.css', __FILE__ ), array(), WSM_PLUGIN_VERSION );
 			}
 		}
+		if ( 'stock-manager-pricing' === $this->page || 'stock-manager-vs-smart-manager-lite' === $this->page ) {
+			wp_enqueue_style( 'wsm-in-app-pricing-style', plugins_url( 'assets/css/in-app-pricing.css', __FILE__ ), array(), WSM_PLUGIN_VERSION );
+		}
 	}
 
 	/**
@@ -124,6 +127,14 @@ class Stock_Manager_Admin {
 						'root'              => esc_url_raw( rest_url() ),
 						'adminUrl'          => admin_url(),
 						'nonce'             => wp_create_nonce( 'wp_rest' ),
+						/**
+						 * Filters the default number of items displayed per page in Stock Manager.
+						 *
+						 * @since 1.0.0
+						 *
+						 * @param int $per_page Default number of items per page.
+						 * @return int Modified number of items per page.
+						 */
 						'perPage'           => apply_filters( 'woocommerce_stock_manager_per_page', 50 ),
 						'lowStockThreshold' => $low_stock_threshold,
 					),
@@ -189,6 +200,12 @@ class Stock_Manager_Admin {
 				wp_enqueue_script( 'woocommerce-stock-manager-admin-script-w', plugins_url( 'assets/js/subscribe.js', __FILE__ ), array( 'jquery' ), WSM_PLUGIN_VERSION, true );
 
 			}
+		}
+
+		if ( 'stock-manager-vs-smart-manager-lite' === $this->page ) {
+			add_thickbox();
+			wp_enqueue_script( 'plugin-install' );
+			wp_enqueue_script( 'updates' );
 		}
 	}
 
@@ -262,7 +279,14 @@ class Stock_Manager_Admin {
 	public function add_plugin_admin_menu() {
 
 		$value = 'manage_woocommerce';
-
+		/**
+		 * Filters whether the Stock Manager functionality is enabled.
+		 *
+		 * @since 1.0.0
+		 *
+		 * @param bool $value Whether Stock Manager is enabled.
+		 * @return bool Modified value.
+		 */
 		$manage = apply_filters( 'stock_manager_manage', $value );
 
 		$position = (string) $this->get_free_menu_position( 58.00001 );
@@ -321,6 +345,15 @@ class Stock_Manager_Admin {
 			$manage,
 			'stock-manager-storeapps-plugins',
 			array( $this, 'display_sa_marketplace_page' )
+		);
+		// Hidden admin page (without icon in the admin sidebar menu).
+		add_submenu_page(
+			null,
+			_x( 'Stock Manager vs Smart Manager Lite', 'Stock Manager vs Smart Manager Lite page', 'woocommerce-stock-manager' ),
+			_x( 'Stock Manager vs Smart Manager Lite', 'Stock Manager vs Smart Manager Lite page', 'woocommerce-stock-manager' ),
+			'manage_options',
+			'stock-manager-vs-smart-manager-lite',
+			array( $this, 'render_stock_manager_vs_smart_manager_lite_page' )
 		);
 	}
 
@@ -539,67 +572,68 @@ class Stock_Manager_Admin {
 		}
 		?>
 		<style type="text/css">
-			.wsm_in_app_pricing_notice {
-				width: 50%;
-				background-color: rgb(204 251 241 / 82%) !important;
-				margin-top: 1em !important;
-				margin-bottom: 1em !important;
-				padding: 1em;
-				box-shadow: 0 0 7px 0 rgba(0, 0, 0, .2);
-				font-size: 1.1em;
-				margin: 0 auto;
-				text-align: center;
-				border-bottom-right-radius: 0.25rem;
-				border-bottom-left-radius: 0.25rem;
-				border-top: 4px solid #508991 !important;
+			.wsm_design_notice {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				justify-content: center;
+				background-color: #e0e7ff  !important;
+				border: 1px solid #c7d2fe !important;
+				border-radius: 0.75rem !important;
+				padding: 0.9375rem 0.625rem !important;
+				padding-right: 1.5rem !important;
+				margin: 1.25rem auto !important;
+				max-width: 60rem !important;
+				box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05) !important;
+				box-sizing: border-box !important;
+				font-family: Inter, sans-serif;
+			}
+			.wsm_design_notice .wsm_content {
+				text-align: center !important;
+				margin-bottom: 1rem !important;
+				padding: 0 !important;
 			}
 			.wsm_main_headline {
-				font-size: 1.7em;
-				color: rgb(55 65 81);
-				opacity: 0.9;
-			}
-			.wsm_main_headline .dashicons.dashicons-awards {
-				font-size: 3em;
-				color: #508991;
-				width: unset;
-				line-height: 3rem;
-				margin-right: 0.1em;
+				font-size: 1.25rem;
+				color: #1f2937;
+				margin: 0 0 0.25rem 0;
 			}
 			.wsm_sub_headline {
-				font-size: 1.2em;
-				color: rgb(55 65 81);
-				line-height: 1.3em;
-				opacity: 0.8;
+				font-size: 1rem;
+				color: #6b7280;
+				margin: 0;
+			}
+			.wsm_cta_container {
+				width: 100% !important;
+				text-align: center !important;
+				padding: 0 !important;
+			}
+			.wsm_cta_btn {
+				display: inline-block;
+				background-color: #4f46e5;
+				color: #ffffff !important;
+				padding: 0.5rem 1rem;
+				border-radius: 0.5rem;
+				font-size: 0.875rem;
+				font-weight: 500;
+				text-decoration: none;
+				white-space: nowrap;
 			}
 		</style>
-		<div class="wsm_in_app_pricing_notice">
-			<div class="wsm_container">
-				<div class="wsm_main_headline">
-					<span class="dashicons dashicons-awards"></span>
-					<span>
-						<?php
-						echo wp_kses_post(
-							sprintf(// translators: %s: discount string.
-								_x( 'Our best-seller Smart Manager Pro – up to <strong style="font-size:1.75rem;">%s</strong>', 'upgrade notice', 'woocommerce-stock-manager' ),
-								esc_html( '60% off!' )
-							)
-						);
-						?>
-					</span>
-				</div>
-				<div class="wsm_sub_headline" style="margin: 0.75rem 0 0 .5em !important;">
-					<?php
-					echo wp_kses_post(
-						sprintf(// translators: %s: pricing page link.
-							_x( 'Get <strong>all Stock Manager features + Bulk Edit</strong> + more. %s.', 'upgrade notice', 'woocommerce-stock-manager' ),
-							'<a style="color: rgb(55 65 81);" href="' . esc_url( admin_url( 'admin.php?page=stock-manager-pricing' ) ) . '" target="_blank">' .
-							esc_html_x( 'Click here', 'upgrade notice', 'woocommerce-stock-manager' ) . '</a>'
-						)
-					);
-					?>
-				</div>
+		<div class="wsm_design_notice flex flex-wrap items-center">
+			<div class="text-center wsm_content flex-1 px-4 py-4">
+				<p class="wsm_main_headline"><?php echo esc_html_x( '🎉 Smart Manager Lite - Our Advanced Store Management Plugin (Free)', 'comparison table header', 'woocommerce-stock-manager' ); ?></p>
+				<p class="wsm_sub_headline">
+					<?php echo esc_html_x( 'Get a spreadsheet-style dashboard to effortlessly manage products, orders, coupons, and your entire store.', 'comparison table header', 'woocommerce-stock-manager' ); ?>
+				</p>
+			</div>
+			<div class="pb-4 wsm_cta_container w-full text-center">
+				<a class="wsm_cta_btn" href="<?php echo esc_url( admin_url( 'admin.php?page=stock-manager-vs-smart-manager-lite' ) ); ?>">
+					<?php echo esc_html_x( 'Compare Smart Manager vs Stock Manager', 'comparison table header', 'woocommerce-stock-manager' ); ?>
+				</a>
 			</div>
 		</div>
+
 		<?php
 	}
 
@@ -621,5 +655,25 @@ class Stock_Manager_Admin {
 			}
 		</style>
 		<?php
+	}
+	/**
+	 * Render hidden admin page comparing Stock Manager vs Smart Manager Lite.
+	 */
+	public function render_stock_manager_vs_smart_manager_lite_page() {
+		if ( ! current_user_can( 'manage_options' ) ) {
+			echo esc_html_x( 'You do not have sufficient permissions to access this page.', 'error message', 'woocommerce-stock-manager' );
+		}
+		$template_path = defined( 'STOCKDIR' ) ? STOCKDIR . 'admin/views/stock-manager-vs-smart-manager-lite.php' : '';
+		$iframe_url    = add_query_arg(
+			array(
+				'tab'       => 'plugin-information',
+				'plugin'    => 'smart-manager-for-wp-e-commerce',
+				'TB_iframe' => 'true',
+			),
+			admin_url( 'plugin-install.php' ) // use network_admin_url() if this runs in wp-admin/network.
+		);
+		if ( ! empty( $template_path ) && file_exists( $template_path ) ) {
+			include $template_path;
+		}
 	}
 }//end class

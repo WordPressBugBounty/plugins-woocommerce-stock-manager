@@ -2,10 +2,8 @@
 /**
  * StoreApps In app offer
  *
- * @category    Class
- * @author      StoreApps
- * @package     StoreApps
- * @version     1.1.2
+ * @package    SA_WSM_In_App_Offer
+ * @version    1.1.2
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
