@@ -2,14 +2,14 @@
 # This file is distributed under the GNU General Public License v2.0.
 msgid ""
 msgstr ""
-"Project-Id-Version: Stock Manager for WooCommerce 3.9.0\n"
+"Project-Id-Version: Stock Manager for WooCommerce 3.10.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/woocommerce-stock-manager\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-07-24T06:46:40+00:00\n"
+"POT-Creation-Date: 2026-09-05T06:20:08+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.10.0\n"
 "X-Domain: woocommerce-stock-manager\n"
@@ -34,103 +34,103 @@ msgstr ""
 msgid "https://www.storeapps.org/"
 msgstr ""
 
-#: admin/class-stock-manager-admin.php:149
+#: admin/class-stock-manager-admin.php:157
 msgid "No shipping class"
 msgstr ""
 
-#: admin/class-stock-manager-admin.php:166
+#: admin/class-stock-manager-admin.php:174
 msgid "Taxable"
 msgstr ""
 
-#: admin/class-stock-manager-admin.php:167
+#: admin/class-stock-manager-admin.php:175
 msgid "Shipping only"
 msgstr ""
 
-#: admin/class-stock-manager-admin.php:168
+#: admin/class-stock-manager-admin.php:176
 msgctxt "Tax status"
 msgid "None"
 msgstr ""
 
-#: admin/class-stock-manager-admin.php:171
+#: admin/class-stock-manager-admin.php:179
 msgid "No"
 msgstr ""
 
-#: admin/class-stock-manager-admin.php:172
+#: admin/class-stock-manager-admin.php:180
 msgid "Notify"
 msgstr ""
 
-#: admin/class-stock-manager-admin.php:173
+#: admin/class-stock-manager-admin.php:181
 msgid "Yes"
 msgstr ""
 
-#: admin/class-stock-manager-admin.php:210
-#: admin/class-stock-manager-admin.php:280
-#: admin/class-stock-manager-admin.php:281
+#: admin/class-stock-manager-admin.php:218
+#: admin/class-stock-manager-admin.php:295
+#: admin/class-stock-manager-admin.php:296
 msgid "Stock Manager"
 msgstr ""
 
-#: admin/class-stock-manager-admin.php:215
+#: admin/class-stock-manager-admin.php:223
 msgctxt "product meta box"
 msgid "Stock log"
 msgstr ""
 
-#: admin/class-stock-manager-admin.php:238
+#: admin/class-stock-manager-admin.php:246
 msgctxt "product list"
 msgid "Stock log"
 msgstr ""
 
-#: admin/class-stock-manager-admin.php:304
-#: admin/class-stock-manager-admin.php:305
+#: admin/class-stock-manager-admin.php:319
+#: admin/class-stock-manager-admin.php:320
 msgid "Import/Export"
 msgstr ""
 
-#: admin/class-stock-manager-admin.php:312
-#: admin/class-stock-manager-admin.php:313
+#: admin/class-stock-manager-admin.php:327
+#: admin/class-stock-manager-admin.php:328
 msgid "Stock log"
 msgstr ""
 
-#: admin/class-stock-manager-admin.php:320
-#: admin/class-stock-manager-admin.php:321
+#: admin/class-stock-manager-admin.php:335
+#: admin/class-stock-manager-admin.php:336
 msgid "<span class=\"wsm_pricing_icon\"> 🔥 </span> Go Pro"
 msgstr ""
 
-#: admin/class-stock-manager-admin.php:328
-#: admin/class-stock-manager-admin.php:329
+#: admin/class-stock-manager-admin.php:343
+#: admin/class-stock-manager-admin.php:344
 msgid "StoreApps Plugins"
 msgstr ""
 
-#: admin/class-stock-manager-admin.php:336
-#: admin/class-stock-manager-admin.php:337
+#: admin/class-stock-manager-admin.php:352
+#: admin/class-stock-manager-admin.php:353
 msgctxt "Stock Manager vs Smart Manager Lite page"
 msgid "Stock Manager vs Smart Manager Lite"
 msgstr ""
 
 #. translators: %1$s & %2$s: Opening & closing strong tag. %3$s: link to Stock Manager for WooCommerce on WordPress.org
-#: admin/class-stock-manager-admin.php:478
+#: admin/class-stock-manager-admin.php:494
 msgid "If you are liking %1$sStock Manager for WooCommerce%2$s, please rate us %3$s. A huge thanks from StoreApps in advance!"
 msgstr ""
 
-#: admin/class-stock-manager-admin.php:528
+#: admin/class-stock-manager-admin.php:544
 msgctxt "default display name"
 msgid "there"
 msgstr ""
 
-#: admin/class-stock-manager-admin.php:609
+#: admin/class-stock-manager-admin.php:625
 msgctxt "comparison table header"
 msgid "🎉 Smart Manager Lite - Our Advanced Store Management Plugin (Free)"
 msgstr ""
 
-#: admin/class-stock-manager-admin.php:611
+#: admin/class-stock-manager-admin.php:627
 msgctxt "comparison table header"
 msgid "Get a spreadsheet-style dashboard to effortlessly manage products, orders, coupons, and your entire store."
 msgstr ""
 
-#: admin/class-stock-manager-admin.php:616
+#: admin/class-stock-manager-admin.php:632
 msgctxt "comparison table header"
 msgid "Compare Smart Manager vs Stock Manager"
 msgstr ""
 
-#: admin/class-stock-manager-admin.php:648
+#: admin/class-stock-manager-admin.php:664
 msgctxt "error message"
 msgid "You do not have sufficient permissions to access this page."
 msgstr ""
@@ -1173,7 +1173,7 @@ msgstr ""
 
 #: admin/views/stock-manager-vs-smart-manager-lite.php:124
 msgctxt "comparison table feature value"
-msgid "Basic"
+msgid "12"
 msgstr ""
 
 #: admin/views/stock-manager-vs-smart-manager-lite.php:129
@@ -1436,16 +1436,16 @@ msgctxt "support section image alt text"
 msgid "StoreApps team is on your side"
 msgstr ""
 
-#: sa-includes/class-sa-wsm-in-app-offer.php:124
+#: sa-includes/class-sa-wsm-in-app-offer.php:122
 msgctxt "timezone date format"
 msgid "Y-m-d H:i:s"
 msgstr ""
 
-#: sa-includes/class-sa-wsm-in-app-offer.php:221
+#: sa-includes/class-sa-wsm-in-app-offer.php:219
 msgid "Dismiss"
 msgstr ""
 
-#: sa-includes/class-sa-wsm-in-app-offer.php:221
+#: sa-includes/class-sa-wsm-in-app-offer.php:219
 msgid "Hide this"
 msgstr ""
 

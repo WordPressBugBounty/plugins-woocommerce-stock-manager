@@ -5,9 +5,9 @@ Author URI: https://www.storeapps.org/woocommerce-plugins/?utm_source=wprepo&utm
 Plugin URI: https://www.storeapps.org/woocommerce-plugins/?utm_source=wprepo&utm_medium=web&utm_campaign=wsm_readme
 Tags: woocommerce stock management, woocommerce stock manager, woocommerce product stock manager, woocommerce stock management free, woocommerce inventory management
 Requires at least: 5.0
-Tested up to: 7.0
+Tested up to: 7.1
 Requires PHP: 7.0
-Stable tag: 3.9.0
+Stable tag: 3.10.0
 License: GPLv2
 
 WooCommerce stock management plugin to manage and edit product stock and their variables from a single dashboard. Stock log, import/export, filters!
@@ -155,6 +155,12 @@ Please report security bugs found in the source code of the Stock Manager for Wo
 4. Product stock as on date
 
 == Changelog ==
+
+= 3.10.0 (05.09.2026) =
+* New: WordPress 7.1 compatible
+* New: WooCommerce 11.1.0 compatible
+* Fix: PHP 8.4 Deprecated warning for fgetcsv() causing CSV import to fail with 502 Bad Gateway error
+* Update: POT file
 
 = 3.9.0 (24.07.2026) =
 * New: WordPress 7.0.2 compatible
@@ -370,6 +376,9 @@ Please report security bugs found in the source code of the Stock Manager for Wo
 For the changelog of earlier versions, please refer to the separate [changelog.txt](https://plugins.svn.wordpress.org/woocommerce-stock-manager/trunk/changelog.txt) file.
 
 == Upgrade Notice ==
+
+= 3.10.0 =
+WordPress 7.1 compatible, WooCommerce 11.1.0 compatible, Fixes related to PHP 8.4 Deprecated warning for fgetcsv() causing CSV import to fail with 502 Bad Gateway error. Recommended upgrade.
 
 = 3.9.0 =
 WordPress 7.0.2 compatible, WooCommerce 10.9.4 compatible. Recommended upgrade.

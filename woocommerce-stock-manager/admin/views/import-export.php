@@ -3,7 +3,7 @@
  * Import & Export product data
  *
  * @package   woocommerce-stock-manager/admin/views/
- * @version   3.1.1
+ * @version   3.1.2
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
@@ -188,7 +188,7 @@ function stock_auto_utf( $s ) {
 								if ( false !== $handle ) {
 
 									// assigning to $data to not consider first row of CSV file.
-									while ( ( $data = fgetcsv( $handle, 1000, ',' ) ) !== false ) { // phpcs:ignore
+									while ( ( $data = fgetcsv( $handle, 1000, ',', '"', '\\' ) ) !== false ) { // phpcs:ignore
 										$num = count( $data );
 
 										$product_id   = stock_auto_utf( $data[0] );
