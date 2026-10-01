@@ -2,14 +2,14 @@
 # This file is distributed under the GNU General Public License v2.0.
 msgid ""
 msgstr ""
-"Project-Id-Version: Stock Manager for WooCommerce 3.10.0\n"
+"Project-Id-Version: Stock Manager for WooCommerce 3.11.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/woocommerce-stock-manager\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-09-05T06:20:08+00:00\n"
+"POT-Creation-Date: 2026-10-01T04:25:58+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.10.0\n"
 "X-Domain: woocommerce-stock-manager\n"
@@ -96,7 +96,7 @@ msgstr ""
 
 #: admin/class-stock-manager-admin.php:343
 #: admin/class-stock-manager-admin.php:344
-msgid "StoreApps Plugins"
+msgid "StoreApps Marketplace"
 msgstr ""
 
 #: admin/class-stock-manager-admin.php:352
@@ -105,32 +105,47 @@ msgctxt "Stock Manager vs Smart Manager Lite page"
 msgid "Stock Manager vs Smart Manager Lite"
 msgstr ""
 
+#: admin/class-stock-manager-admin.php:506
+msgctxt "subscription notice headline"
+msgid "No Fluff. Just proven tips to drive real productivity."
+msgstr ""
+
+#: admin/class-stock-manager-admin.php:510
+msgctxt "subscription email placeholder"
+msgid "Enter your email"
+msgstr ""
+
+#: admin/class-stock-manager-admin.php:514
+msgctxt "subscription submit button"
+msgid "Unlock Store Hacks"
+msgstr ""
+
 #. translators: %1$s & %2$s: Opening & closing strong tag. %3$s: link to Stock Manager for WooCommerce on WordPress.org
-#: admin/class-stock-manager-admin.php:494
+#: admin/class-stock-manager-admin.php:533
 msgid "If you are liking %1$sStock Manager for WooCommerce%2$s, please rate us %3$s. A huge thanks from StoreApps in advance!"
 msgstr ""
 
-#: admin/class-stock-manager-admin.php:544
+#: admin/class-stock-manager-admin.php:583
 msgctxt "default display name"
 msgid "there"
 msgstr ""
 
-#: admin/class-stock-manager-admin.php:625
+#: admin/class-stock-manager-admin.php:676
 msgctxt "comparison table header"
 msgid "🎉 Smart Manager Lite - Our Advanced Store Management Plugin (Free)"
 msgstr ""
 
-#: admin/class-stock-manager-admin.php:627
+#: admin/class-stock-manager-admin.php:678
 msgctxt "comparison table header"
 msgid "Get a spreadsheet-style dashboard to effortlessly manage products, orders, coupons, and your entire store."
 msgstr ""
 
-#: admin/class-stock-manager-admin.php:632
+#: admin/class-stock-manager-admin.php:683
 msgctxt "comparison table header"
 msgid "Compare Smart Manager vs Stock Manager"
 msgstr ""
 
-#: admin/class-stock-manager-admin.php:664
+#: admin/class-stock-manager-admin.php:714
 msgctxt "error message"
 msgid "You do not have sufficient permissions to access this page."
 msgstr ""

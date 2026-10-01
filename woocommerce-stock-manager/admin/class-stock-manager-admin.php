@@ -3,7 +3,7 @@
  * Main class for Stock Manager.
  *
  * @package  woocommerce-stock-manager/admin/
- * @version  3.4.0
+ * @version  3.5.0
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
@@ -340,8 +340,8 @@ class Stock_Manager_Admin {
 		);
 		add_submenu_page(
 			'stock-manager',
-			__( 'StoreApps Plugins', 'woocommerce-stock-manager' ),
-			__( 'StoreApps Plugins', 'woocommerce-stock-manager' ),
+			__( 'StoreApps Marketplace', 'woocommerce-stock-manager' ),
+			__( 'StoreApps Marketplace', 'woocommerce-stock-manager' ),
 			$manage,
 			'stock-manager-storeapps-plugins',
 			array( $this, 'display_sa_marketplace_page' )
@@ -393,88 +393,127 @@ class Stock_Manager_Admin {
 	/**
 	 * Function to show notice in the admin.
 	 */
-	public function wsm_add_subscribe_notice() {
+	public static function display_subscribe_notice() {
 		$wsm_dismiss_admin_notice = get_option( 'wsm_dismiss_subscribe_admin_notice', false );
 
 		if ( empty( $wsm_dismiss_admin_notice ) ) {
 			?>
 			<style type="text/css" class="wsm-subscribe">
-				#wsm_promo_msg {
-					display: block !important;
-					background-color: #f2f6fc;
-					border-left-color: #5850ec;
+				.wsm_subscribe_banner {
+					display: flex;
+					align-items: center !important;
+					justify-content: space-between !important;
+					background-color: #e0e7ff  !important;
+					border: 0.0625rem solid #c7d2fe !important;
+					border-radius: 0.375rem !important;
+					padding: 0.75rem 1.25rem !important;
+					margin: auto !important;
+					box-sizing: border-box !important;
+					max-width: 60rem !important;
+					font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif !important;
 				}
-				#wsm_promo_msg table {
-					width: 100%;
-					padding-bottom: 0.25em;
+				.wsm_subscribe_left {
+					display: flex !important;
+					align-items: center !important;
+					gap: 0.75rem !important;
 				}
-				#wsm_dashicon {
-					padding: 0.5em;
-					width: 3%;
+				.wsm_subscribe_icon {
+					display: inline-flex !important;
+					align-items: center !important;
+					justify-content: center !important;
+					color: #5850ec !important;
+				}
+				.wsm_subscribe_icon svg {
+					width: 1.25rem !important;
+					height: 1.25rem !important;
+					stroke: #5850ec !important;
+				}
+				.wsm_subscribe_title {
+					font-size: 0.875rem !important;
+					font-weight: 500 !important;
+					color: #1f2937 !important;
+					margin: 0 !important;
 				}
 				#wsm_promo_msg_content {
-					padding: 0.5em;
-				}
-				#wsm_promo_msg .dashicons.dashicons-awards {
-					font-size: 5em;
-					color: #b08d57;
-					margin-left: -0.2em;
-					margin-bottom: 0.65em;
-				}
-				.wsm_headline {
-					padding: 0.5em 0;
-					font-size: 1.4em;
+					display: flex !important;
+					align-items: center !important;
 				}
 				form.wsm_klawoo_subscribe {
-					padding: 0.5em 0;
-					margin-block-end: 0 !important;
-					font-size: 1.1em;
+					display: flex !important;
+					align-items: center !important;
+					gap: 0.625rem !important;
+					margin: 0 !important;
+					padding: 0 !important;
 				}
 				form.wsm_klawoo_subscribe #email {
-					width: 14em;
-					height: 1.75em;
+					background: #ffffff !important;
+					border: 0.0625rem solid #c7d2fe !important;
+					border-radius: 0.375rem !important;
+					padding: 0.375rem 0.875rem !important;
+					font-size: 0.875rem !important;
+					color: #1f2937 !important;
+					width: 15rem !important;
+					height: 2.25rem !important;
+					box-sizing: border-box !important;
+					box-shadow: none !important;
+					outline: none !important;
+					margin: 0 !important;
 				}
-				form.wsm_klawoo_subscribe #wsm_gdpr_agree {
-					margin-left: 0.5em;
-					vertical-align: sub;
+				form.wsm_klawoo_subscribe #email::placeholder {
+					color: #9ca3af !important;
+					opacity: 1 !important;
 				}
-				form.wsm_klawoo_subscribe .wsm_gdpr_label {
-					margin-right: 0.5em;
+				form.wsm_klawoo_subscribe #email:focus {
+					border-color: #5850ec !important;
+					box-shadow: 0 0 0 0.0625rem #5850ec !important;
 				}
 				form.wsm_klawoo_subscribe #wsm_submit {
-					font-size: 1.3em;
-					line-height: 0em;
-					margin-top: 0;
-					font-weight: bold;
-					background: #5850ec;
-					border-color: #5850ec;
+					background: #4f46e5 !important;
+					color: #ffffff !important;
+					border-radius: 0.375rem !important;
+					line-height: 1 !important;
+					padding: 0 1rem 0.125rem 1rem !important;
+					font-size: 0.875rem !important;
+					font-weight: 500 !important;
+					cursor: pointer !important;
+					box-shadow: none !important;
+					text-shadow: none !important;
+					margin: 0 !important;
+					display: inline-flex !important;
+					align-items: center !important;
+					justify-content: center !important;
+					transition: background-color 0.15s ease-in-out !important;
+				}
+				form.wsm_klawoo_subscribe #wsm_submit:disabled {
+					opacity: 0.6 !important;
+					cursor: not-allowed !important;
 				}
 				.wsm_success {
-					font-size: 1.5em;
-					font-weight: bold;
+					font-size: 0.875rem !important;
+					font-weight: 500 !important;
+					color: #047857 !important;
+					margin: 0 !important;
 				}
 			</style>
-			<div id="wsm_promo_msg" class="updated fade">
-				<table>
-					<tbody> 
-						<tr>
-							<td id="wsm_dashicon"> 
-								<span class="dashicons dashicons-awards"></span>
-							</td> 
-							<td id="wsm_promo_msg_content">
-								<div class="wsm_headline">Get latest hacks & tips to better manage your store using Stock Manager for WooCommerce!</div>
-								<form name="wsm_klawoo_subscribe" class="wsm_klawoo_subscribe" action="#" method="POST" accept-charset="utf-8">									
-									<input type="email" class="regular-text ltr" name="email" id="email" placeholder="Your email address" required="required" />
-									<input type="checkbox" name="wsm_gdpr_agree" id="wsm_gdpr_agree" value="1" required="required" />
-									<label for="wsm_gdpr_agree" class="wsm_gdpr_label">I have read and agreed to your <a href="https://www.storeapps.org/privacy-policy/?utm_source=wsm&utm_medium=in_app_subscribe&utm_campaign=in_app_subscribe" target="_blank">Privacy Policy</a>.</label>
-									<input type="hidden" name="list" value="3pFQTnTsH763gAKTuvOGhPzA"/>
-									<?php wp_nonce_field( 'sa-wsm-subscribe', 'sa_wsm_sub_nonce' ); ?>
-									<input type="submit" name="submit" id="wsm_submit" class="button button-primary" value="Subscribe" />
-								</form>
-							</td>
-							</tr>
-					</tbody> 
-				</table> 
+			<div id="wsm_promo_msg" class="wsm_subscribe_banner">
+				<div class="wsm_subscribe_left">
+					<span class="wsm_subscribe_icon">
+						<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+							<path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+							<polyline points="22,6 12,13 2,6"></polyline>
+						</svg>
+					</span>
+					<span class="wsm_subscribe_title"><?php echo esc_html_x( 'No Fluff. Just proven tips to drive real productivity.', 'subscription notice headline', 'woocommerce-stock-manager' ); ?></span>
+				</div>
+				<div id="wsm_promo_msg_content">
+					<form name="wsm_klawoo_subscribe" class="wsm_klawoo_subscribe" action="#" method="POST" accept-charset="utf-8">
+						<input type="email" class="regular-text ltr" name="email" id="email" placeholder="<?php echo esc_attr_x( 'Enter your email', 'subscription email placeholder', 'woocommerce-stock-manager' ); ?>" required="required" />
+						<input type="hidden" name="wsm_gdpr_agree" value="1" />
+						<input type="hidden" name="list" value="3pFQTnTsH763gAKTuvOGhPzA"/>
+						<?php wp_nonce_field( 'sa-wsm-subscribe', 'sa_wsm_sub_nonce' ); ?>
+						<input type="submit" name="submit" id="wsm_submit" class="button button-primary" value="<?php echo esc_attr_x( 'Unlock Store Hacks', 'subscription submit button', 'woocommerce-stock-manager' ); ?>" />
+					</form>
+				</div>
 			</div>
 			<?php
 		}
@@ -554,6 +593,18 @@ class Stock_Manager_Admin {
 	 * Function to handle admin notices.
 	 */
 	public static function add_admin_notices() {
+		if ( is_callable( array( __CLASS__, 'display_pricing_notice' ) ) ) {
+			self::display_pricing_notice();
+		}
+		if ( is_callable( array( __CLASS__, 'display_subscribe_notice' ) ) ) {
+			self::display_subscribe_notice();
+		}
+	}
+
+	/**
+	 * Function to display pricing notice.
+	 */
+	public static function display_pricing_notice() {
 		if ( ( defined( 'SA_WSM_OFFER_VISIBLE' ) && SA_WSM_OFFER_VISIBLE === true ) && ( 'yes' === get_option( 'sa_wsm_offer_bfcm_2025', 'yes' ) ) ) {
 			$in_app_offer_instance = ( class_exists( 'Stock_Manager' ) ) ? Stock_Manager::$in_app_offer_instance : null;
 			if ( ! empty( $in_app_offer_instance ) && ( is_callable( array( $in_app_offer_instance, 'is_show' ) ) ) && ( ! empty( $in_app_offer_instance->is_show() ) ) && ( is_callable( array( $in_app_offer_instance, 'show_offer_content' ) ) ) ) {
@@ -633,7 +684,6 @@ class Stock_Manager_Admin {
 				</a>
 			</div>
 		</div>
-
 		<?php
 	}
 
