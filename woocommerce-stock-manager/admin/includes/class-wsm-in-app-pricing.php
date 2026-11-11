@@ -532,12 +532,12 @@ class WSM_In_App_Pricing {
 				</div>
 			</section>
 
-			<!-- Time Comparison Section -->
+			<!-- Cost Savings Section -->
 			<section class="mt-12 max-w-screen-xl px-4 mx-auto sm:px-6 lg:px-8">
 				<div class="lg:text-center">
-					<p class="text-base font-semibold leading-6 tracking-wide text-indigo-600 uppercase"><?php echo esc_html( _x( 'Scale your output, not your hours', 'section subheading', 'woocommerce-stock-manager' ) ); ?></p>
-					<h2 class="mt-2 text-3xl font-extrabold leading-8 tracking-tight text-gray-900 sm:text-4xl sm:leading-10"><?php echo esc_html( _x( 'Accomplish 60 hours of work in 6 minutes', 'section heading', 'woocommerce-stock-manager' ) ); ?></h2>
-					<p class="max-w-3xl mt-4 text-xl leading-7 text-gray-500 lg:mx-auto"><?php echo wp_kses_post( _x( 'Stop opening each product to edit price, stock, category, description, and other data. <strong>Switch to Smart Manager Pro and spend your time wisely.</strong> Say goodbye to frustration, stress, and calculation errors that keep piling up.', 'section description', 'woocommerce-stock-manager' ) ); ?></p>
+					<p class="text-base font-semibold leading-6 tracking-wide text-indigo-600 uppercase"><?php echo esc_html( _x( 'One plugin, every data type', 'cost savings section', 'woocommerce-stock-manager' ) ); ?></p>
+					<h2 class="mt-2 text-3xl font-extrabold leading-8 tracking-tight text-gray-900 sm:text-4xl sm:leading-10"><?php echo esc_html( _x( 'Replace $364 of plugins with one plugin', 'cost savings section', 'woocommerce-stock-manager' ) ); ?></h2>
+					<p class="max-w-3xl mt-4 text-xl leading-7 text-gray-500 lg:mx-auto"><?php echo esc_html( _x( 'Bulk edit products, orders, coupons, users, subscriptions, and 100+ other post types from one place with Smart Manager Pro.', 'cost savings section', 'woocommerce-stock-manager' ) ); ?></p>
 				</div>
 				<div class="text-center pt-2 mx-auto lg:pt-2 max-w-4xl">
 					<div class="py-2 align-center sm:px-6 lg:px-8">
@@ -545,41 +545,51 @@ class WSM_In_App_Pricing {
 							<table class="bg-gray-50 md:min-w-full divide-y divide-gray-200">
 								<thead>
 									<tr>
-										<th class="text-base border-gray-200"><?php echo esc_html( _x( 'Mundane store tasks', 'table header', 'woocommerce-stock-manager' ) ); ?></th>
-										<th class="text-base border-l border-gray-200 p-1"><?php echo esc_html( _x( 'Without using Smart Manager Pro', 'table header', 'woocommerce-stock-manager' ) ); ?></th>
-										<th class="text-base border-l border-gray-200 px-3 py-3 xl:px-4 text-center"><?php echo esc_html( _x( 'Using Smart Manager Pro', 'table header', 'woocommerce-stock-manager' ) ); ?></th>
+										<th class="text-base border-gray-200"><?php echo esc_html( _x( 'Manage and bulk edit', 'cost savings table', 'woocommerce-stock-manager' ) ); ?></th>
+										<th class="text-base border-l border-gray-200 p-1"><?php echo esc_html( _x( 'Typical separate plugin (avg. price)', 'cost savings table', 'woocommerce-stock-manager' ) ); ?></th>
+										<th class="text-base border-l border-gray-200 px-3 py-3 xl:px-4 text-center"><?php echo esc_html( _x( 'Using Smart Manager Pro', 'cost savings table', 'woocommerce-stock-manager' ) ); ?></th>
 									</tr>
 								</thead>
 								<tbody class="bg-gray-50 leading-5 text-gray-700 divide-y divide-gray-200">
 									<tr>
-										<td class="px-3 py-4 xl:px-6"><?php echo esc_html( _x( 'Add one new product or edit details', 'task row', 'woocommerce-stock-manager' ) ); ?></td>
-										<td class="px-3 py-4 xl:px-6 border-l border-gray-200"><?php echo esc_html( _x( '3 mins', 'time value', 'woocommerce-stock-manager' ) ); ?></td>
-										<td class="px-3 py-4 xl:px-6 border-l border-gray-200"><?php echo esc_html( _x( '30 seconds (Inline edit)', 'time value', 'woocommerce-stock-manager' ) ); ?></td>
+										<td class="px-3 py-4 xl:px-6"><?php echo esc_html( _x( 'Products', 'cost savings table', 'woocommerce-stock-manager' ) ); ?></td>
+										<td class="px-3 py-4 xl:px-6 border-l border-gray-200"><?php echo esc_html( _x( '$79', 'cost savings table', 'woocommerce-stock-manager' ) ); ?></td>
+										<td class="px-3 py-4 xl:px-6 border-l border-gray-200"><?php echo esc_html( _x( 'Included', 'cost savings table', 'woocommerce-stock-manager' ) ); ?></td>
 									</tr>
 									<tr>
-										<td class="px-3 py-4 xl:px-6"><?php echo esc_html( _x( 'Open and edit 1000s of products one-by-one', 'task row', 'woocommerce-stock-manager' ) ); ?></td>
-										<td class="px-3 py-4 xl:px-6 border-l border-gray-200"><?php echo esc_html( _x( '3 hours – 30 hours', 'time value', 'woocommerce-stock-manager' ) ); ?></td>
-										<td class="px-3 py-4 xl:px-6 border-l border-gray-200"><?php echo esc_html( _x( '2 mins (Bulk edit)', 'time value', 'woocommerce-stock-manager' ) ); ?></td>
+										<td class="px-3 py-4 xl:px-6"><?php echo esc_html( _x( 'Attributes, tags, taxonomies', 'cost savings table', 'woocommerce-stock-manager' ) ); ?></td>
+										<td class="px-3 py-4 xl:px-6 border-l border-gray-200"><?php echo esc_html( _x( '$49', 'cost savings table', 'woocommerce-stock-manager' ) ); ?></td>
+										<td class="px-3 py-4 xl:px-6 border-l border-gray-200"><?php echo esc_html( _x( 'Included', 'cost savings table', 'woocommerce-stock-manager' ) ); ?></td>
 									</tr>
 									<tr>
-										<td class="px-3 py-4 xl:px-6"><?php echo esc_html( _x( 'Search any record to make edits', 'task row', 'woocommerce-stock-manager' ) ); ?></td>
-										<td class="px-3 py-4 xl:px-6 border-l border-gray-200"><?php echo esc_html( _x( '3 mins', 'time value', 'woocommerce-stock-manager' ) ); ?></td>
-										<td class="px-3 py-4 xl:px-6 border-l border-gray-200"><?php echo esc_html( _x( '1 min (Search & Edit)', 'time value', 'woocommerce-stock-manager' ) ); ?></td>
+										<td class="px-3 py-4 xl:px-6"><?php echo esc_html( _x( 'Orders', 'cost savings table', 'woocommerce-stock-manager' ) ); ?></td>
+										<td class="px-3 py-4 xl:px-6 border-l border-gray-200"><?php echo esc_html( _x( '$69', 'cost savings table', 'woocommerce-stock-manager' ) ); ?></td>
+										<td class="px-3 py-4 xl:px-6 border-l border-gray-200"><?php echo esc_html( _x( 'Included', 'cost savings table', 'woocommerce-stock-manager' ) ); ?></td>
 									</tr>
 									<tr>
-										<td class="px-3 py-4 xl:px-6"><?php echo esc_html( _x( 'Create 1000s of duplicates', 'task row', 'woocommerce-stock-manager' ) ); ?></td>
-										<td class="px-3 py-4 xl:px-6 border-l border-gray-200"><?php echo esc_html( _x( '3 hours – 30 hours', 'time value', 'woocommerce-stock-manager' ) ); ?></td>
-										<td class="px-3 py-4 xl:px-6 border-l border-gray-200"><?php echo esc_html( _x( '2 mins (Duplicate)', 'time value', 'woocommerce-stock-manager' ) ); ?></td>
+										<td class="px-3 py-4 xl:px-6"><?php echo esc_html( _x( 'Coupons', 'cost savings table', 'woocommerce-stock-manager' ) ); ?></td>
+										<td class="px-3 py-4 xl:px-6 border-l border-gray-200"><?php echo esc_html( _x( '$69', 'cost savings table', 'woocommerce-stock-manager' ) ); ?></td>
+										<td class="px-3 py-4 xl:px-6 border-l border-gray-200"><?php echo esc_html( _x( 'Included', 'cost savings table', 'woocommerce-stock-manager' ) ); ?></td>
 									</tr>
 									<tr>
-										<td class="px-3 py-4 xl:px-6"><?php echo esc_html( _x( 'Search and delete products', 'task row', 'woocommerce-stock-manager' ) ); ?></td>
-										<td class="px-3 py-4 xl:px-6 border-l border-gray-200"><?php echo esc_html( _x( '3 mins', 'time value', 'woocommerce-stock-manager' ) ); ?></td>
-										<td class="px-3 py-4 xl:px-6 border-l border-gray-200"><?php echo esc_html( _x( '1 min (Search & Delete)', 'time value', 'woocommerce-stock-manager' ) ); ?></td>
+										<td class="px-3 py-4 xl:px-6"><?php echo esc_html( _x( 'Users (Customers)', 'cost savings table', 'woocommerce-stock-manager' ) ); ?></td>
+										<td class="px-3 py-4 xl:px-6 border-l border-gray-200"><?php echo esc_html( _x( '$49', 'cost savings table', 'woocommerce-stock-manager' ) ); ?></td>
+										<td class="px-3 py-4 xl:px-6 border-l border-gray-200"><?php echo esc_html( _x( 'Included', 'cost savings table', 'woocommerce-stock-manager' ) ); ?></td>
 									</tr>
 									<tr>
-										<td class="text-base px-3 py-4 xl:px-6"><?php echo esc_html( _x( 'Time spent', 'summary row', 'woocommerce-stock-manager' ) ); ?></td>
-										<td class="text-base px-3 py-4 xl:px-6 border-l border-gray-200"><strong><?php echo esc_html( _x( '≈ 6 hours – 60 hours', 'time value', 'woocommerce-stock-manager' ) ); ?></strong></td>
-										<td class="text-base px-3 py-4 xl:px-6 border-l border-gray-200"><strong><?php echo esc_html( _x( '≈ 6 minutes', 'time value', 'woocommerce-stock-manager' ) ); ?></strong></td>
+										<td class="px-3 py-4 xl:px-6"><?php echo esc_html( _x( 'Posts and Pages', 'cost savings table', 'woocommerce-stock-manager' ) ); ?></td>
+										<td class="px-3 py-4 xl:px-6 border-l border-gray-200"><?php echo esc_html( _x( '$49', 'cost savings table', 'woocommerce-stock-manager' ) ); ?></td>
+										<td class="px-3 py-4 xl:px-6 border-l border-gray-200"><?php echo esc_html( _x( 'Included', 'cost savings table', 'woocommerce-stock-manager' ) ); ?></td>
+									</tr>
+									<tr>
+										<td class="px-3 py-4 xl:px-6"><?php echo esc_html( _x( 'Subscriptions, bookings, memberships, courses, other post types', 'cost savings table', 'woocommerce-stock-manager' ) ); ?></td>
+										<td class="px-3 py-4 xl:px-6 border-l border-gray-200"><?php echo esc_html( _x( 'Few or no bulk edit plugins exist; support is limited to a handful of post types', 'cost savings table', 'woocommerce-stock-manager' ) ); ?></td>
+										<td class="px-3 py-4 xl:px-6 border-l border-gray-200"><?php echo esc_html( _x( 'Included', 'cost savings table', 'woocommerce-stock-manager' ) ); ?></td>
+									</tr>
+									<tr>
+										<td class="text-base px-3 py-4 xl:px-6"><strong><?php echo esc_html( _x( 'Total cost', 'cost savings table', 'woocommerce-stock-manager' ) ); ?></strong></td>
+										<td class="text-base px-3 py-4 xl:px-6 border-l border-gray-200"><strong><?php echo esc_html( _x( '$364 (6 separate plugins)', 'cost savings table', 'woocommerce-stock-manager' ) ); ?></strong></td>
+										<td class="text-base px-3 py-4 xl:px-6 border-l border-gray-200"><strong><?php echo esc_html( _x( '$149 (1 plugin)', 'cost savings table', 'woocommerce-stock-manager' ) ); ?></strong></td>
 									</tr>
 								</tbody>
 							</table>
@@ -587,10 +597,9 @@ class WSM_In_App_Pricing {
 					</div>
 				</div>
 				<div class="space-y-2">
-					<p class="mt-8 max-w-xl mx-auto text-lg text-gray-600"><?php echo wp_kses_post( _x( 'Most tools support only one or a handful of post types. Smart Manager gives you <strong>total control</strong> over Products, Orders, Users, Subscriptions, and 100+ WordPress and WooCommerce post types from one place.', 'benefit text', 'woocommerce-stock-manager' ) ); ?></p>
-					<p class="mt-4 max-w-xl mx-auto text-lg text-gray-600"><?php echo wp_kses_post( _x( 'Stop paying for a stack of disconnected plugins and the operational cost of switching between them. Invest in Smart Manager Pro that <strong>pays for itself in hours saved</strong>.', 'benefit text', 'woocommerce-stock-manager' ) ); ?></p>
+					<p class="mt-8 max-w-xl mx-auto text-lg text-gray-600"><?php echo esc_html( _x( 'Bulk editing 1,000 products takes about 2 minutes with Smart Manager Pro, compared with 3 to 30 hours one-by-one. Upgrade to Pro and replace the plugin stack with one license.', 'cost savings section', 'woocommerce-stock-manager' ) ); ?></p>
 					<p class="max-w-xl mx-auto text-lg text-gray-600">
-						<a href="#sm_price_column_container" class="mt-4 flex items-center justify-center px-5 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out bg-indigo-600 border border-transparent rounded-md hover:bg-indigo-500 focus:outline-none focus:shadow-outline no-underline"><?php echo esc_html( _x( 'Upgrade to Smart Manager Pro', 'cta button', 'woocommerce-stock-manager' ) ); ?> &rarr;</a>
+						<a href="#sm_price_column_container" class="mt-4 flex items-center justify-center px-5 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out bg-indigo-600 border border-transparent rounded-md hover:bg-indigo-500 focus:outline-none focus:shadow-outline no-underline"><?php echo esc_html( _x( 'Upgrade to Smart Manager Pro →', 'cta button', 'woocommerce-stock-manager' ) ); ?></a>
 					</p>
 				</div>
 			</section>

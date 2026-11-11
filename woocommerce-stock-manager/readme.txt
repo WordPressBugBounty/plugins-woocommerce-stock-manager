@@ -7,7 +7,7 @@ Tags: woocommerce stock management, woocommerce stock manager, woocommerce produ
 Requires at least: 5.0
 Tested up to: 7.1
 Requires PHP: 7.0
-Stable tag: 3.11.0
+Stable tag: 3.12.0
 License: GPLv2
 
 WooCommerce stock management plugin to manage and edit product stock and their variables from a single dashboard. Stock log, import/export, filters!
@@ -155,6 +155,11 @@ Please report security bugs found in the source code of the Stock Manager for Wo
 4. Product stock as on date
 
 == Changelog ==
+
+= 3.12.0 (11.11.2026) =
+* New: WordPress 7.1.4 compatible
+* New: WooCommerce 11.2.2 compatible
+* Update: POT file
 
 = 3.11.0 (01.10.2026) =
 * New: WordPress 7.1.2 compatible
@@ -366,7 +371,7 @@ Please report security bugs found in the source code of the Stock Manager for Wo
 * Update: Added stock related columns in the dashboard by default
 * Update: Compatibility with latest version of WooCommerce
 * Update: Added option for 'No Shipping Class' for 'Shipping Class' product field
-* Fix: 'Sale Price' product field showing as blank in case of '0' value 
+* Fix: 'Sale Price' product field showing as blank in case of '0' value
 * Fix: Table headers of the Stock Manager dashboard table not translating
 * Update: Updated POT file
 
@@ -381,6 +386,9 @@ Please report security bugs found in the source code of the Stock Manager for Wo
 For the changelog of earlier versions, please refer to the separate [changelog.txt](https://plugins.svn.wordpress.org/woocommerce-stock-manager/trunk/changelog.txt) file.
 
 == Upgrade Notice ==
+
+= 3.12.0 =
+WordPress 7.1.4 compatible, WooCommerce 11.2.2 compatible. Recommended upgrade.
 
 = 3.11.0 =
 WordPress 7.1.2 compatible, WooCommerce 11.1.2 compatible. Recommended upgrade.

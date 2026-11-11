@@ -2,16 +2,16 @@
 # This file is distributed under the GNU General Public License v2.0.
 msgid ""
 msgstr ""
-"Project-Id-Version: Stock Manager for WooCommerce 3.11.0\n"
+"Project-Id-Version: Stock Manager for WooCommerce 3.12.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/woocommerce-stock-manager\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-10-01T04:25:58+00:00\n"
+"POT-Creation-Date: 2026-11-11T08:09:15+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"X-Generator: WP-CLI 2.10.0\n"
+"X-Generator: WP-CLI 2.9.0\n"
 "X-Domain: woocommerce-stock-manager\n"
 
 #. Plugin Name of the plugin
@@ -608,209 +608,210 @@ msgid "Brian Batcher"
 msgstr ""
 
 #: admin/includes/class-wsm-in-app-pricing.php:538
-msgctxt "section subheading"
-msgid "Scale your output, not your hours"
+msgctxt "cost savings section"
+msgid "One plugin, every data type"
 msgstr ""
 
 #: admin/includes/class-wsm-in-app-pricing.php:539
-msgctxt "section heading"
-msgid "Accomplish 60 hours of work in 6 minutes"
+msgctxt "cost savings section"
+msgid "Replace $364 of plugins with one plugin"
 msgstr ""
 
 #: admin/includes/class-wsm-in-app-pricing.php:540
-msgctxt "section description"
-msgid "Stop opening each product to edit price, stock, category, description, and other data. <strong>Switch to Smart Manager Pro and spend your time wisely.</strong> Say goodbye to frustration, stress, and calculation errors that keep piling up."
+msgctxt "cost savings section"
+msgid "Bulk edit products, orders, coupons, users, subscriptions, and 100+ other post types from one place with Smart Manager Pro."
 msgstr ""
 
 #: admin/includes/class-wsm-in-app-pricing.php:548
-msgctxt "table header"
-msgid "Mundane store tasks"
+msgctxt "cost savings table"
+msgid "Manage and bulk edit"
 msgstr ""
 
 #: admin/includes/class-wsm-in-app-pricing.php:549
-msgctxt "table header"
-msgid "Without using Smart Manager Pro"
+msgctxt "cost savings table"
+msgid "Typical separate plugin (avg. price)"
 msgstr ""
 
 #: admin/includes/class-wsm-in-app-pricing.php:550
-msgctxt "table header"
+msgctxt "cost savings table"
 msgid "Using Smart Manager Pro"
 msgstr ""
 
 #: admin/includes/class-wsm-in-app-pricing.php:555
-msgctxt "task row"
-msgid "Add one new product or edit details"
+msgctxt "cost savings table"
+msgid "Products"
 msgstr ""
 
 #: admin/includes/class-wsm-in-app-pricing.php:556
-#: admin/includes/class-wsm-in-app-pricing.php:566
-#: admin/includes/class-wsm-in-app-pricing.php:576
-msgctxt "time value"
-msgid "3 mins"
+msgctxt "cost savings table"
+msgid "$79"
 msgstr ""
 
 #: admin/includes/class-wsm-in-app-pricing.php:557
-msgctxt "time value"
-msgid "30 seconds (Inline edit)"
+#: admin/includes/class-wsm-in-app-pricing.php:562
+#: admin/includes/class-wsm-in-app-pricing.php:567
+#: admin/includes/class-wsm-in-app-pricing.php:572
+#: admin/includes/class-wsm-in-app-pricing.php:577
+#: admin/includes/class-wsm-in-app-pricing.php:582
+#: admin/includes/class-wsm-in-app-pricing.php:587
+msgctxt "cost savings table"
+msgid "Included"
 msgstr ""
 
 #: admin/includes/class-wsm-in-app-pricing.php:560
-msgctxt "task row"
-msgid "Open and edit 1000s of products one-by-one"
+msgctxt "cost savings table"
+msgid "Attributes, tags, taxonomies"
 msgstr ""
 
 #: admin/includes/class-wsm-in-app-pricing.php:561
-#: admin/includes/class-wsm-in-app-pricing.php:571
-msgctxt "time value"
-msgid "3 hours – 30 hours"
-msgstr ""
-
-#: admin/includes/class-wsm-in-app-pricing.php:562
-msgctxt "time value"
-msgid "2 mins (Bulk edit)"
+#: admin/includes/class-wsm-in-app-pricing.php:576
+#: admin/includes/class-wsm-in-app-pricing.php:581
+msgctxt "cost savings table"
+msgid "$49"
 msgstr ""
 
 #: admin/includes/class-wsm-in-app-pricing.php:565
-msgctxt "task row"
-msgid "Search any record to make edits"
+msgctxt "cost savings table"
+msgid "Orders"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:567
-msgctxt "time value"
-msgid "1 min (Search & Edit)"
+#: admin/includes/class-wsm-in-app-pricing.php:566
+#: admin/includes/class-wsm-in-app-pricing.php:571
+msgctxt "cost savings table"
+msgid "$69"
 msgstr ""
 
 #: admin/includes/class-wsm-in-app-pricing.php:570
-msgctxt "task row"
-msgid "Create 1000s of duplicates"
-msgstr ""
-
-#: admin/includes/class-wsm-in-app-pricing.php:572
-msgctxt "time value"
-msgid "2 mins (Duplicate)"
+msgctxt "cost savings table"
+msgid "Coupons"
 msgstr ""
 
 #: admin/includes/class-wsm-in-app-pricing.php:575
-msgctxt "task row"
-msgid "Search and delete products"
-msgstr ""
-
-#: admin/includes/class-wsm-in-app-pricing.php:577
-msgctxt "time value"
-msgid "1 min (Search & Delete)"
+msgctxt "cost savings table"
+msgid "Users (Customers)"
 msgstr ""
 
 #: admin/includes/class-wsm-in-app-pricing.php:580
-msgctxt "summary row"
-msgid "Time spent"
+msgctxt "cost savings table"
+msgid "Posts and Pages"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:581
-msgctxt "time value"
-msgid "≈ 6 hours – 60 hours"
+#: admin/includes/class-wsm-in-app-pricing.php:585
+msgctxt "cost savings table"
+msgid "Subscriptions, bookings, memberships, courses, other post types"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:582
-msgctxt "time value"
-msgid "≈ 6 minutes"
+#: admin/includes/class-wsm-in-app-pricing.php:586
+msgctxt "cost savings table"
+msgid "Few or no bulk edit plugins exist; support is limited to a handful of post types"
 msgstr ""
 
 #: admin/includes/class-wsm-in-app-pricing.php:590
-msgctxt "benefit text"
-msgid "Most tools support only one or a handful of post types. Smart Manager gives you <strong>total control</strong> over Products, Orders, Users, Subscriptions, and 100+ WordPress and WooCommerce post types from one place."
+msgctxt "cost savings table"
+msgid "Total cost"
 msgstr ""
 
 #: admin/includes/class-wsm-in-app-pricing.php:591
-msgctxt "benefit text"
-msgid "Stop paying for a stack of disconnected plugins and the operational cost of switching between them. Invest in Smart Manager Pro that <strong>pays for itself in hours saved</strong>."
+msgctxt "cost savings table"
+msgid "$364 (6 separate plugins)"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:593
-msgctxt "cta button"
-msgid "Upgrade to Smart Manager Pro"
+#: admin/includes/class-wsm-in-app-pricing.php:592
+msgctxt "cost savings table"
+msgid "$149 (1 plugin)"
 msgstr ""
 
 #: admin/includes/class-wsm-in-app-pricing.php:600
+msgctxt "cost savings section"
+msgid "Bulk editing 1,000 products takes about 2 minutes with Smart Manager Pro, compared with 3 to 30 hours one-by-one. Upgrade to Pro and replace the plugin stack with one license."
+msgstr ""
+
+#: admin/includes/class-wsm-in-app-pricing.php:602
+msgctxt "cta button"
+msgid "Upgrade to Smart Manager Pro →"
+msgstr ""
+
+#: admin/includes/class-wsm-in-app-pricing.php:609
 msgctxt "confidence heading"
 msgid "Buy with confidence – you're in good hands"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:604
+#: admin/includes/class-wsm-in-app-pricing.php:613
 msgctxt "subheading reputation"
 msgid "You're buying from the best!"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:606
+#: admin/includes/class-wsm-in-app-pricing.php:615
 msgctxt "reputation message"
 msgid "Rest assured that you will be well taken care of when you buy from StoreApps."
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:608
+#: admin/includes/class-wsm-in-app-pricing.php:617
 msgctxt "reputation bullet"
 msgid "Top selling plugins for marketing and store management"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:609
+#: admin/includes/class-wsm-in-app-pricing.php:618
 msgctxt "reputation bullet bold part"
 msgid "Official WooCommerce"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:609
+#: admin/includes/class-wsm-in-app-pricing.php:618
 msgctxt "reputation bullet"
 msgid "and GoDaddy partner"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:610
+#: admin/includes/class-wsm-in-app-pricing.php:619
 msgctxt "reputation bullet"
 msgid "Founded in 2011, one of the early Woo third party developers"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:611
+#: admin/includes/class-wsm-in-app-pricing.php:620
 msgctxt "reputation bullet bold part"
 msgid "45k+ paid stores,"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:611
+#: admin/includes/class-wsm-in-app-pricing.php:620
 msgctxt "reputation bullet"
 msgid "300k+ users, millions of downloads"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:612
+#: admin/includes/class-wsm-in-app-pricing.php:621
 msgctxt "reputation bullet"
 msgid "Consistent 5 star review ratings"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:613
+#: admin/includes/class-wsm-in-app-pricing.php:622
 msgctxt "reputation bullet"
 msgid "WordPress"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:613
+#: admin/includes/class-wsm-in-app-pricing.php:622
 msgctxt "reputation bullet bold part"
 msgid "community contributor"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:613
+#: admin/includes/class-wsm-in-app-pricing.php:622
 msgctxt "reputation bullet"
 msgid "sponsor, speaker."
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:615
+#: admin/includes/class-wsm-in-app-pricing.php:624
 msgctxt "image alt"
 msgid "Guaranteed Safe Checkout"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:619
+#: admin/includes/class-wsm-in-app-pricing.php:628
 msgctxt "support heading"
 msgid "Friendly support from top quality developers"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:621
+#: admin/includes/class-wsm-in-app-pricing.php:630
 msgctxt "support description"
 msgid "Our plugins are easy to use. We also have ample documentation. But whenever you need further assistance, you will get support from the same people who develop these plugins! We make sure you succeed!"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:622
+#: admin/includes/class-wsm-in-app-pricing.php:631
 msgctxt "image alt"
 msgid "StoreApps team is on your side"
 msgstr ""
