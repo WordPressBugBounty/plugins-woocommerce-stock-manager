@@ -2,14 +2,14 @@
 # This file is distributed under the GNU General Public License v2.0.
 msgid ""
 msgstr ""
-"Project-Id-Version: Stock Manager for WooCommerce 3.12.0\n"
+"Project-Id-Version: Stock Manager for WooCommerce 3.13.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/woocommerce-stock-manager\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-11-11T08:09:15+00:00\n"
+"POT-Creation-Date: 2026-11-23T13:46:55+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.9.0\n"
 "X-Domain: woocommerce-stock-manager\n"
@@ -155,663 +155,663 @@ msgctxt "discount banner"
 msgid "🎉 25% Off on Smart Manager Pro (Auto-applied at checkout)!"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:60
+#: admin/includes/class-wsm-in-app-pricing.php:61
 msgctxt "hero heading"
 msgid "Cut store management work from hours to minutes"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:63
+#: admin/includes/class-wsm-in-app-pricing.php:64
 msgctxt "hero description"
 msgid "Save hours on store management with bulk editing, advanced search, automation, and powerful WooCommerce productivity tools."
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:70
+#: admin/includes/class-wsm-in-app-pricing.php:71
 msgctxt "image alt"
 msgid "David Hunter ShotScope"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:74
+#: admin/includes/class-wsm-in-app-pricing.php:75
 msgctxt "testimonial quote"
 msgid "\"With Smart Manager's Bulk Edit, Export, and Custom Views, we <strong>save more than 10 hours every month</strong> on stock and price updates alone. The time saved helps us focus on driving marketing campaigns throughout the golf season.\""
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:81
+#: admin/includes/class-wsm-in-app-pricing.php:82
 msgctxt "testimonial author"
 msgid "– David Hunter, CEO, Shot Scope"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:98
+#: admin/includes/class-wsm-in-app-pricing.php:99
 msgctxt "pricing tab"
 msgid "Annual"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:107
+#: admin/includes/class-wsm-in-app-pricing.php:108
 msgctxt "pricing tab"
 msgid "Lifetime"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:109
+#: admin/includes/class-wsm-in-app-pricing.php:110
 msgctxt "pricing tab badge"
 msgid "One-time"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:119
-#: admin/includes/class-wsm-in-app-pricing.php:159
+#: admin/includes/class-wsm-in-app-pricing.php:120
+#: admin/includes/class-wsm-in-app-pricing.php:160
 msgctxt "pricing card"
 msgid "1 Site"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:121
+#: admin/includes/class-wsm-in-app-pricing.php:122
 msgctxt "pricing"
 msgid "$199"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:123
+#: admin/includes/class-wsm-in-app-pricing.php:124
 msgctxt "pricing"
 msgid "$79"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:123
+#: admin/includes/class-wsm-in-app-pricing.php:124
 msgctxt "pricing"
 msgid "$149"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:126
-#: admin/includes/class-wsm-in-app-pricing.php:147
+#: admin/includes/class-wsm-in-app-pricing.php:127
+#: admin/includes/class-wsm-in-app-pricing.php:148
 msgctxt "pricing"
 msgid "Billed annually"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:128
-#: admin/includes/class-wsm-in-app-pricing.php:149
-#: admin/includes/class-wsm-in-app-pricing.php:166
-#: admin/includes/class-wsm-in-app-pricing.php:180
+#: admin/includes/class-wsm-in-app-pricing.php:129
+#: admin/includes/class-wsm-in-app-pricing.php:150
+#: admin/includes/class-wsm-in-app-pricing.php:167
+#: admin/includes/class-wsm-in-app-pricing.php:181
 msgctxt "pricing cta"
 msgid "Buy Now →"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:136
+#: admin/includes/class-wsm-in-app-pricing.php:137
 msgctxt "pricing badge"
 msgid "Best Seller"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:140
-#: admin/includes/class-wsm-in-app-pricing.php:173
+#: admin/includes/class-wsm-in-app-pricing.php:141
+#: admin/includes/class-wsm-in-app-pricing.php:174
 msgctxt "pricing card"
 msgid "5 Sites"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:142
+#: admin/includes/class-wsm-in-app-pricing.php:143
 msgctxt "pricing"
 msgid "$249"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:144
+#: admin/includes/class-wsm-in-app-pricing.php:145
 msgctxt "pricing"
 msgid "$99"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:144
+#: admin/includes/class-wsm-in-app-pricing.php:145
 msgctxt "pricing"
 msgid "$187"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:161
+#: admin/includes/class-wsm-in-app-pricing.php:162
 msgctxt "pricing"
 msgid "$549"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:162
+#: admin/includes/class-wsm-in-app-pricing.php:163
 msgctxt "pricing"
 msgid "$412"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:164
-#: admin/includes/class-wsm-in-app-pricing.php:178
+#: admin/includes/class-wsm-in-app-pricing.php:165
+#: admin/includes/class-wsm-in-app-pricing.php:179
 msgctxt "pricing"
 msgid "Pay once, use forever"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:175
+#: admin/includes/class-wsm-in-app-pricing.php:176
 msgctxt "pricing"
 msgid "$599"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:176
+#: admin/includes/class-wsm-in-app-pricing.php:177
 msgctxt "pricing"
 msgid "$449"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:219
+#: admin/includes/class-wsm-in-app-pricing.php:220
 msgctxt "credibility booster"
 msgid "15,000+"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:220
+#: admin/includes/class-wsm-in-app-pricing.php:221
 msgctxt "credibility booster"
 msgid "Active Stores"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:232
+#: admin/includes/class-wsm-in-app-pricing.php:233
 msgctxt "credibility booster"
 msgid "4.4"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:233
+#: admin/includes/class-wsm-in-app-pricing.php:234
 msgctxt "credibility booster"
 msgid "280+ Reviews"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:244
+#: admin/includes/class-wsm-in-app-pricing.php:245
 msgctxt "credibility booster"
 msgid "15 Years"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:245
+#: admin/includes/class-wsm-in-app-pricing.php:246
 msgctxt "credibility booster"
 msgid "In Business"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:255
+#: admin/includes/class-wsm-in-app-pricing.php:256
 msgctxt "section subheading"
 msgid "Stock Manager’s Future is Uncertain – Switch to Smart Manager Pro"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:257
+#: admin/includes/class-wsm-in-app-pricing.php:258
 msgctxt "Subheading: feature list"
 msgid "All Stock Manager features + Bulk Edits, Delete, Duplicate..."
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:263
+#: admin/includes/class-wsm-in-app-pricing.php:264
 msgctxt "Paragraph: upgrade explanation with strong tag"
 msgid "With growing demand for bulk editing and complete store management, we’re considering shutting down the Stock Manager plugin. <strong>Upgrade to Smart Manager Pro plugin</strong> now for all-in-one store control, boost productivity and save your time."
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:278
+#: admin/includes/class-wsm-in-app-pricing.php:279
 msgctxt "table header"
 msgid "FEATURES"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:279
+#: admin/includes/class-wsm-in-app-pricing.php:280
 msgctxt "table header"
 msgid "STOCK MANAGER"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:280
+#: admin/includes/class-wsm-in-app-pricing.php:281
 msgctxt "table header"
 msgid "SMART MANAGER PRO"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:285
+#: admin/includes/class-wsm-in-app-pricing.php:286
 msgctxt "feature row"
 msgid "Supported Post Types"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:286
+#: admin/includes/class-wsm-in-app-pricing.php:287
 msgctxt "feature value"
 msgid "Products (Stock)"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:287
+#: admin/includes/class-wsm-in-app-pricing.php:288
 msgctxt "feature value"
 msgid "Products (Stock), Orders, Coupons, Pages, Media, Users, SEO plugins, WooCommerce Subscriptions, Bookings, Memberships, Product Add-ons, Brands... <strong>all WordPress custom post types and their custom fields</strong>."
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:290
+#: admin/includes/class-wsm-in-app-pricing.php:291
 msgctxt "feature row"
 msgid "10+ Supported Languages"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:292
+#: admin/includes/class-wsm-in-app-pricing.php:293
 msgctxt "feature value"
 msgid "Chinese, Dutch, French, German, Italian, Japanese, Russian, Spanish…"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:295
+#: admin/includes/class-wsm-in-app-pricing.php:296
 msgctxt "feature row"
 msgid "Interface"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:296
+#: admin/includes/class-wsm-in-app-pricing.php:297
 msgctxt "feature value"
 msgid "Table"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:297
+#: admin/includes/class-wsm-in-app-pricing.php:298
 msgctxt "feature value"
 msgid "Excel-like spreadsheet"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:300
+#: admin/includes/class-wsm-in-app-pricing.php:301
 msgctxt "feature row"
 msgid "Import & Export Products"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:301
+#: admin/includes/class-wsm-in-app-pricing.php:302
 msgctxt "feature value"
 msgid "Only stock specific columns"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:302
+#: admin/includes/class-wsm-in-app-pricing.php:303
 msgctxt "feature value"
 msgid "All product related columns - including custom fields"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:305
+#: admin/includes/class-wsm-in-app-pricing.php:306
 msgctxt "feature row"
 msgid "Inline (Direct) Editing"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:314
+#: admin/includes/class-wsm-in-app-pricing.php:315
 msgctxt "feature row"
 msgid "Show/Hide Admin Columns"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:323
+#: admin/includes/class-wsm-in-app-pricing.php:324
 msgctxt "feature row"
 msgid "Product Stock Log (Product History)"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:332
+#: admin/includes/class-wsm-in-app-pricing.php:333
 msgctxt "feature row"
 msgid "Simple Search"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:341
+#: admin/includes/class-wsm-in-app-pricing.php:342
 msgctxt "feature row"
 msgid "Bulk Edit/Batch Update"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:348
+#: admin/includes/class-wsm-in-app-pricing.php:349
 msgctxt "feature row"
 msgid "Undo Inline and Bulk Edits"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:355
+#: admin/includes/class-wsm-in-app-pricing.php:356
 msgctxt "feature row"
 msgid "Schedule Bulk Edits"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:362
+#: admin/includes/class-wsm-in-app-pricing.php:363
 msgctxt "feature row"
 msgid "Advanced Search Filters"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:369
+#: admin/includes/class-wsm-in-app-pricing.php:370
 msgctxt "feature row"
 msgid "Saved Searches and Saved Bulk Edits"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:376
+#: admin/includes/class-wsm-in-app-pricing.php:377
 msgctxt "feature row"
 msgid "AI-Powered Advanced Search for Products"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:383
+#: admin/includes/class-wsm-in-app-pricing.php:384
 msgctxt "feature row"
 msgid "Delete"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:383
-#: admin/includes/class-wsm-in-app-pricing.php:390
-#: admin/includes/class-wsm-in-app-pricing.php:404
+#: admin/includes/class-wsm-in-app-pricing.php:384
+#: admin/includes/class-wsm-in-app-pricing.php:391
+#: admin/includes/class-wsm-in-app-pricing.php:405
 msgctxt "feature row"
 msgid "Products, Orders, Coupons and Other Post Types"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:390
+#: admin/includes/class-wsm-in-app-pricing.php:391
 msgctxt "feature row"
 msgid "Export"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:397
+#: admin/includes/class-wsm-in-app-pricing.php:398
 msgctxt "feature row"
 msgid "Scheduled CSV Exports for WooCommerce Orders"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:404
+#: admin/includes/class-wsm-in-app-pricing.php:405
 msgctxt "feature row"
 msgid "Duplicate"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:411
+#: admin/includes/class-wsm-in-app-pricing.php:412
 msgctxt "feature row"
 msgid "Create Column Sets/Custom Views"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:418
+#: admin/includes/class-wsm-in-app-pricing.php:419
 msgctxt "feature row"
 msgid "Print PDF Invoices"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:425
+#: admin/includes/class-wsm-in-app-pricing.php:426
 msgctxt "feature row"
 msgid "Print Packing Slips for Orders In Bulk"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:432
+#: admin/includes/class-wsm-in-app-pricing.php:433
 msgctxt "feature row"
 msgid "Log for Any Post Type"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:439
+#: admin/includes/class-wsm-in-app-pricing.php:440
 msgctxt "feature row"
 msgid "User-Role/User-Based Dashboard Restrictions"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:446
+#: admin/includes/class-wsm-in-app-pricing.php:447
 msgctxt "feature row"
 msgid "View Customer Lifetime Value (LTV)"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:453
+#: admin/includes/class-wsm-in-app-pricing.php:454
 msgctxt "feature row"
 msgid "Manage Custom Taxonomies"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:460
+#: admin/includes/class-wsm-in-app-pricing.php:461
 msgctxt "feature row"
 msgid "Rename Admin Column Headers"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:467
+#: admin/includes/class-wsm-in-app-pricing.php:468
 msgctxt "feature row"
 msgid "Auto-generate product SKUs"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:474
+#: admin/includes/class-wsm-in-app-pricing.php:475
 msgctxt "feature row"
 msgid "Manage Unattached Media"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:481
+#: admin/includes/class-wsm-in-app-pricing.php:482
 msgctxt "feature row"
 msgid "WPML compatibility"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:488
+#: admin/includes/class-wsm-in-app-pricing.php:489
 msgctxt "feature row"
 msgid "Support"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:489
+#: admin/includes/class-wsm-in-app-pricing.php:490
 msgctxt "feature row"
 msgid "WordPress Forum"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:490
+#: admin/includes/class-wsm-in-app-pricing.php:491
 msgctxt "feature row"
 msgid "Email, Phone, Video Calls"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:493
+#: admin/includes/class-wsm-in-app-pricing.php:494
 msgctxt "feature row"
 msgid "Pricing"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:494
+#: admin/includes/class-wsm-in-app-pricing.php:495
 msgctxt "feature value"
 msgid "Free"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:496
+#: admin/includes/class-wsm-in-app-pricing.php:497
 msgctxt "buy button"
 msgid "Buy Smart Manager Pro"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:510
+#: admin/includes/class-wsm-in-app-pricing.php:511
 msgctxt "testimonial title"
 msgid "\"Smart Manager is a life-saver!\""
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:511
+#: admin/includes/class-wsm-in-app-pricing.php:512
 msgctxt "testimonial content"
 msgid "The plugin has saved me HOURS (maybe even days) of work! It <strong>makes tedious tasks really simple and quick</strong>. The support team is fantastic too. Totally worth purchasing the premium version."
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:513
 #: admin/includes/class-wsm-in-app-pricing.php:514
+#: admin/includes/class-wsm-in-app-pricing.php:515
 msgctxt "testimonial author"
 msgid "The BBCream Girl"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:518
+#: admin/includes/class-wsm-in-app-pricing.php:519
 msgctxt "testimonial title"
 msgid "\"Scaled 500+ products with bulk editing\""
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:519
+#: admin/includes/class-wsm-in-app-pricing.php:520
 msgctxt "testimonial content"
 msgid "Smart Manager plugin lets me add and update entire product lines in minutes. Managing such a rapidly expanding catalog would be impossible with the traditional WooCommerce product editor."
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:521
 #: admin/includes/class-wsm-in-app-pricing.php:522
+#: admin/includes/class-wsm-in-app-pricing.php:523
 msgctxt "testimonial author"
 msgid "Nicolai Grut"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:526
+#: admin/includes/class-wsm-in-app-pricing.php:527
 msgctxt "testimonial title"
 msgid "\"20 or 30 times quicker store management\""
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:527
+#: admin/includes/class-wsm-in-app-pricing.php:528
 msgctxt "testimonial content"
 msgid "I've got over 200 products and dreaded managing them one by one. Smart Manager Pro plugin lets me do this so much quicker, probably 20 or 30 times quicker. It is an absolutely invaluable tool."
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:529
 #: admin/includes/class-wsm-in-app-pricing.php:530
+#: admin/includes/class-wsm-in-app-pricing.php:531
 msgctxt "testimonial author"
 msgid "Brian Batcher"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:538
+#: admin/includes/class-wsm-in-app-pricing.php:539
 msgctxt "cost savings section"
 msgid "One plugin, every data type"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:539
+#: admin/includes/class-wsm-in-app-pricing.php:540
 msgctxt "cost savings section"
 msgid "Replace $364 of plugins with one plugin"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:540
+#: admin/includes/class-wsm-in-app-pricing.php:541
 msgctxt "cost savings section"
 msgid "Bulk edit products, orders, coupons, users, subscriptions, and 100+ other post types from one place with Smart Manager Pro."
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:548
+#: admin/includes/class-wsm-in-app-pricing.php:549
 msgctxt "cost savings table"
 msgid "Manage and bulk edit"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:549
+#: admin/includes/class-wsm-in-app-pricing.php:550
 msgctxt "cost savings table"
 msgid "Typical separate plugin (avg. price)"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:550
+#: admin/includes/class-wsm-in-app-pricing.php:551
 msgctxt "cost savings table"
 msgid "Using Smart Manager Pro"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:555
+#: admin/includes/class-wsm-in-app-pricing.php:556
 msgctxt "cost savings table"
 msgid "Products"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:556
+#: admin/includes/class-wsm-in-app-pricing.php:557
 msgctxt "cost savings table"
 msgid "$79"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:557
-#: admin/includes/class-wsm-in-app-pricing.php:562
-#: admin/includes/class-wsm-in-app-pricing.php:567
-#: admin/includes/class-wsm-in-app-pricing.php:572
-#: admin/includes/class-wsm-in-app-pricing.php:577
-#: admin/includes/class-wsm-in-app-pricing.php:582
-#: admin/includes/class-wsm-in-app-pricing.php:587
+#: admin/includes/class-wsm-in-app-pricing.php:558
+#: admin/includes/class-wsm-in-app-pricing.php:563
+#: admin/includes/class-wsm-in-app-pricing.php:568
+#: admin/includes/class-wsm-in-app-pricing.php:573
+#: admin/includes/class-wsm-in-app-pricing.php:578
+#: admin/includes/class-wsm-in-app-pricing.php:583
+#: admin/includes/class-wsm-in-app-pricing.php:588
 msgctxt "cost savings table"
 msgid "Included"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:560
+#: admin/includes/class-wsm-in-app-pricing.php:561
 msgctxt "cost savings table"
 msgid "Attributes, tags, taxonomies"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:561
-#: admin/includes/class-wsm-in-app-pricing.php:576
-#: admin/includes/class-wsm-in-app-pricing.php:581
+#: admin/includes/class-wsm-in-app-pricing.php:562
+#: admin/includes/class-wsm-in-app-pricing.php:577
+#: admin/includes/class-wsm-in-app-pricing.php:582
 msgctxt "cost savings table"
 msgid "$49"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:565
+#: admin/includes/class-wsm-in-app-pricing.php:566
 msgctxt "cost savings table"
 msgid "Orders"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:566
-#: admin/includes/class-wsm-in-app-pricing.php:571
+#: admin/includes/class-wsm-in-app-pricing.php:567
+#: admin/includes/class-wsm-in-app-pricing.php:572
 msgctxt "cost savings table"
 msgid "$69"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:570
+#: admin/includes/class-wsm-in-app-pricing.php:571
 msgctxt "cost savings table"
 msgid "Coupons"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:575
+#: admin/includes/class-wsm-in-app-pricing.php:576
 msgctxt "cost savings table"
 msgid "Users (Customers)"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:580
+#: admin/includes/class-wsm-in-app-pricing.php:581
 msgctxt "cost savings table"
 msgid "Posts and Pages"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:585
+#: admin/includes/class-wsm-in-app-pricing.php:586
 msgctxt "cost savings table"
 msgid "Subscriptions, bookings, memberships, courses, other post types"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:586
+#: admin/includes/class-wsm-in-app-pricing.php:587
 msgctxt "cost savings table"
 msgid "Few or no bulk edit plugins exist; support is limited to a handful of post types"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:590
+#: admin/includes/class-wsm-in-app-pricing.php:591
 msgctxt "cost savings table"
 msgid "Total cost"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:591
+#: admin/includes/class-wsm-in-app-pricing.php:592
 msgctxt "cost savings table"
 msgid "$364 (6 separate plugins)"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:592
+#: admin/includes/class-wsm-in-app-pricing.php:593
 msgctxt "cost savings table"
 msgid "$149 (1 plugin)"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:600
+#: admin/includes/class-wsm-in-app-pricing.php:601
 msgctxt "cost savings section"
 msgid "Bulk editing 1,000 products takes about 2 minutes with Smart Manager Pro, compared with 3 to 30 hours one-by-one. Upgrade to Pro and replace the plugin stack with one license."
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:602
+#: admin/includes/class-wsm-in-app-pricing.php:603
 msgctxt "cta button"
 msgid "Upgrade to Smart Manager Pro →"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:609
+#: admin/includes/class-wsm-in-app-pricing.php:610
 msgctxt "confidence heading"
 msgid "Buy with confidence – you're in good hands"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:613
+#: admin/includes/class-wsm-in-app-pricing.php:614
 msgctxt "subheading reputation"
 msgid "You're buying from the best!"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:615
+#: admin/includes/class-wsm-in-app-pricing.php:616
 msgctxt "reputation message"
 msgid "Rest assured that you will be well taken care of when you buy from StoreApps."
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:617
+#: admin/includes/class-wsm-in-app-pricing.php:618
 msgctxt "reputation bullet"
 msgid "Top selling plugins for marketing and store management"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:618
+#: admin/includes/class-wsm-in-app-pricing.php:619
 msgctxt "reputation bullet bold part"
 msgid "Official WooCommerce"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:618
+#: admin/includes/class-wsm-in-app-pricing.php:619
 msgctxt "reputation bullet"
 msgid "and GoDaddy partner"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:619
+#: admin/includes/class-wsm-in-app-pricing.php:620
 msgctxt "reputation bullet"
 msgid "Founded in 2011, one of the early Woo third party developers"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:620
+#: admin/includes/class-wsm-in-app-pricing.php:621
 msgctxt "reputation bullet bold part"
 msgid "45k+ paid stores,"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:620
+#: admin/includes/class-wsm-in-app-pricing.php:621
 msgctxt "reputation bullet"
 msgid "300k+ users, millions of downloads"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:621
+#: admin/includes/class-wsm-in-app-pricing.php:622
 msgctxt "reputation bullet"
 msgid "Consistent 5 star review ratings"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:622
+#: admin/includes/class-wsm-in-app-pricing.php:623
 msgctxt "reputation bullet"
 msgid "WordPress"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:622
+#: admin/includes/class-wsm-in-app-pricing.php:623
 msgctxt "reputation bullet bold part"
 msgid "community contributor"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:622
+#: admin/includes/class-wsm-in-app-pricing.php:623
 msgctxt "reputation bullet"
 msgid "sponsor, speaker."
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:624
+#: admin/includes/class-wsm-in-app-pricing.php:625
 msgctxt "image alt"
 msgid "Guaranteed Safe Checkout"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:628
+#: admin/includes/class-wsm-in-app-pricing.php:629
 msgctxt "support heading"
 msgid "Friendly support from top quality developers"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:630
+#: admin/includes/class-wsm-in-app-pricing.php:631
 msgctxt "support description"
 msgid "Our plugins are easy to use. We also have ample documentation. But whenever you need further assistance, you will get support from the same people who develop these plugins! We make sure you succeed!"
 msgstr ""
 
-#: admin/includes/class-wsm-in-app-pricing.php:631
+#: admin/includes/class-wsm-in-app-pricing.php:632
 msgctxt "image alt"
 msgid "StoreApps team is on your side"
 msgstr ""
@@ -1452,16 +1452,15 @@ msgctxt "support section image alt text"
 msgid "StoreApps team is on your side"
 msgstr ""
 
-#: sa-includes/class-sa-wsm-in-app-offer.php:122
-msgctxt "timezone date format"
-msgid "Y-m-d H:i:s"
+#: sa-includes/class-sa-wsm-in-app-offer.php:215
+msgid "Smart Manager Black Friday sale"
 msgstr ""
 
-#: sa-includes/class-sa-wsm-in-app-offer.php:219
+#: sa-includes/class-sa-wsm-in-app-offer.php:218
 msgid "Dismiss"
 msgstr ""
 
-#: sa-includes/class-sa-wsm-in-app-offer.php:219
+#: sa-includes/class-sa-wsm-in-app-offer.php:218
 msgid "Hide this"
 msgstr ""
 

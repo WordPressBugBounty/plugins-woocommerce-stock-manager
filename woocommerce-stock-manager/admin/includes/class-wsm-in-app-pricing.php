@@ -47,12 +47,13 @@ class WSM_In_App_Pricing {
 	public function display_pricing_page() {
 		?>
 		<div id="wsm_in_app_pricing">
-			<!-- Discount Banner -->
-			<section class="bg-indigo-600 text-white text-center py-0.5 px-4">
-				<p class="text-xl sm:text-xl font-bold leading-none">
-					<?php echo esc_html( _x( '🎉 25% Off on Smart Manager Pro (Auto-applied at checkout)!', 'discount banner', 'woocommerce-stock-manager' ) ); ?>
-				</p>
-			</section>
+			<?php if ( ! defined( 'SA_WSM_OFFER_VISIBLE' ) || SA_WSM_OFFER_VISIBLE !== true ) { ?>
+				<section class="bg-indigo-600 text-white text-center py-0.5 px-4">
+					<p class="text-xl sm:text-xl font-bold leading-none">
+						<?php echo esc_html( _x( '🎉 25% Off on Smart Manager Pro (Auto-applied at checkout)!', 'discount banner', 'woocommerce-stock-manager' ) ); ?>
+					</p>
+				</section>
+			<?php } ?>
 
 			<!-- Hero Section -->
 			<section class="max-w-3xl mx-auto mt-8 text-center px-4">

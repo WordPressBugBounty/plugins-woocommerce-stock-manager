@@ -605,7 +605,7 @@ class Stock_Manager_Admin {
 	 * Function to display pricing notice.
 	 */
 	public static function display_pricing_notice() {
-		if ( ( defined( 'SA_WSM_OFFER_VISIBLE' ) && SA_WSM_OFFER_VISIBLE === true ) && ( 'yes' === get_option( 'sa_wsm_offer_bfcm_2025', 'yes' ) ) ) {
+		if ( ( defined( 'SA_WSM_OFFER_VISIBLE' ) && SA_WSM_OFFER_VISIBLE === true ) && ( 'yes' === get_option( 'sa_wsm_offer_bfcm_2026', 'yes' ) ) ) {
 			$in_app_offer_instance = ( class_exists( 'Stock_Manager' ) ) ? Stock_Manager::$in_app_offer_instance : null;
 			if ( ! empty( $in_app_offer_instance ) && ( is_callable( array( $in_app_offer_instance, 'is_show' ) ) ) && ( ! empty( $in_app_offer_instance->is_show() ) ) && ( is_callable( array( $in_app_offer_instance, 'show_offer_content' ) ) ) ) {
 				?>

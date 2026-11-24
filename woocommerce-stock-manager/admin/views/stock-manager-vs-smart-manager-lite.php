@@ -45,7 +45,6 @@ defined( 'ABSPATH' ) || exit;
 									<td class="px-3 py-4 xl:px-6 border-l border-gray-200"><?php echo esc_html_x( 'Stock management', 'comparison table feature value', 'woocommerce-stock-manager' ); ?></td>
 									<td class="px-3 py-4 xl:px-6 border-l border-gray-200"><?php echo esc_html_x( 'Store management', 'comparison table feature value', 'woocommerce-stock-manager' ); ?></td>
 								</tr>
-								
 								<tr>
 									<td class="px-3 py-4 xl:px-6 font-semibold"><?php echo esc_html_x( '5-star reviews', 'comparison table feature', 'woocommerce-stock-manager' ); ?></td>
 									<td class="px-3 py-4 xl:px-6 border-l border-gray-200">90</td>
@@ -225,7 +224,7 @@ defined( 'ABSPATH' ) || exit;
 									<td class="px-3 py-8 font-medium xl:px-6"></td>
 
 									<td class="px-3 py-4 xl:px-6 border-l border-gray-200 text-center">
-										
+
 										<a href="<?php echo esc_url( admin_url( 'admin.php?page=stock-manager' ) ); ?>" class="text-base font-medium leading-6 underline">
 											<?php echo esc_html_x( 'Back to Stock Manager', 'comparison table button', 'woocommerce-stock-manager' ); ?>
 										</a>

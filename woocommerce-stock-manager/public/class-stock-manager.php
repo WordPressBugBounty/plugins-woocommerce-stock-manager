@@ -364,19 +364,18 @@ class Stock_Manager {
 			$args                        = array(
 				'file'           => STOCKDIR . 'sa-includes/',
 				'prefix'         => 'wsm',              // prefix/slug of your plugin.
-				'option_name'    => 'sa_wsm_offer_bfcm_2025',
-				'campaign'       => 'sa_bfcm_2025',
-				'start'          => '2025-11-14 07:00:00',
-				'end'            => '2025-12-05 06:30:00',
+				'option_name'    => 'sa_wsm_offer_bfcm_2026',
+				'campaign'       => 'sa_bfcm_2026',
+				'start'          => '2026-11-24 06:30:00 UTC',
+				'end'            => '2026-12-04 06:30:00 UTC',
 				'is_plugin_page' => $is_wsm_admin ? true : false,   // page where you want to show offer, do not send this if no plugin page is there and want to show offer on Products page.
 			);
 			self::$in_app_offer_instance = SA_WSM_In_App_Offer::get_instance( $args );
 			if ( ! defined( 'SA_WSM_OFFER_VISIBLE' ) ) {
-				$show            = false;
-				$timezone_format = _x( 'Y-m-d H:i:s', 'timezone date format' );
-				$current_date    = strtotime( date_i18n( $timezone_format ) );
-				$start           = strtotime( $args['start'] );
-				$end             = strtotime( $args['end'] );
+				$show         = false;
+				$current_date = time();
+				$start        = strtotime( $args['start'] );
+				$end          = strtotime( $args['end'] );
 				if ( ( $current_date >= $start ) && ( $current_date <= $end ) ) {
 					$show = true;
 				}
