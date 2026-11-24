@@ -3,7 +3,7 @@
  * Class for in app pricing page.
  *
  * @package   woocommerce-stock-manager/admin/includes/
- * @version   1.2.0
+ * @version   1.2.1
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
@@ -121,7 +121,7 @@ class WSM_In_App_Pricing {
 						<div class="flex items-baseline justify-center gap-2 mt-5">
 							<span class="text-2xl text-gray-400 line-through"><?php echo esc_html( _x( '$199', 'pricing', 'woocommerce-stock-manager' ) ); ?></span>
 							<span class="text-4xl font-bold text-gray-700">
-								<?php echo esc_html( ( defined( 'SA_WSM_OFFER_VISIBLE' ) && SA_WSM_OFFER_VISIBLE === true ) ? _x( '$79', 'pricing', 'woocommerce-stock-manager' ) : _x( '$149', 'pricing', 'woocommerce-stock-manager' ) ); ?>
+								<?php echo esc_html( ( defined( 'SA_WSM_OFFER_VISIBLE' ) && true === SA_WSM_OFFER_VISIBLE ) ? _x( '$129', 'pricing', 'woocommerce-stock-manager' ) : _x( '$149', 'pricing', 'woocommerce-stock-manager' ) ); ?>
 							</span>
 						</div>
 						<p class="text-base text-gray-500 mt-1"><?php echo esc_html( _x( 'Billed annually', 'pricing', 'woocommerce-stock-manager' ) ); ?></p>
@@ -142,7 +142,7 @@ class WSM_In_App_Pricing {
 							<div class="flex items-baseline justify-center gap-2 mt-5">
 								<span class="text-2xl text-gray-400 line-through"><?php echo esc_html( _x( '$249', 'pricing', 'woocommerce-stock-manager' ) ); ?></span>
 								<span class="text-4xl font-bold text-gray-700">
-									<?php echo esc_html( ( defined( 'SA_WSM_OFFER_VISIBLE' ) && SA_WSM_OFFER_VISIBLE === true ) ? _x( '$99', 'pricing', 'woocommerce-stock-manager' ) : _x( '$187', 'pricing', 'woocommerce-stock-manager' ) ); ?>
+									<?php echo esc_html( ( defined( 'SA_WSM_OFFER_VISIBLE' ) && true === SA_WSM_OFFER_VISIBLE ) ? _x( '$162', 'pricing', 'woocommerce-stock-manager' ) : _x( '$187', 'pricing', 'woocommerce-stock-manager' ) ); ?>
 								</span>
 							</div>
 							<p class="text-base text-gray-500 mt-1"><?php echo esc_html( _x( 'Billed annually', 'pricing', 'woocommerce-stock-manager' ) ); ?></p>
@@ -160,7 +160,7 @@ class WSM_In_App_Pricing {
 						<h3 class="text-xl font-medium text-gray-500 m-0"><?php echo esc_html( _x( '1 Site', 'pricing card', 'woocommerce-stock-manager' ) ); ?></h3>
 						<div class="flex items-baseline justify-center gap-2 mt-5">
 							<span class="text-2xl text-gray-400 line-through"><?php echo esc_html( _x( '$549', 'pricing', 'woocommerce-stock-manager' ) ); ?></span>
-							<span class="text-4xl font-bold text-gray-700"><?php echo esc_html( _x( '$412', 'pricing', 'woocommerce-stock-manager' ) ); ?></span>
+							<span class="text-4xl font-bold text-gray-700"><?php echo esc_html( ( defined( 'SA_WSM_OFFER_VISIBLE' ) && true === SA_WSM_OFFER_VISIBLE ) ? _x( '$357', 'pricing', 'woocommerce-stock-manager' ) : _x( '$412', 'pricing', 'woocommerce-stock-manager' ) ); ?></span>
 						</div>
 						<p class="text-base text-gray-500 mt-1"><?php echo esc_html( _x( 'Pay once, use forever', 'pricing', 'woocommerce-stock-manager' ) ); ?></p>
 						<a href="<?php echo esc_url( 'https://www.storeapps.org/?buy-now=86835&qty=1' . ( ( defined( 'SA_WSM_OFFER_VISIBLE' ) && SA_WSM_OFFER_VISIBLE === true ) ? '' : '&coupon=sm-25off-l' ) . '&page=722&with-cart=1&utm_source=wsm&utm_medium=in_app_pricing&utm_campaign=single_lifetime' ); ?>" class="block mt-5 w-full px-4 py-3 text-white font-medium text-base bg-indigo-600 rounded-lg no-underline hover:bg-indigo-500">
@@ -174,7 +174,7 @@ class WSM_In_App_Pricing {
 							<h3 class="text-xl font-medium text-gray-500 m-0"><?php echo esc_html( _x( '5 Sites', 'pricing card', 'woocommerce-stock-manager' ) ); ?></h3>
 							<div class="flex items-baseline justify-center gap-2 mt-5">
 								<span class="text-2xl text-gray-400 line-through"><?php echo esc_html( _x( '$599', 'pricing', 'woocommerce-stock-manager' ) ); ?></span>
-								<span class="text-4xl font-bold text-gray-700"><?php echo esc_html( _x( '$449', 'pricing', 'woocommerce-stock-manager' ) ); ?></span>
+								<span class="text-4xl font-bold text-gray-700"><?php echo esc_html( ( defined( 'SA_WSM_OFFER_VISIBLE' ) && true === SA_WSM_OFFER_VISIBLE ) ? _x( '$389', 'pricing', 'woocommerce-stock-manager' ) : _x( '$449', 'pricing', 'woocommerce-stock-manager' ) ); ?></span>
 							</div>
 							<p class="text-base text-gray-500 mt-1"><?php echo esc_html( _x( 'Pay once, use forever', 'pricing', 'woocommerce-stock-manager' ) ); ?></p>
 							<a href="<?php echo esc_url( 'https://www.storeapps.org/?buy-now=86836&qty=1' . ( ( defined( 'SA_WSM_OFFER_VISIBLE' ) && SA_WSM_OFFER_VISIBLE === true ) ? '' : '&coupon=sm-25off-l' ) . '&page=722&with-cart=1&utm_source=wsm&utm_medium=in_app_pricing&utm_campaign=multi_lifetime' ); ?>" class="block mt-5 w-full px-4 py-3 text-white font-medium text-base bg-indigo-600 rounded-lg no-underline hover:bg-indigo-500">
@@ -590,7 +590,7 @@ class WSM_In_App_Pricing {
 									<tr>
 										<td class="text-base px-3 py-4 xl:px-6"><strong><?php echo esc_html( _x( 'Total cost', 'cost savings table', 'woocommerce-stock-manager' ) ); ?></strong></td>
 										<td class="text-base px-3 py-4 xl:px-6 border-l border-gray-200"><strong><?php echo esc_html( _x( '$364 (6 separate plugins)', 'cost savings table', 'woocommerce-stock-manager' ) ); ?></strong></td>
-										<td class="text-base px-3 py-4 xl:px-6 border-l border-gray-200"><strong><?php echo esc_html( _x( '$149 (1 plugin)', 'cost savings table', 'woocommerce-stock-manager' ) ); ?></strong></td>
+										<td class="text-base px-3 py-4 xl:px-6 border-l border-gray-200"><strong><?php echo esc_html( ( defined( 'SA_WSM_OFFER_VISIBLE' ) && true === SA_WSM_OFFER_VISIBLE ) ? _x( '$129 (1 plugin)', 'cost savings table', 'woocommerce-stock-manager' ) : _x( '$149 (1 plugin)', 'cost savings table', 'woocommerce-stock-manager' ) ); ?></strong></td>
 									</tr>
 								</tbody>
 							</table>

@@ -3,6 +3,8 @@
  * Template for Stock Manager vs Smart Manager Lite comparison page.
  *
  * @package Smart_Manager
+ * @since    3.9.0
+ * @version  1.0.1
  */
 
 defined( 'ABSPATH' ) || exit;
@@ -237,7 +239,7 @@ defined( 'ABSPATH' ) || exit;
 									</td>
 								</tr>
 							</tbody>
-						</table>  
+						</table>
 						</div>
 					</div>
 				</div>

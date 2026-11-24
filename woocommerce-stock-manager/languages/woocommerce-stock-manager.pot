@@ -2,14 +2,14 @@
 # This file is distributed under the GNU General Public License v2.0.
 msgid ""
 msgstr ""
-"Project-Id-Version: Stock Manager for WooCommerce 3.13.0\n"
+"Project-Id-Version: Stock Manager for WooCommerce 3.13.1\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/woocommerce-stock-manager\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-11-23T13:46:55+00:00\n"
+"POT-Creation-Date: 2026-11-24T09:57:34+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.9.0\n"
 "X-Domain: woocommerce-stock-manager\n"
@@ -208,7 +208,7 @@ msgstr ""
 
 #: admin/includes/class-wsm-in-app-pricing.php:124
 msgctxt "pricing"
-msgid "$79"
+msgid "$129"
 msgstr ""
 
 #: admin/includes/class-wsm-in-app-pricing.php:124
@@ -248,7 +248,7 @@ msgstr ""
 
 #: admin/includes/class-wsm-in-app-pricing.php:145
 msgctxt "pricing"
-msgid "$99"
+msgid "$162"
 msgstr ""
 
 #: admin/includes/class-wsm-in-app-pricing.php:145
@@ -259,6 +259,11 @@ msgstr ""
 #: admin/includes/class-wsm-in-app-pricing.php:162
 msgctxt "pricing"
 msgid "$549"
+msgstr ""
+
+#: admin/includes/class-wsm-in-app-pricing.php:163
+msgctxt "pricing"
+msgid "$357"
 msgstr ""
 
 #: admin/includes/class-wsm-in-app-pricing.php:163
@@ -275,6 +280,11 @@ msgstr ""
 #: admin/includes/class-wsm-in-app-pricing.php:176
 msgctxt "pricing"
 msgid "$599"
+msgstr ""
+
+#: admin/includes/class-wsm-in-app-pricing.php:177
+msgctxt "pricing"
+msgid "$389"
 msgstr ""
 
 #: admin/includes/class-wsm-in-app-pricing.php:177
@@ -718,6 +728,11 @@ msgstr ""
 
 #: admin/includes/class-wsm-in-app-pricing.php:593
 msgctxt "cost savings table"
+msgid "$129 (1 plugin)"
+msgstr ""
+
+#: admin/includes/class-wsm-in-app-pricing.php:593
+msgctxt "cost savings table"
 msgid "$149 (1 plugin)"
 msgstr ""
 
@@ -1073,381 +1088,381 @@ msgctxt "comparison table feature value"
 msgid "Store management"
 msgstr ""
 
-#: admin/views/stock-manager-vs-smart-manager-lite.php:50
+#: admin/views/stock-manager-vs-smart-manager-lite.php:49
 msgctxt "comparison table feature"
 msgid "5-star reviews"
 msgstr ""
 
-#: admin/views/stock-manager-vs-smart-manager-lite.php:55
+#: admin/views/stock-manager-vs-smart-manager-lite.php:54
 msgctxt "comparison table feature"
 msgid "Years in market"
 msgstr ""
 
-#: admin/views/stock-manager-vs-smart-manager-lite.php:61
+#: admin/views/stock-manager-vs-smart-manager-lite.php:60
 msgctxt "comparison table category header"
 msgid "Editable Post Types"
 msgstr ""
 
-#: admin/views/stock-manager-vs-smart-manager-lite.php:65
+#: admin/views/stock-manager-vs-smart-manager-lite.php:64
 msgctxt "comparison table feature"
 msgid "Products & Variations"
 msgstr ""
 
+#: admin/views/stock-manager-vs-smart-manager-lite.php:65
 #: admin/views/stock-manager-vs-smart-manager-lite.php:66
-#: admin/views/stock-manager-vs-smart-manager-lite.php:67
-#: admin/views/stock-manager-vs-smart-manager-lite.php:73
-#: admin/views/stock-manager-vs-smart-manager-lite.php:79
-#: admin/views/stock-manager-vs-smart-manager-lite.php:85
+#: admin/views/stock-manager-vs-smart-manager-lite.php:72
+#: admin/views/stock-manager-vs-smart-manager-lite.php:78
+#: admin/views/stock-manager-vs-smart-manager-lite.php:84
+#: admin/views/stock-manager-vs-smart-manager-lite.php:105
 #: admin/views/stock-manager-vs-smart-manager-lite.php:106
-#: admin/views/stock-manager-vs-smart-manager-lite.php:107
+#: admin/views/stock-manager-vs-smart-manager-lite.php:111
 #: admin/views/stock-manager-vs-smart-manager-lite.php:112
-#: admin/views/stock-manager-vs-smart-manager-lite.php:113
+#: admin/views/stock-manager-vs-smart-manager-lite.php:117
 #: admin/views/stock-manager-vs-smart-manager-lite.php:118
-#: admin/views/stock-manager-vs-smart-manager-lite.php:119
-#: admin/views/stock-manager-vs-smart-manager-lite.php:131
-#: admin/views/stock-manager-vs-smart-manager-lite.php:137
-#: admin/views/stock-manager-vs-smart-manager-lite.php:149
-#: admin/views/stock-manager-vs-smart-manager-lite.php:155
-#: admin/views/stock-manager-vs-smart-manager-lite.php:165
-#: admin/views/stock-manager-vs-smart-manager-lite.php:171
-#: admin/views/stock-manager-vs-smart-manager-lite.php:177
-#: admin/views/stock-manager-vs-smart-manager-lite.php:203
-#: admin/views/stock-manager-vs-smart-manager-lite.php:209
+#: admin/views/stock-manager-vs-smart-manager-lite.php:130
+#: admin/views/stock-manager-vs-smart-manager-lite.php:136
+#: admin/views/stock-manager-vs-smart-manager-lite.php:148
+#: admin/views/stock-manager-vs-smart-manager-lite.php:154
+#: admin/views/stock-manager-vs-smart-manager-lite.php:164
+#: admin/views/stock-manager-vs-smart-manager-lite.php:170
+#: admin/views/stock-manager-vs-smart-manager-lite.php:176
+#: admin/views/stock-manager-vs-smart-manager-lite.php:202
+#: admin/views/stock-manager-vs-smart-manager-lite.php:208
 msgctxt "comparison table feature value"
 msgid "Yes"
 msgstr ""
 
-#: admin/views/stock-manager-vs-smart-manager-lite.php:71
+#: admin/views/stock-manager-vs-smart-manager-lite.php:70
 msgctxt "comparison table feature"
 msgid "Orders"
 msgstr ""
 
-#: admin/views/stock-manager-vs-smart-manager-lite.php:77
+#: admin/views/stock-manager-vs-smart-manager-lite.php:76
 msgctxt "comparison table feature"
 msgid "Coupons"
 msgstr ""
 
-#: admin/views/stock-manager-vs-smart-manager-lite.php:83
+#: admin/views/stock-manager-vs-smart-manager-lite.php:82
 msgctxt "comparison table feature"
 msgid "WordPress Posts"
 msgstr ""
 
-#: admin/views/stock-manager-vs-smart-manager-lite.php:89
+#: admin/views/stock-manager-vs-smart-manager-lite.php:88
 msgctxt "comparison table category header"
 msgid "Product Edit & Management"
 msgstr ""
 
-#: admin/views/stock-manager-vs-smart-manager-lite.php:93
+#: admin/views/stock-manager-vs-smart-manager-lite.php:92
 msgctxt "comparison table feature"
 msgid "Import Products"
 msgstr ""
 
-#: admin/views/stock-manager-vs-smart-manager-lite.php:94
+#: admin/views/stock-manager-vs-smart-manager-lite.php:93
 msgctxt "comparison table feature value"
 msgid "Only stock-specific columns"
 msgstr ""
 
-#: admin/views/stock-manager-vs-smart-manager-lite.php:95
+#: admin/views/stock-manager-vs-smart-manager-lite.php:94
 msgctxt "comparison table feature value"
 msgid "All product columns, including custom fields"
 msgstr ""
 
-#: admin/views/stock-manager-vs-smart-manager-lite.php:99
+#: admin/views/stock-manager-vs-smart-manager-lite.php:98
 msgctxt "comparison table feature"
 msgid "Export Products"
 msgstr ""
 
-#: admin/views/stock-manager-vs-smart-manager-lite.php:100
+#: admin/views/stock-manager-vs-smart-manager-lite.php:99
 msgctxt "comparison table feature value"
 msgid "Stock-related data"
 msgstr ""
 
-#: admin/views/stock-manager-vs-smart-manager-lite.php:101
+#: admin/views/stock-manager-vs-smart-manager-lite.php:100
 msgctxt "comparison table feature value"
 msgid "Full product export or filtered export"
 msgstr ""
 
-#: admin/views/stock-manager-vs-smart-manager-lite.php:105
+#: admin/views/stock-manager-vs-smart-manager-lite.php:104
 msgctxt "comparison table feature"
 msgid "Inline (Direct) Editing"
 msgstr ""
 
-#: admin/views/stock-manager-vs-smart-manager-lite.php:111
+#: admin/views/stock-manager-vs-smart-manager-lite.php:110
 msgctxt "comparison table feature"
 msgid "Product Stock Log (Product History)"
 msgstr ""
 
-#: admin/views/stock-manager-vs-smart-manager-lite.php:117
+#: admin/views/stock-manager-vs-smart-manager-lite.php:116
 msgctxt "comparison table feature"
 msgid "Show / Hide Admin Columns"
 msgstr ""
 
-#: admin/views/stock-manager-vs-smart-manager-lite.php:123
+#: admin/views/stock-manager-vs-smart-manager-lite.php:122
 msgctxt "comparison table feature"
 msgid "Product Fields Supported"
 msgstr ""
 
-#: admin/views/stock-manager-vs-smart-manager-lite.php:124
+#: admin/views/stock-manager-vs-smart-manager-lite.php:123
 msgctxt "comparison table feature value"
 msgid "12"
 msgstr ""
 
-#: admin/views/stock-manager-vs-smart-manager-lite.php:129
+#: admin/views/stock-manager-vs-smart-manager-lite.php:128
 msgctxt "comparison table feature"
 msgid "Custom Product Fields"
 msgstr ""
 
-#: admin/views/stock-manager-vs-smart-manager-lite.php:135
+#: admin/views/stock-manager-vs-smart-manager-lite.php:134
 msgctxt "comparison table feature"
 msgid "Add New Products"
 msgstr ""
 
-#: admin/views/stock-manager-vs-smart-manager-lite.php:141
+#: admin/views/stock-manager-vs-smart-manager-lite.php:140
 msgctxt "comparison table feature"
 msgid "Delete Products"
 msgstr ""
 
-#: admin/views/stock-manager-vs-smart-manager-lite.php:143
+#: admin/views/stock-manager-vs-smart-manager-lite.php:142
 msgctxt "comparison table feature value"
 msgid "Yes (Move to Trash)"
 msgstr ""
 
-#: admin/views/stock-manager-vs-smart-manager-lite.php:147
+#: admin/views/stock-manager-vs-smart-manager-lite.php:146
 msgctxt "comparison table feature"
 msgid "Add Featured Images & Descriptions"
 msgstr ""
 
-#: admin/views/stock-manager-vs-smart-manager-lite.php:153
+#: admin/views/stock-manager-vs-smart-manager-lite.php:152
 msgctxt "comparison table feature"
 msgid "Edit Categories, Tags & Attributes"
 msgstr ""
 
-#: admin/views/stock-manager-vs-smart-manager-lite.php:159
+#: admin/views/stock-manager-vs-smart-manager-lite.php:158
 msgctxt "comparison table category header"
 msgid "Search & Filtering"
 msgstr ""
 
-#: admin/views/stock-manager-vs-smart-manager-lite.php:163
+#: admin/views/stock-manager-vs-smart-manager-lite.php:162
 msgctxt "comparison table feature"
 msgid "Simple Search"
 msgstr ""
 
-#: admin/views/stock-manager-vs-smart-manager-lite.php:164
+#: admin/views/stock-manager-vs-smart-manager-lite.php:163
 msgctxt "comparison table feature value"
 msgid "Yes (Pre-defined)"
 msgstr ""
 
-#: admin/views/stock-manager-vs-smart-manager-lite.php:169
+#: admin/views/stock-manager-vs-smart-manager-lite.php:168
 msgctxt "comparison table feature"
 msgid "Advanced Search (AND, <, >, =, <=, >=, contains...)"
 msgstr ""
 
-#: admin/views/stock-manager-vs-smart-manager-lite.php:175
+#: admin/views/stock-manager-vs-smart-manager-lite.php:174
 msgctxt "comparison table feature"
 msgid "Date & Attribute Filters"
 msgstr ""
 
-#: admin/views/stock-manager-vs-smart-manager-lite.php:181
+#: admin/views/stock-manager-vs-smart-manager-lite.php:180
 msgctxt "comparison table category header"
 msgid "Order, Coupon & Post Management"
 msgstr ""
 
-#: admin/views/stock-manager-vs-smart-manager-lite.php:185
+#: admin/views/stock-manager-vs-smart-manager-lite.php:184
 msgctxt "comparison table feature"
 msgid "Management Features"
 msgstr ""
 
-#: admin/views/stock-manager-vs-smart-manager-lite.php:187
+#: admin/views/stock-manager-vs-smart-manager-lite.php:186
 msgctxt "comparison table feature value"
 msgid "Inline Edit, Delete, Export & Advanced Search Filters"
 msgstr ""
 
-#: admin/views/stock-manager-vs-smart-manager-lite.php:191
+#: admin/views/stock-manager-vs-smart-manager-lite.php:190
 msgctxt "comparison table feature"
 msgid "Order Automation"
 msgstr ""
 
-#: admin/views/stock-manager-vs-smart-manager-lite.php:193
+#: admin/views/stock-manager-vs-smart-manager-lite.php:192
 msgctxt "comparison table feature value"
 msgid "Status emails & transactional order notes"
 msgstr ""
 
-#: admin/views/stock-manager-vs-smart-manager-lite.php:197
+#: admin/views/stock-manager-vs-smart-manager-lite.php:196
 msgctxt "comparison table category header"
 msgid "Compatibility & Support"
 msgstr ""
 
-#: admin/views/stock-manager-vs-smart-manager-lite.php:201
+#: admin/views/stock-manager-vs-smart-manager-lite.php:200
 msgctxt "comparison table feature"
 msgid "Sync Stock Log from Stock Manager"
 msgstr ""
 
-#: admin/views/stock-manager-vs-smart-manager-lite.php:207
+#: admin/views/stock-manager-vs-smart-manager-lite.php:206
 msgctxt "comparison table feature"
 msgid "WPML Compatibility"
 msgstr ""
 
-#: admin/views/stock-manager-vs-smart-manager-lite.php:213
+#: admin/views/stock-manager-vs-smart-manager-lite.php:212
 msgctxt "comparison table feature"
 msgid "Languages"
 msgstr ""
 
-#: admin/views/stock-manager-vs-smart-manager-lite.php:214
+#: admin/views/stock-manager-vs-smart-manager-lite.php:213
 msgctxt "comparison table feature value"
 msgid "English"
 msgstr ""
 
-#: admin/views/stock-manager-vs-smart-manager-lite.php:215
+#: admin/views/stock-manager-vs-smart-manager-lite.php:214
 msgctxt "comparison table feature value"
 msgid "Chinese, Dutch, French, German, Italian, Japanese, Russian, Spanish and more"
 msgstr ""
 
-#: admin/views/stock-manager-vs-smart-manager-lite.php:219
+#: admin/views/stock-manager-vs-smart-manager-lite.php:218
 msgctxt "comparison table feature"
 msgid "Help"
 msgstr ""
 
-#: admin/views/stock-manager-vs-smart-manager-lite.php:220
+#: admin/views/stock-manager-vs-smart-manager-lite.php:219
 msgctxt "comparison table feature value"
 msgid "WordPress Forum"
 msgstr ""
 
-#: admin/views/stock-manager-vs-smart-manager-lite.php:221
+#: admin/views/stock-manager-vs-smart-manager-lite.php:220
 msgctxt "comparison table feature value"
 msgid "Email, Phone, Video Calls, WordPress Forum & Socials"
 msgstr ""
 
-#: admin/views/stock-manager-vs-smart-manager-lite.php:230
+#: admin/views/stock-manager-vs-smart-manager-lite.php:229
 msgctxt "comparison table button"
 msgid "Back to Stock Manager"
 msgstr ""
 
-#: admin/views/stock-manager-vs-smart-manager-lite.php:236
+#: admin/views/stock-manager-vs-smart-manager-lite.php:235
 msgctxt "comparison table button"
 msgid "Download Smart Manager Lite"
 msgstr ""
 
-#: admin/views/stock-manager-vs-smart-manager-lite.php:249
+#: admin/views/stock-manager-vs-smart-manager-lite.php:248
 msgctxt "testimonial title"
 msgid "\"Does the job of 10 plugins\""
 msgstr ""
 
-#: admin/views/stock-manager-vs-smart-manager-lite.php:250
+#: admin/views/stock-manager-vs-smart-manager-lite.php:249
 msgctxt "testimonial quote"
 msgid "I've been using another alternative, but it makes the site slower and needs 10 different plugins to do what Smart Manager does with one plugin. It's fast, lightweight, and lets me manage products, orders, and coupons without slowing down my site."
 msgstr ""
 
-#: admin/views/stock-manager-vs-smart-manager-lite.php:251
+#: admin/views/stock-manager-vs-smart-manager-lite.php:250
 msgctxt "testimonial author name"
 msgid "Nuno Palha"
 msgstr ""
 
-#: admin/views/stock-manager-vs-smart-manager-lite.php:254
+#: admin/views/stock-manager-vs-smart-manager-lite.php:253
 msgctxt "testimonial title"
 msgid "\"Indispensable tool\""
 msgstr ""
 
-#: admin/views/stock-manager-vs-smart-manager-lite.php:255
+#: admin/views/stock-manager-vs-smart-manager-lite.php:254
 msgctxt "testimonial quote"
 msgid "Smart Manager exceeded my expectations. Whether I’m searching for specific products, categories, or attributes, the advanced search and filtering options make managing products faster, more accurate, and incredibly efficient."
 msgstr ""
 
-#: admin/views/stock-manager-vs-smart-manager-lite.php:256
+#: admin/views/stock-manager-vs-smart-manager-lite.php:255
 msgctxt "testimonial author name"
 msgid "Mio Creative"
 msgstr ""
 
-#: admin/views/stock-manager-vs-smart-manager-lite.php:259
+#: admin/views/stock-manager-vs-smart-manager-lite.php:258
 msgctxt "testimonial title"
 msgid "\"Smooth editing experience\""
 msgstr ""
 
-#: admin/views/stock-manager-vs-smart-manager-lite.php:260
+#: admin/views/stock-manager-vs-smart-manager-lite.php:259
 msgctxt "testimonial quote"
 msgid "Wow, I’ve been looking for something like this for a long time! The lite version is such an improvement to the product editing process. Instead of waiting for dozens of pages to load to update stock and pricing, it’s all right there on one page."
 msgstr ""
 
-#: admin/views/stock-manager-vs-smart-manager-lite.php:261
+#: admin/views/stock-manager-vs-smart-manager-lite.php:260
 msgctxt "testimonial author name"
 msgid "Eckstein"
 msgstr ""
 
-#: admin/views/stock-manager-vs-smart-manager-lite.php:266
+#: admin/views/stock-manager-vs-smart-manager-lite.php:265
 msgctxt "comparison callout text"
 msgid "Choose Stock Manager if you only need quick updates to basic product stock numbers and prices."
 msgstr ""
 
-#: admin/views/stock-manager-vs-smart-manager-lite.php:267
+#: admin/views/stock-manager-vs-smart-manager-lite.php:266
 msgctxt "comparison callout text"
 msgid "Download Smart Manager if you want to speed up daily operations by managing orders, coupons, posts, and products all in one super-fast, reliable dashboard."
 msgstr ""
 
-#: admin/views/stock-manager-vs-smart-manager-lite.php:268
+#: admin/views/stock-manager-vs-smart-manager-lite.php:267
 msgctxt "comparison callout button"
 msgid "Download Smart Manager Lite →"
 msgstr ""
 
-#: admin/views/stock-manager-vs-smart-manager-lite.php:272
+#: admin/views/stock-manager-vs-smart-manager-lite.php:271
 msgctxt "guarantee section heading"
 msgid "Buy with confidence – you're in good hands"
 msgstr ""
 
-#: admin/views/stock-manager-vs-smart-manager-lite.php:276
+#: admin/views/stock-manager-vs-smart-manager-lite.php:275
 msgctxt "guarantee title"
 msgid "You're buying from the best!"
 msgstr ""
 
-#: admin/views/stock-manager-vs-smart-manager-lite.php:278
+#: admin/views/stock-manager-vs-smart-manager-lite.php:277
 msgctxt "guarantee description"
 msgid "Rest assured that you will be well taken care of when you buy from StoreApps."
 msgstr ""
 
-#: admin/views/stock-manager-vs-smart-manager-lite.php:280
+#: admin/views/stock-manager-vs-smart-manager-lite.php:279
 msgctxt "guarantee bullet point"
 msgid "Top selling plugins for marketing and store management"
 msgstr ""
 
-#: admin/views/stock-manager-vs-smart-manager-lite.php:281
+#: admin/views/stock-manager-vs-smart-manager-lite.php:280
 msgctxt "guarantee bullet point"
 msgid "<strong>Official WooCommerce</strong> and GoDaddy partner"
 msgstr ""
 
-#: admin/views/stock-manager-vs-smart-manager-lite.php:282
+#: admin/views/stock-manager-vs-smart-manager-lite.php:281
 msgctxt "guarantee bullet point"
 msgid "Founded in 2011, one of the early Woo third party developers"
 msgstr ""
 
-#: admin/views/stock-manager-vs-smart-manager-lite.php:283
+#: admin/views/stock-manager-vs-smart-manager-lite.php:282
 msgctxt "guarantee bullet point"
 msgid "<strong>45k+ paid stores,</strong> 300k+ users, millions of downloads"
 msgstr ""
 
-#: admin/views/stock-manager-vs-smart-manager-lite.php:284
+#: admin/views/stock-manager-vs-smart-manager-lite.php:283
 msgctxt "guarantee bullet point"
 msgid "Consistent 5 star review ratings"
 msgstr ""
 
-#: admin/views/stock-manager-vs-smart-manager-lite.php:285
+#: admin/views/stock-manager-vs-smart-manager-lite.php:284
 msgctxt "guarantee bullet point"
 msgid "WordPress <strong>community contributor</strong>, sponsor, speaker."
 msgstr ""
 
-#: admin/views/stock-manager-vs-smart-manager-lite.php:287
+#: admin/views/stock-manager-vs-smart-manager-lite.php:286
 msgctxt "trust badge alt text"
 msgid "Guaranteed Safe Checkout"
 msgstr ""
 
-#: admin/views/stock-manager-vs-smart-manager-lite.php:291
+#: admin/views/stock-manager-vs-smart-manager-lite.php:290
 msgctxt "support section title"
 msgid "Friendly support from top quality developers"
 msgstr ""
 
-#: admin/views/stock-manager-vs-smart-manager-lite.php:293
+#: admin/views/stock-manager-vs-smart-manager-lite.php:292
 msgctxt "support section description"
 msgid "Our plugins are easy to use. We also have ample documentation. But whenever you need further assistance, you will get support from the same people who develop these plugins! We make sure you succeed!"
 msgstr ""
 
-#: admin/views/stock-manager-vs-smart-manager-lite.php:294
+#: admin/views/stock-manager-vs-smart-manager-lite.php:293
 msgctxt "support section image alt text"
 msgid "StoreApps team is on your side"
 msgstr ""

@@ -3,7 +3,7 @@
  * Main class for Stock Manager.
  *
  * @package  woocommerce-stock-manager/admin/
- * @version  3.5.0
+ * @version  3.5.1
  */
 
 if ( ! defined( 'ABSPATH' ) ) {

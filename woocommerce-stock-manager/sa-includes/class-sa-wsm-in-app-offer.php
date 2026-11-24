@@ -3,7 +3,7 @@
  * StoreApps In app offer
  *
  * @package    SA_WSM_In_App_Offer
- * @version    1.1.2
+ * @version    1.1.3
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
